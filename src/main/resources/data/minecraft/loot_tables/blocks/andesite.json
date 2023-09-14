@@ -33,7 +33,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "morecobblestone:andesite_cobblestone"
+              "name": "morestuffs:andesite_cobblestone"
             }
           ]
         }

@@ -33,7 +33,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "morecobblestone:limestone_cobblestone"
+              "name": "morestuffs:limestone_cobblestone"
             }
           ]
         }

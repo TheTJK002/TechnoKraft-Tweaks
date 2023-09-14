@@ -1,6 +1,6 @@
 package com.morecobblestone.block;
 
-import com.morecobblestone.MoreCobblestone;
+import com.morecobblestone.MoreStuffs;
 import com.morecobblestone.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -16,11 +16,12 @@ import net.minecraftforge.registries.RegistryObject;
 import java.util.function.Supplier;
 
 public class ModBlock {
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MoreCobblestone.MODID);
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MoreStuffs.MODID);
 
     public static final RegistryObject<Block> ANDESITE_COBBLESTONE = registerBlock("andesite_cobblestone", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(0.6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> DIORITE_COBBLESTONE = registerBlock("diorite_cobblestone", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(0.6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> GRANITE_COBBLESTONE = registerBlock("granite_cobblestone", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(0.6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> ENDERIUM_CASING = registerBlock("enderium_casing", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(0.6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
     public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
