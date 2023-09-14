@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "morecobblestone:andesite_cobblestone",
+    "morecobblestone:diorite_cobblestone",
+    "morecobblestone:granite_cobblestone",
+    "morecobblestone:scoria_cobblestone",
+    "morecobblestone:limestone_cobblestone"
+  ]
+}
