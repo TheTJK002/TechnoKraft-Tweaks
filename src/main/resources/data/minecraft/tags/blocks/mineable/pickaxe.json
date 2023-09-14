@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "morestuffs:andesite_cobblestone",
-    "morestuffs:diorite_cobblestone",
-    "morestuffs:granite_cobblestone",
-    "morestuffs:scoria_cobblestone",
-    "morestuffs:limestone_cobblestone"
+    "technokrafttweaks:andesite_cobblestone",
+    "technokrafttweaks:diorite_cobblestone",
+    "technokrafttweaks:granite_cobblestone",
+    "technokrafttweaks:scoria_cobblestone",
+    "technokrafttweaks:limestone_cobblestone"
   ]
 }

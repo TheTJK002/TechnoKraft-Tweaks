@@ -33,7 +33,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "morestuffs:granite_cobblestone"
+              "name": "technokrafttweaks:granite_cobblestone"
             }
           ]
         }

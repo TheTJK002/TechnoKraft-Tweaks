@@ -33,7 +33,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "morestuffs:diorite_cobblestone"
+              "name": "technokrafttweaks:diorite_cobblestone"
             }
           ]
         }

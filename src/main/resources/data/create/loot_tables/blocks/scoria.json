@@ -33,7 +33,7 @@
                   "condition": "minecraft:survives_explosion"
                 }
               ],
-              "name": "morestuffs:scoria_cobblestone"
+              "name": "technokrafttweaks:scoria_cobblestone"
             }
           ]
         }

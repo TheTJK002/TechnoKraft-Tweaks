@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "morestuffs:block/diorite_cobblestone"
-  }
-}
