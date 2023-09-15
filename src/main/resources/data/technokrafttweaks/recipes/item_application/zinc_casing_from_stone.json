@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "technokrafttweaks:zinc_sheet"
+    }
+  ],
+  "results": [
+    {
+      "item": "technokrafttweaks:zinc_casing"
+    }
+  ]
+}

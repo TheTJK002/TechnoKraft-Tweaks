@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "technokrafttweaks:block/ender_casing_top",
+    "bottom": "technokrafttweaks:block/ender_casing_top",
+    "side": "technokrafttweaks:block/ender_casing"
+  }
+}

@@ -12,7 +12,7 @@ import static com.tecnokrafttweaks.block.ModBlock.registerBlock;
 public class ModBlockCreateThermal {
     public static final RegistryObject<Block> INVAR_CASING = registerBlock("invar_casing", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> FLUIX_CASING = registerBlock("fluix_casing", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
-    public static final RegistryObject<Block> ENDERIUM_MACHINE = registerBlock("enderium_machine", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> ENDERIUM_MACHINE = registerBlock("enderium_machine", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(0.6f).noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
 
     public static void register(IEventBus eventBus) {
     }

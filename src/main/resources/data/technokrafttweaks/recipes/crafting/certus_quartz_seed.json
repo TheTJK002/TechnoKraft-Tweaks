@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "Q": {
+      "tag": "forge:dusts/certus_quartz"
+    },
+    "S": {
+      "tag": "forge:sand"
+    }
+  },
+  "pattern": [
+    "QS"
+  ],
+  "result": {
+    "item": "technokrafttweaks:certus_quartz_seed"
+  }
+}

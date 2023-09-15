@@ -1,0 +1,35 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "technokrafttweaks:nether_quartz_seed"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "item": "technokrafttweaks:tiny_nether_quartz"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "technokrafttweaks:nether_quartz_seed"
+        },
+        {
+          "amount": 500,
+          "fluid": "minecraft:water",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "technokrafttweaks:nether_quartz_seed"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "technokrafttweaks:nether_quartz_seed"
+  }
+}

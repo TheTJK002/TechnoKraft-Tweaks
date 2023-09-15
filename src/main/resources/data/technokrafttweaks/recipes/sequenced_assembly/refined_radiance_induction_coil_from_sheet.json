@@ -1,0 +1,33 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "technokrafttweaks:refined_radiance_sheet"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "item": "technokrafttweaks:refined_radiance_induction_coil"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+        "item": "technokrafttweaks:refined_radiance_sheet"
+        },
+        {
+          "item": "create:sturdy_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "technokrafttweaks:refined_radiance_sheet"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "technokrafttweaks:refined_radiance_sheet"
+  }
+}

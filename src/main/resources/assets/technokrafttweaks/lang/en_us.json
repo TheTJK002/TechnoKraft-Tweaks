@@ -1,8 +1,57 @@
 {
+  "itemGroup.tecnokrafttweaks": "TecnoKraft Tweaks",
+
+  "item.technokrafttweaks.icon": "Icon",
+
+  "item.technokrafttweaks.chromatic_resonator": "Chromatic Resonator",
+  "item.technokrafttweaks.flash_drive": "Flash Drive",
+  "item.technokrafttweaks.saw": "Saw",
+  "item.technokrafttweaks.screwdriver": "Screwdriver",
+
+  "item.technokrafttweaks.zinc_dust": "Zinc Dust",
+  "item.technokrafttweaks.zinc_sheet": "Zinc Sheet",
+
+  "item.technokrafttweaks.nether_quartz_seed": "Nether Quartz Seed",
+  "item.technokrafttweaks.tiny_nether_quartz": "Tiny Nether Quartz",
+  "item.technokrafttweaks.small_nether_quartz": "Small Nether Quartz",
+
+  "item.technokrafttweaks.certus_quartz_seed": "Certus Quartz Seed",
+  "item.technokrafttweaks.tiny_certus_quartz": "Tiny Certus Quartz",
+  "item.technokrafttweaks.small_certus_quartz": "Small Certus Quartz",
+
+  "item.technokrafttweaks.refined_radiance": "Refined Radiance",
+  "item.technokrafttweaks.refined_radiance_sheet": "Refined Radiance Sheet",
+  "item.technokrafttweaks.refined_radiance_induction_coil": "Refined Radiance Induction Coil",
+
+  "item.technokrafttweaks.coke_chunk": "Coke Chunk",
+
+  "item.technokrafttweaks.sand_ball": "Ball of Sand",
+  "item.technokrafttweaks.sand_chunk": "Sand Chunk",
+  "item.technokrafttweaks.purified_sand": "Purified Sand",
+
+  "item.technokrafttweaks.silicon_compound": "Silicon Compound",
+
+  "item.technokrafttweaks.kinetic_mechanism": "Kinetic Mechanism",
+  "item.technokrafttweaks.sealed_mechanism": "Sealed Mechanism",
+  "item.technokrafttweaks.infernal_mechanism": "Infernal Mechanism",
+  "item.technokrafttweaks.inductive_mechanism": "Inductive Mechanism",
+  "item.technokrafttweaks.abstruse_mechanism": "Abstruse Mechanism",
+  "item.technokrafttweaks.calculation_mechanism": "Calculation Mechanism",
+
   "block.technokrafttweaks.andesite_cobblestone": "Andesite Cobblestone",
   "block.technokrafttweaks.diorite_cobblestone": "Diorite Cobblestone",
   "block.technokrafttweaks.granite_cobblestone": "Granite Cobblestone",
-
   "block.technokrafttweaks.scoria_cobblestone": "Scoria Cobblestone",
-  "block.technokrafttweaks.limestone_cobblestone": "Limestone Cobblestone"
+  "block.technokrafttweaks.limestone_cobblestone": "Limestone Cobblestone",
+
+  "block.technokrafttweaks.ender_casing": "Ender Casing",
+  "block.technokrafttweaks.fluix_casing": "Fluix Casing",
+  "block.technokrafttweaks.invar_casing": "Invar Casing",
+  "block.technokrafttweaks.zinc_casing": "Zinc Casing",
+
+  "block.technokrafttweaks.andesite_machine": "Andesite Machine",
+  "block.technokrafttweaks.brass_machine": "Brass Machine",
+  "block.technokrafttweaks.copper_machine": "Copper Machine",
+  "block.technokrafttweaks.enderium_machine": "Enderium Machine",
+  "block.technokrafttweaks.zinc_machine": "Zinc Machine"
 }

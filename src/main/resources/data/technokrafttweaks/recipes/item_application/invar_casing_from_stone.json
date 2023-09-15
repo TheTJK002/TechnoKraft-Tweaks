@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "tag": "forge:plates/invar"
+    }
+  ],
+  "results": [
+    {
+      "item": "technokrafttweaks:invar_casing"
+    }
+  ]
+}

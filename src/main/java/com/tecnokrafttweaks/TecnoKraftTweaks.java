@@ -37,13 +37,17 @@ public class TecnoKraftTweaks {
 
         //Create & Thermal
         if(ModList.get().isLoaded("create") && ModList.get().isLoaded("thermal")) {
-            ModItemsThermal.register(modEventBus);
             ModBlockCreateThermal.register(modEventBus);
         }
 
         //Create & AE2
         if(ModList.get().isLoaded("create") && ModList.get().isLoaded("ae2")) {
             ModItemsCreateAE2.register(modEventBus);
+        }
+
+        //Thermal
+        if(ModList.get().isLoaded("thermal")) {
+            ModItemsThermal.register(modEventBus);
         }
 
         //Thermal & AE2

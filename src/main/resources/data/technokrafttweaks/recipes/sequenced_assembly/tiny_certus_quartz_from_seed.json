@@ -1,0 +1,35 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "technokrafttweaks:certus_quartz_seed"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "item": "technokrafttweaks:tiny_certus_quartz"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "technokrafttweaks:certus_quartz_seed"
+        },
+        {
+          "amount": 500,
+          "fluid": "minecraft:water",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "technokrafttweaks:certus_quartz_seed"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "technokrafttweaks:certus_quartz_seed"
+  }
+}

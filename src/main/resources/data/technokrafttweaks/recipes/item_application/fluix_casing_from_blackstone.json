@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "minecraft:blackstone"
+    },
+    {
+      "tag": "forge:plates/lead"
+    }
+  ],
+  "results": [
+    {
+      "item": "technokrafttweaks:fluix_casing"
+    }
+  ]
+}

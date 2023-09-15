@@ -1,0 +1,14 @@
+{
+  "parent": "thermal:block/frame_base",
+  "render_type": "cutout",
+  "textures": {
+    "particle": "technokrafttweaks:block/enderium_machine_top",
+    "down": "technokrafttweaks:block/enderium_machine_bottom",
+    "up": "technokrafttweaks:block/enderium_machine_top",
+    "north": "technokrafttweaks:block/enderium_machine_side",
+    "east": "technokrafttweaks:block/enderium_machine_side",
+    "south": "technokrafttweaks:block/enderium_machine_side",
+    "west": "technokrafttweaks:block/enderium_machine_side",
+    "inner": "technokrafttweaks:block/enderium_machine_inner"
+  }
+}
