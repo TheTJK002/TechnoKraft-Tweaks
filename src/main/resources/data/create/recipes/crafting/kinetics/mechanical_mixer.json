@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "create:whisk"
+  },
+  "base": {
+    "item": "technokrafttweaks:andesite_machine"
+  },
+  "result": {
+    "item": "create:mechanical_mixer"
+  }
+}

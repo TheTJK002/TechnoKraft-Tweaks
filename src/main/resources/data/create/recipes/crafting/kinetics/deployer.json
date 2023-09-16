@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "create:brass_hand"
+  },
+  "base": {
+    "item": "technokrafttweaks:andesite_machine"
+  },
+  "result": {
+    "item": "create:deployer"
+  }
+}

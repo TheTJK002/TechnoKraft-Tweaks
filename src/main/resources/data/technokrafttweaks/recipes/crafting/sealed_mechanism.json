@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "R": {
+      "item": "thermal:cured_rubber"
+    },
+    "K": {
+      "item": "technokrafttweaks:kinetic_mechanism"
+    }
+  },
+  "pattern": [
+    "RKR"
+  ],
+  "result": {
+    "item": "technokrafttweaks:sealed_mechanism"
+  }
+}

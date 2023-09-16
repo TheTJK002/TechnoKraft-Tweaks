@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "technokrafttweaks:infernal_mechanism"
+    },
+    "C": {
+      "item": "technokrafttweaks:zinc_casing"
+    }
+  },
+  "pattern": [
+    "III",
+    "ICI",
+    "III"
+  ],
+  "result": {
+    "item": "technokrafttweaks:zinc_machine"
+  }
+}

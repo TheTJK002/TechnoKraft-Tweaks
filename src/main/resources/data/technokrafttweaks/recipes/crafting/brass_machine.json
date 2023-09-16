@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PBP",
+    "PPP"
+  ],
+  "result": {
+    "item": "technokrafttweaks:brass_machine"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:sand_ball"
+    }
+  ],
+  "results": [
+    {
+      "item": "technokrafttweaks:sand_chunk"
+    },
+    {
+      "amount": 500,
+      "fluid": "minecraft:water"
+    }
+  ]
+}

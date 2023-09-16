@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "R": {
+      "item": "technokrafttweaks:refined_radiance_sheet"
+    },
+    "S": {
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "pattern": [
+    "S  ",
+    " R ",
+    "  S"
+  ],
+  "result": {
+    "item": "technokrafttweaks:refined_radiance_induction_coil"
+  }
+}

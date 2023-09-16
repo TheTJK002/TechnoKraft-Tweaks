@@ -173,6 +173,18 @@ dependencies {
     compileOnly(fg.deobf("mezz.jei:jei-${mc_version}-common-api:${jei_version}"))
     compileOnly(fg.deobf("mezz.jei:jei-${mc_version}-forge-api:${jei_version}"))
     runtimeOnly(fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}"))
+    //Ender Storage
+    runtimeOnly fg.deobf("curse.maven:CodeChickenLib-242818:4382729")
+    runtimeOnly fg.deobf("curse.maven:EnderStorage-245174:3951059")
+    //KubeJS
+    runtimeOnly fg.deobf("curse.maven:architectury-419699:4555749")
+    runtimeOnly fg.deobf("curse.maven:rhinor-416294:4715267")
+    runtimeOnly fg.deobf("curse.maven:kubejs-238086:4744432")
+    //World Stripper
+    runtimeOnly fg.deobf("curse.maven:worldstripper-250603:3921630")
+    //Biomes O' Plenty
+    runtimeOnly fg.deobf("curse.maven:TerraBlender-563928:4618490")
+    runtimeOnly fg.deobf("curse.maven:BiomesOPlenty-220318:4473556")
 }
 
 jar {

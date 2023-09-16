@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:oak_slab"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "technokrafttweaks:kinetic_mechanism"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:oak_slab"
+        },
+        {
+          "item": "create:andesite_alloy"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:oak_slab"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:oak_slab"
+        },
+        {
+          "item": "create:andesite_alloy"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:oak_slab"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:oak_slab"
+        },
+        {
+          "item": "technokrafttweaks:saw"
+        }
+      ],
+      "keepHeldItem": true,
+      "results": [
+        {
+          "item": "minecraft:oak_slab"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "minecraft:oak_slab"
+  }
+}
