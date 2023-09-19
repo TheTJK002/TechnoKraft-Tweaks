@@ -10,6 +10,8 @@
 
   "item.technokrafttweaks.zinc_dust": "Zinc Dust",
   "item.technokrafttweaks.zinc_sheet": "Zinc Sheet",
+  "item.technokrafttweaks.diamond_sand_paper": "Diamond Sand Paper",
+  "block.technokrafttweaks.budding_rose_quartz": "Budding Rose Quartz",
 
   "item.technokrafttweaks.nether_quartz_seed": "Nether Quartz Seed",
   "item.technokrafttweaks.tiny_nether_quartz": "Tiny Nether Quartz",
@@ -24,6 +26,10 @@
   "item.technokrafttweaks.refined_radiance_induction_coil": "Refined Radiance Induction Coil",
 
   "item.technokrafttweaks.coke_chunk": "Coke Chunk",
+  "item.technokrafttweaks.gear_cast": "Gear Cast",
+  "item.technokrafttweaks.nugget_cast": "Nugget Cast",
+  "block.technokrafttweaks.ender_inhibitor_on": "Ender Inhibitor On",
+  "block.technokrafttweaks.ender_inhibitor_off": "Ender Inhibitor Off",
 
   "item.technokrafttweaks.sand_ball": "Ball of Sand",
   "item.technokrafttweaks.sand_chunk": "Sand Chunk",

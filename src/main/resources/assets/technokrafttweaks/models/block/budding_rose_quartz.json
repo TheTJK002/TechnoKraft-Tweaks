@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "technokrafttweaks:block/budding_rose_quartz_top",
+    "bottom": "technokrafttweaks:block/budding_rose_quartz_top",
+    "side": "technokrafttweaks:block/budding_rose_quartz_side"
+  }
+}

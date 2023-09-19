@@ -1,6 +1,8 @@
 package com.tecnokrafttweaks.block;
 
 import com.tecnokrafttweaks.TecnoKraftTweaks;
+import com.tecnokrafttweaks.block.custom.BlockEnderInhibitorOff;
+import com.tecnokrafttweaks.block.custom.BlockEnderInhibitorOn;
 import com.tecnokrafttweaks.item.ModCreativeTabs;
 import com.tecnokrafttweaks.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -23,6 +25,8 @@ public class ModBlock {
     public static final RegistryObject<Block> DIORITE_COBBLESTONE = registerBlock("diorite_cobblestone", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> GRANITE_COBBLESTONE = registerBlock("granite_cobblestone", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> ENDER_CASING = registerBlock("ender_casing", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> ENDER_INHIBITOR_ON = registerBlock("ender_inhibitor_on", () -> new BlockEnderInhibitorOn(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> ENDER_INHIBITOR_OFF = registerBlock("ender_inhibitor_off", () -> new BlockEnderInhibitorOff(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
 
     public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

@@ -167,6 +167,7 @@ dependencies {
     implementation fg.deobf("com.teamcofh:thermal_core:1.19.2-${thermal_core_version}.+")
     runtimeOnly fg.deobf("com.teamcofh:thermal_foundation:1.19.2-10.2.0.47")
     runtimeOnly fg.deobf("com.teamcofh:thermal_expansion:1.19.2-${thermal_core_version}.+")
+    runtimeOnly fg.deobf("com.teamcofh:thermal_innovation:1.19.2-${thermal_core_version}.+")
     //Architects Palette
     runtimeOnly fg.deobf("curse.maven:architects_palette-433862:4677249")
     //JEI
@@ -184,7 +185,14 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:worldstripper-250603:3921630")
     //Biomes O' Plenty
     runtimeOnly fg.deobf("curse.maven:TerraBlender-563928:4618490")
-    runtimeOnly fg.deobf("curse.maven:BiomesOPlenty-220318:4473556")
+    implementation fg.deobf("curse.maven:BiomesOPlenty-220318:4473556")
+    //Spiky Spikes
+    runtimeOnly fg.deobf("curse.maven:examplemod-666944:4426414")
+    runtimeOnly fg.deobf("curse.maven:puzzleslib-495476:4600775")
+    //Cursed Earth
+    runtimeOnly fg.deobf("curse.maven:cursedearth-336919:4394649")
+    //Storage Drawers
+    runtimeOnly fg.deobf("curse.maven:storagedrawers-223852:3884263")
 }
 
 jar {

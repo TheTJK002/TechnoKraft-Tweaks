@@ -1,5 +1,7 @@
-package com.tecnokrafttweaks.item;
+package com.tecnokrafttweaks.item.modItemsAddons;
 
+import com.tecnokrafttweaks.item.ModCreativeTabs;
+import com.tecnokrafttweaks.item.ToolItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.RegistryObject;
@@ -17,6 +19,7 @@ public class ModItemsCreate {
     public static final RegistryObject<Item> INFERNAL_MECHANISM = ITEMS.register("infernal_mechanism", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> INDUCTIVE_MECHANISM = ITEMS.register("inductive_mechanism", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> ABSTRUSE_MECHANISM = ITEMS.register("abstruse_mechanism", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> DIAMOND_SAND_PAPER = ITEMS.register("diamond_sand_paper", () -> new ToolItem(new Item.Properties().stacksTo(1).durability(1561).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
 
     public static void register(IEventBus eventBus) {
     }

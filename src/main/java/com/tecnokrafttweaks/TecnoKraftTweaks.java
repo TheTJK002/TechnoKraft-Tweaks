@@ -2,9 +2,14 @@ package com.tecnokrafttweaks;
 
 import com.mojang.logging.LogUtils;
 import com.tecnokrafttweaks.block.ModBlock;
-import com.tecnokrafttweaks.block.ModBlockCreate;
-import com.tecnokrafttweaks.block.ModBlockCreateThermal;
+import com.tecnokrafttweaks.block.modBlocksAddons.ModBlockCreate;
+import com.tecnokrafttweaks.block.modBlocksAddons.ModBlockCreateThermal;
+import com.tecnokrafttweaks.block.modBlocksAddons.ModBlocksCreateBOP;
+import com.tecnokrafttweaks.event.TeleportEvent;
 import com.tecnokrafttweaks.item.*;
+import com.tecnokrafttweaks.item.modItemsAddons.*;
+import com.tecnokrafttweaks.world.feature.ModConfiguredFeatures;
+import com.tecnokrafttweaks.world.feature.ModPlacedFeatures;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -29,20 +34,15 @@ public class TecnoKraftTweaks {
         ModItems.register(modEventBus);
         ModBlock.register(modEventBus);
 
+        //AE2
+        if(ModList.get().isLoaded("ae2")) {
+            ModItemsAE2.register(modEventBus);
+        }
+
         //Create
         if(ModList.get().isLoaded("create")) {
             ModItemsCreate.register(modEventBus);
             ModBlockCreate.register(modEventBus);
-        }
-
-        //Create & Thermal
-        if(ModList.get().isLoaded("create") && ModList.get().isLoaded("thermal")) {
-            ModBlockCreateThermal.register(modEventBus);
-        }
-
-        //Create & AE2
-        if(ModList.get().isLoaded("create") && ModList.get().isLoaded("ae2")) {
-            ModItemsCreateAE2.register(modEventBus);
         }
 
         //Thermal
@@ -50,18 +50,34 @@ public class TecnoKraftTweaks {
             ModItemsThermal.register(modEventBus);
         }
 
+        //Create & AE2
+        if(ModList.get().isLoaded("create") && ModList.get().isLoaded("ae2")) {
+            ModItemsCreateAE2.register(modEventBus);
+        }
+
+        //Create & Biomes O' Plenty
+        if(ModList.get().isLoaded("create") && ModList.get().isLoaded("biomesoplenty")) {
+            ModBlocksCreateBOP.register(modEventBus);
+            ModConfiguredFeatures.register(modEventBus);
+            ModPlacedFeatures.register(modEventBus);
+        }
+
+        //Create & Thermal
+        if(ModList.get().isLoaded("create") && ModList.get().isLoaded("thermal")) {
+            ModBlockCreateThermal.register(modEventBus);
+        }
+
         //Thermal & AE2
         if(ModList.get().isLoaded("thermal") && ModList.get().isLoaded("ae2")) {
             ModItemsThermalAE2.register(modEventBus);
         }
 
-        //AE2
-        if(ModList.get().isLoaded("ae2")) {
-            ModItemsAE2.register(modEventBus);
-        }
+        //Event
+        MinecraftForge.EVENT_BUS.register(new TeleportEvent());
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
+
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {}

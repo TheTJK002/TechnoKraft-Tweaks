@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": {
+        "item": "storagedrawers:jungle_trim"
+    },
+    "result": "storagedrawers:jungle_full_drawers_1"
+}

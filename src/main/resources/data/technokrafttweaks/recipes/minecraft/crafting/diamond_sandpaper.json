@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "tag": "forge:sand"
+    },
+    "D": {
+      "tag": "forge:dusts/diamond"
+    }
+  },
+  "pattern": [
+    "DS"
+  ],
+  "result": {
+    "item": "technokrafttweaks:diamond_sand_paper"
+  }
+}

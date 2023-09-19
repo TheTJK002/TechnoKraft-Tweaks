@@ -13,10 +13,10 @@ public class ModItems {
     public static final RegistryObject<Item> SAND_BALL = ITEMS.register("sand_ball", () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> SAND_CHUNK = ITEMS.register("sand_chunk", () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> PURIFIED_SAND = ITEMS.register("purified_sand", () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
-    public static final RegistryObject<Item> SAW = ITEMS.register("saw", () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
-    public static final RegistryObject<Item> SCREWDRIVER = ITEMS.register("screwdriver", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
-    public static final RegistryObject<Item> CHROMATIC_RESONATOR = ITEMS.register("chromatic_resonator", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
-    public static final RegistryObject<Item> FLASH_DRIVE = ITEMS.register("flash_drive", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> SAW = ITEMS.register("saw", () -> new ToolItem(new Item.Properties().stacksTo(1).durability(250).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> SCREWDRIVER = ITEMS.register("screwdriver", () -> new ToolItem(new Item.Properties().stacksTo(1).durability(250).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> CHROMATIC_RESONATOR = ITEMS.register("chromatic_resonator", () -> new ToolItem(new Item.Properties().stacksTo(1).durability(250).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> FLASH_DRIVE = ITEMS.register("flash_drive", () -> new ToolItem(new Item.Properties().stacksTo(1).durability(250).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

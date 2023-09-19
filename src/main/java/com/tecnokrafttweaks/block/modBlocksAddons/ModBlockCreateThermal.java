@@ -1,4 +1,4 @@
-package com.tecnokrafttweaks.block;
+package com.tecnokrafttweaks.block.modBlocksAddons;
 
 import com.tecnokrafttweaks.item.ModCreativeTabs;
 import net.minecraft.world.level.block.Block;

@@ -1,7 +1,7 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "tag": "forge:plates/gold"
+    "item": "create:golden_sheet"
   },
   "loops": 1,
   "results": [
@@ -52,7 +52,6 @@
           "item": "technokrafttweaks:screwdriver"
         }
       ],
-      "keepHeldItem": true,
       "results": [
         {
           "item": "create:incomplete_precision_mechanism"

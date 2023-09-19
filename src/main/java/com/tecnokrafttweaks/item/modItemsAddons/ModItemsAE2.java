@@ -1,5 +1,6 @@
-package com.tecnokrafttweaks.item;
+package com.tecnokrafttweaks.item.modItemsAddons;
 
+import com.tecnokrafttweaks.item.ModCreativeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.RegistryObject;
