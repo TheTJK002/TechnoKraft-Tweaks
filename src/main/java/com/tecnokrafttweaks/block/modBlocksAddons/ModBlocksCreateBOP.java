@@ -9,7 +9,7 @@ import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.RegistryObject;
 
-import static com.tecnokrafttweaks.block.ModBlock.registerBlock;
+import static com.tecnokrafttweaks.block.ModBlocks.registerBlock;
 
 public class ModBlocksCreateBOP {
 

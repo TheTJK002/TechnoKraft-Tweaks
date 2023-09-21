@@ -2,7 +2,7 @@
   "type": "create:splashing",
   "ingredients": [
     {
-      "item": "minecraft:sand"
+      "item": "minecraft:sandstone"
     }
   ],
   "results": [

@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/ender_pearls"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "thermal:ender",
+      "amount": 1000
+    }
+  ]
+}

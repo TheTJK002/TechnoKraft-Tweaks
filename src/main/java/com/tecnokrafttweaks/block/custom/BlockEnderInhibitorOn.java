@@ -1,6 +1,6 @@
 package com.tecnokrafttweaks.block.custom;
 
-import com.tecnokrafttweaks.block.ModBlock;
+import com.tecnokrafttweaks.block.ModBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
@@ -20,7 +20,7 @@ public class BlockEnderInhibitorOn extends Block {
     @Override
     public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult result) {
         if (!level.isClientSide()) {
-            BlockState turnOff = ModBlock.ENDER_INHIBITOR_OFF.get().defaultBlockState();
+            BlockState turnOff = ModBlocks.ENDER_INHIBITOR_OFF.get().defaultBlockState();
             level.setBlock(pos, turnOff, 3);
             level.playSound(player, pos, SoundEvents.LEVER_CLICK, SoundSource.BLOCKS, 0.3f, 0.6f);
         }

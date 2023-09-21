@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "thermal:emerald_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:emerald"
+    }
+  ]
+}

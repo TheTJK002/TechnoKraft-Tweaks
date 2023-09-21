@@ -1,12 +1,17 @@
 package com.tecnokrafttweaks;
 
 import com.mojang.logging.LogUtils;
-import com.tecnokrafttweaks.block.ModBlock;
-import com.tecnokrafttweaks.block.modBlocksAddons.ModBlockCreate;
-import com.tecnokrafttweaks.block.modBlocksAddons.ModBlockCreateThermal;
+import com.tecnokrafttweaks.block.ModBlocks;
+import com.tecnokrafttweaks.block.modBlocksAddons.ModBlocksAE2;
+import com.tecnokrafttweaks.block.modBlocksAddons.ModBlocksCreate;
 import com.tecnokrafttweaks.block.modBlocksAddons.ModBlocksCreateBOP;
+import com.tecnokrafttweaks.block.modBlocksAddons.ModBlocksCreateThermal;
 import com.tecnokrafttweaks.event.TeleportEvent;
-import com.tecnokrafttweaks.item.*;
+import com.tecnokrafttweaks.fluids.ModFluidTypes;
+import com.tecnokrafttweaks.fluids.ModFluids;
+import com.tecnokrafttweaks.fluids.modFluidsAddons.ModFluidTypesCreate;
+import com.tecnokrafttweaks.fluids.modFluidsAddons.ModFluidsCreate;
+import com.tecnokrafttweaks.item.ModItems;
 import com.tecnokrafttweaks.item.modItemsAddons.*;
 import com.tecnokrafttweaks.world.feature.ModConfiguredFeatures;
 import com.tecnokrafttweaks.world.feature.ModPlacedFeatures;
@@ -32,43 +37,48 @@ public class TecnoKraftTweaks {
 
         //TecnoKraft Tweaks
         ModItems.register(modEventBus);
-        ModBlock.register(modEventBus);
+        ModBlocks.register(modEventBus);
+        ModFluids.register(modEventBus);
+        ModFluidTypes.register(modEventBus);
 
         //AE2
-        if(ModList.get().isLoaded("ae2")) {
+        if (ModList.get().isLoaded("ae2")) {
             ModItemsAE2.register(modEventBus);
+            ModBlocksAE2.register(modEventBus);
         }
 
         //Create
-        if(ModList.get().isLoaded("create")) {
+        if (ModList.get().isLoaded("create")) {
             ModItemsCreate.register(modEventBus);
-            ModBlockCreate.register(modEventBus);
+            ModBlocksCreate.register(modEventBus);
+            ModFluidsCreate.register(modEventBus);
+            ModFluidTypesCreate.register(modEventBus);
         }
 
         //Thermal
-        if(ModList.get().isLoaded("thermal")) {
+        if (ModList.get().isLoaded("thermal")) {
             ModItemsThermal.register(modEventBus);
         }
 
         //Create & AE2
-        if(ModList.get().isLoaded("create") && ModList.get().isLoaded("ae2")) {
+        if (ModList.get().isLoaded("create") && ModList.get().isLoaded("ae2")) {
             ModItemsCreateAE2.register(modEventBus);
         }
 
         //Create & Biomes O' Plenty
-        if(ModList.get().isLoaded("create") && ModList.get().isLoaded("biomesoplenty")) {
+        if (ModList.get().isLoaded("create") && ModList.get().isLoaded("biomesoplenty")) {
             ModBlocksCreateBOP.register(modEventBus);
             ModConfiguredFeatures.register(modEventBus);
             ModPlacedFeatures.register(modEventBus);
         }
 
         //Create & Thermal
-        if(ModList.get().isLoaded("create") && ModList.get().isLoaded("thermal")) {
-            ModBlockCreateThermal.register(modEventBus);
+        if (ModList.get().isLoaded("create") && ModList.get().isLoaded("thermal")) {
+            ModBlocksCreateThermal.register(modEventBus);
         }
 
         //Thermal & AE2
-        if(ModList.get().isLoaded("thermal") && ModList.get().isLoaded("ae2")) {
+        if (ModList.get().isLoaded("thermal") && ModList.get().isLoaded("ae2")) {
             ModItemsThermalAE2.register(modEventBus);
         }
 
@@ -77,17 +87,19 @@ public class TecnoKraftTweaks {
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
-
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event) {}
+    private void commonSetup(final FMLCommonSetupEvent event) {
+    }
 
     @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event) {}
+    public void onServerStarting(ServerStartingEvent event) {
+    }
 
     @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event) {}
+        public static void onClientSetup(FMLClientSetupEvent event) {
+        }
     }
 }

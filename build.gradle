@@ -78,7 +78,7 @@ minecraft {
 
         // This run config launches GameTestServer and runs all registered gametests, then exits.
         // By default, the server will crash when no gametests are provided.
-        // The gametest system is also enabled by default for other run configs under the /test command.
+        // The gametest system is also enabled by default for storage_block run configs under the /test command.
         gameTestServer {
             workingDirectory project.file('run')
 
@@ -159,9 +159,10 @@ dependencies {
     //AE2
     runtimeOnly fg.deobf("curse.maven:appliedenergistics2-223794:4733119")
     //Create
-    implementation fg.deobf("com.simibubi.create:create-${create_minecraft_version}:${create_version}:slim") { transitive = false }
-    implementation fg.deobf("com.jozufozu.flywheel:flywheel-forge-${flywheel_minecraft_version}:${flywheel_version}")
     implementation fg.deobf("com.tterrag.registrate:Registrate:${registrate_version}")
+    implementation fg.deobf("com.jozufozu.flywheel:flywheel-forge-${flywheel_minecraft_version}:${flywheel_version}")
+    implementation fg.deobf("com.simibubi.create:create-${create_minecraft_version}:${create_version}:slim") { transitive = false }
+    runtimeOnly fg.deobf("curse.maven:createliquidfuel-840734:4686610")
     //Thermal
     implementation fg.deobf("com.teamcofh:cofh_core:1.19.2-10.2.1.40")
     implementation fg.deobf("com.teamcofh:thermal_core:1.19.2-${thermal_core_version}.+")
@@ -193,6 +194,8 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:cursedearth-336919:4394649")
     //Storage Drawers
     runtimeOnly fg.deobf("curse.maven:storagedrawers-223852:3884263")
+    //Water Strainer
+    runtimeOnly fg.deobf("curse.maven:waterstrainer-246939:3882382")
 }
 
 jar {

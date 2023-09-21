@@ -11,6 +11,7 @@ public class ModItemsThermal {
     public static final RegistryObject<Item> COKE_CHUNK = ITEMS.register("coke_chunk", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> GEAR_CAST = ITEMS.register("gear_cast", () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> NUGGET_CAST = ITEMS.register("nugget_cast", () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> BLOCK_CAST = ITEMS.register("block_cast", () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
 
     public static void register(IEventBus eventBus) {}
 }

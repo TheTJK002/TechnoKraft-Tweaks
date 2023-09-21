@@ -1,6 +1,5 @@
 package com.tecnokrafttweaks.event;
 
-import com.tecnokrafttweaks.block.ModBlock;
 import com.tecnokrafttweaks.block.custom.BlockEnderInhibitorOff;
 import com.tecnokrafttweaks.block.custom.BlockEnderInhibitorOn;
 import net.minecraft.core.BlockPos;
@@ -13,7 +12,6 @@ import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 public class TeleportEvent {
-    @SuppressWarnings("resource")
     @SubscribeEvent(priority = EventPriority.LOWEST)
     public void teleportEvent(EntityTeleportEvent event) {
         if (event.getEntity().getCommandSenderWorld().isClientSide || event instanceof EntityTeleportEvent.TeleportCommand || event instanceof EntityTeleportEvent.SpreadPlayersCommand)
@@ -26,7 +24,7 @@ public class TeleportEvent {
     }
 
     public boolean getIsInhibited(LivingEntity entity) {
-        AABB axisalignedbb = entity.getBoundingBox().inflate(10.0D, 10.0D, 10.0D);
+        AABB axisalignedbb = entity.getBoundingBox().inflate(9.0D, 9.0D, 9.0D);
         int n = Mth.floor(axisalignedbb.minX);
         int o = Mth.floor(axisalignedbb.maxX);
         int p = Mth.floor(axisalignedbb.minY);

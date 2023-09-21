@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "fluid": "technokrafttweaks:molten_zinc",
+      "amount": 144
+    },
+    {
+      "fluid": "technokrafttweaks:molten_copper",
+      "amount": 144
+    }
+  ],
+  "results": [
+    {
+      "fluid": "technokrafttweaks:molten_brass",
+      "amount": 288
+    }
+  ]
+}

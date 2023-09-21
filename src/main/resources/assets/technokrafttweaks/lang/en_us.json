@@ -1,63 +1,96 @@
 {
+  "_comment_TechnoKraftTweaks": "",
   "itemGroup.tecnokrafttweaks": "TecnoKraft Tweaks",
-
   "item.technokrafttweaks.icon": "Icon",
 
-  "item.technokrafttweaks.chromatic_resonator": "Chromatic Resonator",
-  "item.technokrafttweaks.flash_drive": "Flash Drive",
+  "block.technokrafttweaks.andesite_cobblestone": "Andesite Cobblestone",
+  "block.technokrafttweaks.diorite_cobblestone": "Diorite Cobblestone",
+  "block.technokrafttweaks.granite_cobblestone": "Granite Cobblestone",
+
+
+  "_comment_AE2": "",
+  "item.technokrafttweaks.nether_quartz_seed": "Nether Quartz Seed",
+  "item.technokrafttweaks.certus_quartz_seed": "Certus Quartz Seed",
+  "item.technokrafttweaks.tiny_nether_quartz": "Tiny Nether Quartz",
+  "item.technokrafttweaks.tiny_certus_quartz": "Tiny Certus Quartz",
+  "item.technokrafttweaks.small_nether_quartz": "Small Nether Quartz",
+  "item.technokrafttweaks.small_certus_quartz": "Small Certus Quartz",
+
+
+  "_comment_Create": "",
   "item.technokrafttweaks.saw": "Saw",
   "item.technokrafttweaks.screwdriver": "Screwdriver",
-
   "item.technokrafttweaks.zinc_dust": "Zinc Dust",
   "item.technokrafttweaks.zinc_sheet": "Zinc Sheet",
   "item.technokrafttweaks.diamond_sand_paper": "Diamond Sand Paper",
-  "block.technokrafttweaks.budding_rose_quartz": "Budding Rose Quartz",
-
-  "item.technokrafttweaks.nether_quartz_seed": "Nether Quartz Seed",
-  "item.technokrafttweaks.tiny_nether_quartz": "Tiny Nether Quartz",
-  "item.technokrafttweaks.small_nether_quartz": "Small Nether Quartz",
-
-  "item.technokrafttweaks.certus_quartz_seed": "Certus Quartz Seed",
-  "item.technokrafttweaks.tiny_certus_quartz": "Tiny Certus Quartz",
-  "item.technokrafttweaks.small_certus_quartz": "Small Certus Quartz",
-
   "item.technokrafttweaks.refined_radiance": "Refined Radiance",
   "item.technokrafttweaks.refined_radiance_sheet": "Refined Radiance Sheet",
   "item.technokrafttweaks.refined_radiance_induction_coil": "Refined Radiance Induction Coil",
+  "item.technokrafttweaks.kinetic_mechanism": "Kinetic Mechanism",
+  "item.technokrafttweaks.infernal_mechanism": "Infernal Mechanism",
 
+  "block.technokrafttweaks.scoria_cobblestone": "Scoria Cobblestone",
+  "block.technokrafttweaks.limestone_cobblestone": "Limestone Cobblestone",
+  "block.technokrafttweaks.zinc_casing": "Zinc Casing",
+  "block.technokrafttweaks.ender_casing": "Ender Casing",
+  "block.technokrafttweaks.andesite_machine": "Andesite Machine",
+  "block.technokrafttweaks.brass_machine": "Brass Machine",
+  "block.technokrafttweaks.copper_machine": "Copper Machine",
+  "block.technokrafttweaks.zinc_machine": "Zinc Machine",
+  "block.technokrafttweaks.budding_rose_quartz": "Budding Rose Quartz",
+
+
+  "_comment_Thermal": "",
+  "item.technokrafttweaks.chromatic_resonator": "Chromatic Resonator",
   "item.technokrafttweaks.coke_chunk": "Coke Chunk",
   "item.technokrafttweaks.gear_cast": "Gear Cast",
   "item.technokrafttweaks.nugget_cast": "Nugget Cast",
+  "item.technokrafttweaks.block_cast": "Block Cast",
+
+  "block.technokrafttweaks.enderium_machine": "Enderium Machine",
+
+
+  "_comment_Create&AE2": "",
+  "item.technokrafttweaks.calculation_mechanism": "Calculation Mechanism",
+
+
+  "_comment_Create&Thermal": "",
   "block.technokrafttweaks.ender_inhibitor_on": "Ender Inhibitor On",
   "block.technokrafttweaks.ender_inhibitor_off": "Ender Inhibitor Off",
+  "block.technokrafttweaks.fluix_casing": "Fluix Casing",
+  "block.technokrafttweaks.invar_casing": "Invar Casing",
+
+
+  "_comment_Thermal&AE2": "",
+  "item.technokrafttweaks.flash_drive": "Flash Drive",
+  "item.technokrafttweaks.silicon_compound": "Silicon Compound",
 
   "item.technokrafttweaks.sand_ball": "Ball of Sand",
   "item.technokrafttweaks.sand_chunk": "Sand Chunk",
   "item.technokrafttweaks.purified_sand": "Purified Sand",
 
-  "item.technokrafttweaks.silicon_compound": "Silicon Compound",
 
-  "item.technokrafttweaks.kinetic_mechanism": "Kinetic Mechanism",
   "item.technokrafttweaks.sealed_mechanism": "Sealed Mechanism",
-  "item.technokrafttweaks.infernal_mechanism": "Infernal Mechanism",
   "item.technokrafttweaks.inductive_mechanism": "Inductive Mechanism",
   "item.technokrafttweaks.abstruse_mechanism": "Abstruse Mechanism",
-  "item.technokrafttweaks.calculation_mechanism": "Calculation Mechanism",
 
-  "block.technokrafttweaks.andesite_cobblestone": "Andesite Cobblestone",
-  "block.technokrafttweaks.diorite_cobblestone": "Diorite Cobblestone",
-  "block.technokrafttweaks.granite_cobblestone": "Granite Cobblestone",
-  "block.technokrafttweaks.scoria_cobblestone": "Scoria Cobblestone",
-  "block.technokrafttweaks.limestone_cobblestone": "Limestone Cobblestone",
+  "item.technokrafttweaks.fine_sand_bucket": "Fine Sand Bucket",
+  "item.technokrafttweaks.molten_iron_bucket": "Molten Iron Bucket",
+  "item.technokrafttweaks.molten_copper_bucket": "Molten Copper Bucket",
+  "item.technokrafttweaks.molten_gold_bucket": "Molten Gold Bucket",
+  "item.technokrafttweaks.molten_zinc_bucket": "Molten Zinc Bucket",
+  "item.technokrafttweaks.molten_brass_bucket": "Molten Brass Bucket",
+  "item.technokrafttweaks.molten_tin_bucket": "Molten Tin Bucket",
+  "item.technokrafttweaks.molten_lead_bucket": "Molten Lead Bucket",
+  "item.technokrafttweaks.molten_nickel_bucket": "Molten Nickel Bucket",
 
-  "block.technokrafttweaks.ender_casing": "Ender Casing",
-  "block.technokrafttweaks.fluix_casing": "Fluix Casing",
-  "block.technokrafttweaks.invar_casing": "Invar Casing",
-  "block.technokrafttweaks.zinc_casing": "Zinc Casing",
-
-  "block.technokrafttweaks.andesite_machine": "Andesite Machine",
-  "block.technokrafttweaks.brass_machine": "Brass Machine",
-  "block.technokrafttweaks.copper_machine": "Copper Machine",
-  "block.technokrafttweaks.enderium_machine": "Enderium Machine",
-  "block.technokrafttweaks.zinc_machine": "Zinc Machine"
+  "fluid_type.technokrafttweaks.fine_sand": "Fine Sand",
+  "fluid_type.technokrafttweaks.molten_iron": "Molten Iron",
+  "fluid_type.technokrafttweaks.molten_gold": "Molten Gold",
+  "fluid_type.technokrafttweaks.molten_copper": "Molten Copper",
+  "fluid_type.technokrafttweaks.molten_zinc": "Molten Zinc",
+  "fluid_type.technokrafttweaks.molten_brass": "Molten Brass",
+  "fluid_type.technokrafttweaks.molten_tin": "Molten Tin",
+  "fluid_type.technokrafttweaks.molten_lead": "Molten Lead",
+  "fluid_type.technokrafttweaks.molten_nickel": "Molten Nickel"
 }
