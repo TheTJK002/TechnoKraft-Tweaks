@@ -9,11 +9,11 @@
 
 
   "_comment_AE2": "",
-  "item.technokrafttweaks.nether_quartz_seed": "Nether Quartz Seed",
+  "item.technokrafttweaks.nether_quartz_seed": "Quartz Seed",
   "item.technokrafttweaks.certus_quartz_seed": "Certus Quartz Seed",
-  "item.technokrafttweaks.tiny_nether_quartz": "Tiny Nether Quartz",
+  "item.technokrafttweaks.tiny_nether_quartz": "Tiny Quartz",
   "item.technokrafttweaks.tiny_certus_quartz": "Tiny Certus Quartz",
-  "item.technokrafttweaks.small_nether_quartz": "Small Nether Quartz",
+  "item.technokrafttweaks.small_nether_quartz": "Small Quartz",
   "item.technokrafttweaks.small_certus_quartz": "Small Certus Quartz",
 
 
@@ -78,6 +78,9 @@
   "item.technokrafttweaks.molten_iron_bucket": "Molten Iron Bucket",
   "item.technokrafttweaks.molten_copper_bucket": "Molten Copper Bucket",
   "item.technokrafttweaks.molten_gold_bucket": "Molten Gold Bucket",
+  "item.technokrafttweaks.molten_diamond_bucket": "Molten Diamond Bucket",
+  "item.technokrafttweaks.molten_ancient_debris_bucket": "Molten Ancient Debris Bucket",
+  "item.technokrafttweaks.molten_netherite_bucket": "Molten Netherite Bucket",
   "item.technokrafttweaks.molten_zinc_bucket": "Molten Zinc Bucket",
   "item.technokrafttweaks.molten_brass_bucket": "Molten Brass Bucket",
   "item.technokrafttweaks.molten_tin_bucket": "Molten Tin Bucket",
@@ -85,9 +88,12 @@
   "item.technokrafttweaks.molten_nickel_bucket": "Molten Nickel Bucket",
 
   "fluid_type.technokrafttweaks.fine_sand": "Fine Sand",
+  "fluid_type.technokrafttweaks.molten_copper": "Molten Copper",
   "fluid_type.technokrafttweaks.molten_iron": "Molten Iron",
   "fluid_type.technokrafttweaks.molten_gold": "Molten Gold",
-  "fluid_type.technokrafttweaks.molten_copper": "Molten Copper",
+  "fluid_type.technokrafttweaks.molten_diamond": "Molten Diamond",
+  "fluid_type.technokrafttweaks.molten_ancient_debris": "Molten Ancient Debris",
+  "fluid_type.technokrafttweaks.molten_netherite": "Molten Netherite",
   "fluid_type.technokrafttweaks.molten_zinc": "Molten Zinc",
   "fluid_type.technokrafttweaks.molten_brass": "Molten Brass",
   "fluid_type.technokrafttweaks.molten_tin": "Molten Tin",

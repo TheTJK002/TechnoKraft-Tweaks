@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:ores/zinc"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "technokrafttweaks:molten_zinc",
+      "amount": 288
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "heatRequirement": "heated",
   "ingredients": [
     {
-      "item": "thermal:copper_dust"
+      "tag": "forge:dusts/copper"
     }
   ],
   "results": [

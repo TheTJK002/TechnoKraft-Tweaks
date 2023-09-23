@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "thermal:glowstone",
+      "amount": 500
+    },
+    {
+      "tag": "forge:ingots/silver"
+    },
+    {
+      "tag": "forge:ingots/tin"
+    },
+    {
+      "tag": "forge:ingots/tin"
+    },
+    {
+      "tag": "forge:ingots/tin"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "technokrafttweaks:molten_lumium",
+      "amount": 576
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "heatRequirement": "heated",
   "ingredients": [
     {
-      "item": "thermal:iron_dust"
+      "tag": "forge:dusts/iron"
     }
   ],
   "results": [

@@ -2,15 +2,14 @@ package com.tecnokrafttweaks;
 
 import com.mojang.logging.LogUtils;
 import com.tecnokrafttweaks.block.ModBlocks;
-import com.tecnokrafttweaks.block.modBlocksAddons.ModBlocksAE2;
-import com.tecnokrafttweaks.block.modBlocksAddons.ModBlocksCreate;
-import com.tecnokrafttweaks.block.modBlocksAddons.ModBlocksCreateBOP;
-import com.tecnokrafttweaks.block.modBlocksAddons.ModBlocksCreateThermal;
+import com.tecnokrafttweaks.block.modBlocksAddons.*;
 import com.tecnokrafttweaks.event.TeleportEvent;
 import com.tecnokrafttweaks.fluids.ModFluidTypes;
 import com.tecnokrafttweaks.fluids.ModFluids;
 import com.tecnokrafttweaks.fluids.modFluidsAddons.ModFluidTypesCreate;
+import com.tecnokrafttweaks.fluids.modFluidsAddons.ModFluidTypesThermal;
 import com.tecnokrafttweaks.fluids.modFluidsAddons.ModFluidsCreate;
+import com.tecnokrafttweaks.fluids.modFluidsAddons.ModFluidsThermal;
 import com.tecnokrafttweaks.item.ModItems;
 import com.tecnokrafttweaks.item.modItemsAddons.*;
 import com.tecnokrafttweaks.world.feature.ModConfiguredFeatures;
@@ -58,6 +57,9 @@ public class TecnoKraftTweaks {
         //Thermal
         if (ModList.get().isLoaded("thermal")) {
             ModItemsThermal.register(modEventBus);
+            ModBlocksThermal.register(modEventBus);
+            ModFluidsThermal.register(modEventBus);
+            ModFluidTypesThermal.register(modEventBus);
         }
 
         //Create & AE2

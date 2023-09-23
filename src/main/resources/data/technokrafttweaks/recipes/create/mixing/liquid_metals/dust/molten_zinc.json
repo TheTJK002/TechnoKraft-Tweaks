@@ -3,7 +3,7 @@
   "heatRequirement": "heated",
   "ingredients": [
     {
-      "item": "technokrafttweaks:zinc_dust"
+      "tag": "forge:dusts/zinc"
     }
   ],
   "results": [

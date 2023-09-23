@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '0.0.2'
+version = '0.5.8'
 group = 'com.tjk.technokrafttweaks' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'technokrafttweaks'
 
@@ -150,6 +150,9 @@ repositories {
         name = "ModMaven"
         url = "https://modmaven.dev"
     }
+    flatDir {
+        dir = "mods"
+    }
 }
 dependencies {
     minecraft 'net.minecraftforge:forge:1.19.2-43.2.21'
@@ -163,12 +166,14 @@ dependencies {
     implementation fg.deobf("com.jozufozu.flywheel:flywheel-forge-${flywheel_minecraft_version}:${flywheel_version}")
     implementation fg.deobf("com.simibubi.create:create-${create_minecraft_version}:${create_version}:slim") { transitive = false }
     runtimeOnly fg.deobf("curse.maven:createliquidfuel-840734:4686610")
+    implementation fg.deobf("t:create_compressed_1.0.1_forge_1.19.2:")
     //Thermal
-    implementation fg.deobf("com.teamcofh:cofh_core:1.19.2-10.2.1.40")
+    implementation fg.deobf("com.teamcofh:cofh_core:1.19.2-10.3.0.46")
     implementation fg.deobf("com.teamcofh:thermal_core:1.19.2-${thermal_core_version}.+")
     runtimeOnly fg.deobf("com.teamcofh:thermal_foundation:1.19.2-10.2.0.47")
     runtimeOnly fg.deobf("com.teamcofh:thermal_expansion:1.19.2-${thermal_core_version}.+")
     runtimeOnly fg.deobf("com.teamcofh:thermal_innovation:1.19.2-${thermal_core_version}.+")
+    runtimeOnly fg.deobf("curse.maven:tools_complement-552642:4759897")
     //Architects Palette
     runtimeOnly fg.deobf("curse.maven:architects_palette-433862:4677249")
     //JEI

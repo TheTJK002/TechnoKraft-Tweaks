@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create:polished_rose_quartz"
+    },
+    {
+      "fluid": "technokrafttweaks:molten_iron",
+      "amount": 16
+    }
+  ],
+  "results": [
+    {
+      "item": "create:electron_tube"
+    }
+  ]
+}

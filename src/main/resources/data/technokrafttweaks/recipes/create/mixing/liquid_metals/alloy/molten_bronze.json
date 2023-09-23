@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "technokrafttweaks:molten_tin",
+      "amount": 144
+    },
+    {
+      "fluid": "technokrafttweaks:molten_copper",
+      "amount": 432
+    }
+  ],
+  "results": [
+    {
+      "fluid": "technokrafttweaks:molten_bronze",
+      "amount": 576
+    }
+  ]
+}

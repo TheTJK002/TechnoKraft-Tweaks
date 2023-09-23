@@ -3,7 +3,7 @@
   "heatRequirement": "heated",
   "ingredients": [
     {
-      "item": "thermal:gold_dust"
+      "tag": "forge:dusts/gold"
     }
   ],
   "results": [

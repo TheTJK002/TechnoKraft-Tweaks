@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/gold"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "technokrafttweaks:molten_gold",
+      "amount": 1296
+    }
+  ]
+}

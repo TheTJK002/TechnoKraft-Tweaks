@@ -1,0 +1,19 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "technokrafttweaks:molten_enderium",
+      "amount": 16
+    },
+    {
+      "item": "technokrafttweaks:nugget_cast"
+    }
+  ],
+  "result": [
+    {
+      "item": "thermal:enderium_nugget",
+      "count": 1
+    }
+  ],
+  "energy": 400
+}

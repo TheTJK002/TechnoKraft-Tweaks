@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "technokrafttweaks:item/molten_invar_bucket"
+  }
+}

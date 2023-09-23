@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "thermal:ender",
+      "amount": 500
+    },
+    {
+      "tag": "forge:gems/diamond"
+    },
+    {
+      "tag": "forge:ingots/lead"
+    },
+    {
+      "tag": "forge:ingots/lead"
+    },
+    {
+      "tag": "forge:ingots/lead"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "technokrafttweaks:molten_enderium",
+      "amount": 288
+    }
+  ]
+}
