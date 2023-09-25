@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:chest"
+  },
+  "base": {
+    "item": "ae2:controller"
+  },
+  "result": {
+    "item": "ae2:chest"
+  }
+}

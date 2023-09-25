@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:book"
+  },
+  "base": {
+    "item": "thermal:dynamo_compression"
+  },
+  "result": {
+    "item": "thermal:dynamo_disenchantment"
+  }
+}

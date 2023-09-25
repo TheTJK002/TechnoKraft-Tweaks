@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "P": {
+      "item": "create:iron_sheet"
+    },
+    "N": {
+      "tag": "forge:nuggets/iron"
+    },
+    "L": {
+      "tag": "forge:ingots/lead"
+    }
+  },
+  "pattern": [
+    "NN ",
+    "NLP",
+    " PL"
+  ],
+  "result": {
+    "item": "thermal:drill_head"
+  }
+}

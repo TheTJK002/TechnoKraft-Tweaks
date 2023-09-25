@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "ae2:calculation_processor"
+  },
+  "base": {
+    "item": "ae2:controller"
+  },
+  "result": {
+    "item": "ae2:annihilation_core",
+    "count": 4
+  }
+}

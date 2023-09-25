@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "addition": {
+      "item": "minecraft:golden_apple"
+    },
+    "base": {
+      "item": "thermal:dynamo_stirling"
+    },
+    "result": {
+      "item": "thermal:dynamo_gourmand"
+    }
+  }

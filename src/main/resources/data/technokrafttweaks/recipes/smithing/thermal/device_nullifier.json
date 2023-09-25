@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:lava_bucket"
+  },
+  "base": {
+    "item": "technokrafttweaks:zinc_machine"
+  },
+  "result": {
+    "item": "thermal:device_nullifier"
+  }
+}

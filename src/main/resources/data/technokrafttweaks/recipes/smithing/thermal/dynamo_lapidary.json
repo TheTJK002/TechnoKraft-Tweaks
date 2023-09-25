@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "tag": "forge:gears/lapis"
+  },
+  "base": {
+    "item": "thermal:dynamo_numismatic"
+  },
+  "result": {
+    "item": "thermal:dynamo_lapidary"
+  }
+}

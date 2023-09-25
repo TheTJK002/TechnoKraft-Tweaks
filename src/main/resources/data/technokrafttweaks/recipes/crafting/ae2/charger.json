@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "tag": "forge:ingots/invar"
+    },
+    "b": {
+      "item": "thermal:rf_coil"
+    },
+    "r": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "pattern": [
+    "ara",
+    "a  ",
+    "aba"
+  ],
+  "result": {
+    "item": "ae2:charger"
+  }
+}

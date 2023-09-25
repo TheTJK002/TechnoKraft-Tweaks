@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing",
+	"addition": {
+		"item": "create:fluid_tank"
+	},
+	"base": {
+		"item": "technokrafttweaks:enderium_machine"
+	},
+	"result": {
+		"item": "enderstorage:ender_tank"
+	}
+}

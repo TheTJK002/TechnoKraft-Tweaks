@@ -1,0 +1,64 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ae2:printed_silicon"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "ae2:calculation_processor"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ae2:printed_silicon"
+        },
+        {
+          "item": "ae2:printed_calculation_processor"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:printed_silicon"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "ae2:printed_silicon"
+        },
+        {
+          "fluid": "thermal:redstone",
+          "amount": 250,
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:printed_silicon"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "ae2:printed_silicon"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:printed_silicon"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "ae2:printed_calculation_processor"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "thermal:drill_head"
+  },
+  "base": {
+    "item": "technokrafttweaks:andesite_machine"
+  },
+  "result": {
+    "item": "create:mechanical_drill"
+  }
+}

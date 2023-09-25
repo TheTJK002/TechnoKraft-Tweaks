@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:bucket"
+  },
+  "base": {
+    "item": "technokrafttweaks:copper_machine"
+  },
+  "result": {
+    "item": "thermal:machine_chiller"
+  }
+}

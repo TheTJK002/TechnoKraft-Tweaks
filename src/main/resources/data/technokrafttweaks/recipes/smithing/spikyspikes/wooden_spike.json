@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:wooden_sword"
+  },
+  "base": {
+    "tag": "minecraft:logs"
+  },
+  "result": {
+    "item": "spikyspikes:wooden_spike",
+    "count": 3
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "addition": {
+        "tag": "forge:gems/diamond"
+    },
+    "base": {
+        "item": "technokrafttweaks:zinc_machine"
+    },
+    "result": {
+        "item": "storagedrawers:controller"
+    }
+}

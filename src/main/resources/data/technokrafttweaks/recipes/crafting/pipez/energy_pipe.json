@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "P": {
+      "item": "thermal:rf_coil"
+    },
+    "C": {
+      "item": "technokrafttweaks:fluix_casing"
+    },
+    "S": {
+      "item": "thermal:invar_plate"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "PCP",
+    "SSS"
+  ],
+  "result": {
+    "item": "pipez:energy_pipe",
+    "count": 4
+  }
+}

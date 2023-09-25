@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "technokrafttweaks:brass_machine"
+  },
+  "result": "create:content_observer"
+}

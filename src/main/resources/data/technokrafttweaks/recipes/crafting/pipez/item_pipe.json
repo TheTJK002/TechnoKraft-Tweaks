@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "create:belt_connector"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "S": {
+      "item": "create:iron_sheet"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "BCB",
+    "SSS"
+  ],
+  "result": {
+    "item": "pipez:item_pipe",
+    "count": 4
+  }
+}

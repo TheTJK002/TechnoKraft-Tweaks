@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "addition": {
+        "tag": "forge:ingots/gold"
+    },
+    "base": {
+        "item": "technokrafttweaks:zinc_machine"
+    },
+    "result": {
+        "item": "storagedrawers:controller_slave"
+    }
+}

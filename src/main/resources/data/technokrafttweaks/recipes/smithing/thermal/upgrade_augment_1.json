@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "tag": "forge:dusts/redstone"
+  },
+  "base": {
+    "item": "technokrafttweaks:copper_machine"
+  },
+  "result": {
+    "item": "thermal:upgrade_augment_1"
+  }
+}

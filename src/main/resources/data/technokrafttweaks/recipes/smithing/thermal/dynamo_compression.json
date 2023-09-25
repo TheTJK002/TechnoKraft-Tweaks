@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "thermal:rf_coil"
+  },
+  "base": {
+    "item": "thermal:machine_frame"
+  },
+  "result": {
+    "item": "thermal:dynamo_compression"
+  }
+}

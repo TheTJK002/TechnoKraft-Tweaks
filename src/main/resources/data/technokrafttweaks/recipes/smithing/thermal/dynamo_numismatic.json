@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "thermal:rf_coil"
+  },
+  "base": {
+    "item": "technokrafttweaks:brass_machine"
+  },
+  "result": {
+    "item": "thermal:dynamo_numismatic"
+  }
+}

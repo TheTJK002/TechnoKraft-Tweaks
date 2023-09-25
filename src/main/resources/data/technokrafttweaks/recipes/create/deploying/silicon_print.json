@@ -1,0 +1,17 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "forge:silicon"
+    },
+    {
+      "item": "ae2:silicon_press"
+    }
+  ],
+  "keepHeldItem": true,
+  "results": [
+    {
+      "item": "ae2:printed_silicon"
+    }
+  ]
+}

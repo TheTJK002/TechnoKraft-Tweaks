@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:andesite_cobblestone"
+    },
+    {
+      "item": "architects_palette:algal_brick"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:andesite_alloy"
+    }
+  ]
+}

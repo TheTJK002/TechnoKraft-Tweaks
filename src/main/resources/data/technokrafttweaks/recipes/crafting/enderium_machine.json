@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "technokrafttweaks:abstruse_mechanism"
+    },
+    "E": {
+      "item": "technokrafttweaks:ender_casing"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "AEA",
+    "AAA"
+  ],
+  "result": {
+    "item": "technokrafttweaks:enderium_machine"
+  }
+}

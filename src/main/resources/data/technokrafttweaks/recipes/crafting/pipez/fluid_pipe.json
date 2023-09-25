@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "P": {
+      "item": "create:smart_fluid_pipe"
+    },
+    "C": {
+      "item": "create:copper_casing"
+    },
+    "S": {
+      "item": "create:copper_sheet"
+    },
+    "T": {
+      "item": "create:mechanical_pump"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "PCT",
+    "SSS"
+  ],
+  "result": {
+    "item": "pipez:fluid_pipe",
+    "count": 4
+  }
+}

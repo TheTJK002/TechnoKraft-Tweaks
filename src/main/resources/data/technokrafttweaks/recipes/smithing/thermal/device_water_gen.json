@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:water_bucket"
+  },
+  "base": {
+    "item": "technokrafttweaks:copper_machine"
+  },
+  "result": {
+    "item": "thermal:device_water_gen"
+  }
+}

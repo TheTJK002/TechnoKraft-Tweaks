@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:piston"
+  },
+  "base": {
+    "item": "technokrafttweaks:zinc_machine"
+  },
+  "result": {
+    "item": "thermal:device_rock_gen"
+  }
+}

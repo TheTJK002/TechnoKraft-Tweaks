@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "technokrafttweaks:andesite_machine"
+  },
+  "result": "create:portable_storage_interface"
+}

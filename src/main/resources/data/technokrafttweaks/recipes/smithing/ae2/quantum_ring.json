@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "ae2:energy_cell"
+  },
+  "base": {
+    "item": "technokrafttweaks:enderium_machine"
+  },
+  "result": {
+    "item": "ae2:quantum_ring"
+  }
+}

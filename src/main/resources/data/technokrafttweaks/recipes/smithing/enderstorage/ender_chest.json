@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing",
+	"addition": {
+		"item": "minecraft:chest"
+	},
+	"base": {
+		"item": "technokrafttweaks:enderium_machine"
+	},
+	"result": {
+		"item": "enderstorage:ender_chest"
+	}
+}

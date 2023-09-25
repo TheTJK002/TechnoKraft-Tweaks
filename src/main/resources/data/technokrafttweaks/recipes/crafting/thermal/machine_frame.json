@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "technokrafttweaks:inductive_mechanism"
+    },
+    "C": {
+      "item": "technokrafttweaks:invar_casing"
+    }
+  },
+  "pattern": [
+    "III",
+    "ICI",
+    "III"
+  ],
+  "result": {
+    "item": "thermal:machine_frame"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "tag": "forge:dusts/redstone"
+  },
+  "base": {
+    "item": "technokrafttweaks:enderium_machine"
+  },
+  "result": {
+    "item": "thermal:upgrade_augment_3"
+  }
+}
