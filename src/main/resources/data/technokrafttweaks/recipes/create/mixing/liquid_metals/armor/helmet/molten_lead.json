@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "tools_complement:lead_helmet"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "technokrafttweaks:molten_lead",
+      "amount": 720
+    }
+  ]
+}

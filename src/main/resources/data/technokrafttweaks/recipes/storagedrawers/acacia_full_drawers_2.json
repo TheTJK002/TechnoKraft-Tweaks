@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "count": 1,
-    "ingredient": {
-        "item": "storagedrawers:acacia_trim"
-    },
-    "result": "storagedrawers:acacia_full_drawers_2"
-}

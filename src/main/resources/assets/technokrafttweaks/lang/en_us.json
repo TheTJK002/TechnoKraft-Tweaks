@@ -86,6 +86,8 @@
   "item.technokrafttweaks.molten_tin_bucket": "Molten Tin Bucket",
   "item.technokrafttweaks.molten_lead_bucket": "Molten Lead Bucket",
   "item.technokrafttweaks.molten_nickel_bucket": "Molten Nickel Bucket",
+  "item.technokrafttweaks.molten_silver_bucket": "Molten Silver Bucket",
+  "item.technokrafttweaks.molten_electrum_bucket": "Molten Electrum Bucket",
 
   "fluid_type.technokrafttweaks.fine_sand": "Fine Sand",
   "fluid_type.technokrafttweaks.molten_copper": "Molten Copper",
@@ -98,5 +100,7 @@
   "fluid_type.technokrafttweaks.molten_brass": "Molten Brass",
   "fluid_type.technokrafttweaks.molten_tin": "Molten Tin",
   "fluid_type.technokrafttweaks.molten_lead": "Molten Lead",
-  "fluid_type.technokrafttweaks.molten_nickel": "Molten Nickel"
+  "fluid_type.technokrafttweaks.molten_nickel": "Molten Nickel",
+  "fluid_type.technokrafttweaks.molten_silver": "Molten Silver",
+  "fluid_type.technokrafttweaks.molten_electrum": "Molten Electrum"
 }

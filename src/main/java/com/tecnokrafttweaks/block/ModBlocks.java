@@ -42,20 +42,75 @@ public class ModBlocks {
     public static final RegistryObject<Block> ENDER_INHIBITOR_OFF = registerBlock("ender_inhibitor_off",
             () -> new BlockEnderInhibitorOff(BlockBehaviour.Properties.of(Material.METAL)
                     .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+
+
+
+
+
+    //Minecraft
+    //Fine Sand
     public static final RegistryObject<LiquidBlock> FINE_SAND_BLOCK = registerFluidBlock("fine_sand_block",
             () -> new LiquidBlock(ModFluids.SOURCE_FINE_SAND, BlockBehaviour.Properties.copy(Blocks.WATER)));
+    //Molten Iron
     public static final RegistryObject<LiquidBlock> MOLTEN_IRON_BLOCK = registerFluidBlock("molten_iron_block",
             () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_IRON, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    //Molten Gold
     public static final RegistryObject<LiquidBlock> MOLTEN_GOLD_BLOCK = registerFluidBlock("molten_gold_block",
             () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_GOLD, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    //Molten Copper
     public static final RegistryObject<LiquidBlock> MOLTEN_COPPER_BLOCK = registerFluidBlock("molten_copper_block",
             () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_COPPER, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    //Molten Diamond
     public static final RegistryObject<LiquidBlock> MOLTEN_DIAMOND_BLOCK = registerFluidBlock("molten_diamond_block",
             () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_DIAMOND, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    //Molten Ancient Debris
     public static final RegistryObject<LiquidBlock> MOLTEN_ANCIENT_DEBRIS_BLOCK = registerFluidBlock("molten_ancient_debris_block",
             () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_ANCIENT_DEBRIS, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    //Molten Netherite
     public static final RegistryObject<LiquidBlock> MOLTEN_NETHERITE_BLOCK = registerFluidBlock("molten_netherite_block",
             () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_NETHERITE, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+
+    //Create
+    //Molten Zinc
+    public static final RegistryObject<LiquidBlock> MOLTEN_ZINC_BLOCK = registerFluidBlock("molten_zinc_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_ZINC, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    //Molten Brass
+    public static final RegistryObject<LiquidBlock> MOLTEN_BRASS_BLOCK = registerFluidBlock("molten_brass_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_BRASS, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+
+    //Thermal
+    //Molten Tin
+    public static final RegistryObject<LiquidBlock> MOLTEN_TIN_BLOCK = registerFluidBlock("molten_tin_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_TIN, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    //Molten Lead
+    public static final RegistryObject<LiquidBlock> MOLTEN_LEAD_BLOCK = registerFluidBlock("molten_lead_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_LEAD, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    //Molten Nickel
+    public static final RegistryObject<LiquidBlock> MOLTEN_NICKEL_BLOCK = registerFluidBlock("molten_nickel_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_NICKEL, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    public static final RegistryObject<LiquidBlock> MOLTEN_SILVER_BLOCK = registerFluidBlock("molten_silver_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_SILVER, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    //Molten Invar
+    public static final RegistryObject<LiquidBlock> MOLTEN_INVAR_BLOCK = registerFluidBlock("molten_invar_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_INVAR, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    //Molten Bronze
+    public static final RegistryObject<LiquidBlock> MOLTEN_BRONZE_BLOCK = registerFluidBlock("molten_bronze_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_BRONZE, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    //Molten Constantan
+    public static final RegistryObject<LiquidBlock> MOLTEN_CONSTANTAN_BLOCK = registerFluidBlock("molten_constantan_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_CONSTANTAN, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    //Molten Electrum
+    public static final RegistryObject<LiquidBlock> MOLTEN_ELECTRUM_BLOCK = registerFluidBlock("molten_electrum_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_ELECTRUM, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    //Molten Signalum
+    public static final RegistryObject<LiquidBlock> MOLTEN_SIGNALUM_BLOCK = registerFluidBlock("molten_signalum_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_SIGNALUM, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    //Molten Lumium
+    public static final RegistryObject<LiquidBlock> MOLTEN_LUMIUM_BLOCK = registerFluidBlock("molten_lumium_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_LUMIUM, BlockBehaviour.Properties.copy(Blocks.LAVA)));
+    //Molten Enderium
+    public static final RegistryObject<LiquidBlock> MOLTEN_ENDERIUM_BLOCK = registerFluidBlock("molten_enderium_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_ENDERIUM, BlockBehaviour.Properties.copy(Blocks.LAVA)));
 
     public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

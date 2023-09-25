@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "technokrafttweaks:brass_machine"
-  },
-  "result": "create:rotation_speed_controller"
-}

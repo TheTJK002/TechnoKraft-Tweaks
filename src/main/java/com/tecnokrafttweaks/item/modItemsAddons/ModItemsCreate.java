@@ -1,12 +1,9 @@
 package com.tecnokrafttweaks.item.modItemsAddons;
 
-import com.tecnokrafttweaks.fluids.modFluidsAddons.ModFluidsCreate;
 import com.tecnokrafttweaks.item.ModCreativeTabs;
 import com.tecnokrafttweaks.item.custom.GlowItems;
 import com.tecnokrafttweaks.item.custom.ToolItems;
-import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -24,8 +21,6 @@ public class ModItemsCreate {
     public static final RegistryObject<Item> INDUCTIVE_MECHANISM = ITEMS.register("inductive_mechanism", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> ABSTRUSE_MECHANISM = ITEMS.register("abstruse_mechanism", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> DIAMOND_SAND_PAPER = ITEMS.register("diamond_sand_paper", () -> new ToolItems(new Item.Properties().stacksTo(1).durability(1561).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
-    public static final RegistryObject<Item> MOLTEN_ZINC_BUCKET = ITEMS.register("molten_zinc_bucket", () -> new BucketItem(ModFluidsCreate.SOURCE_MOLTEN_ZINC, new Item.Properties().stacksTo(1).craftRemainder(Items.BUCKET).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
-    public static final RegistryObject<Item> MOLTEN_BRASS_BUCKET = ITEMS.register("molten_brass_bucket", () -> new BucketItem(ModFluidsCreate.SOURCE_MOLTEN_BRASS, new Item.Properties().stacksTo(1).craftRemainder(Items.BUCKET).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
 
     public static void register(IEventBus eventBus) {
     }

@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:tiny_certus_quartz"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "technokrafttweaks:small_certus_quartz"
+    }
+  ]
+}

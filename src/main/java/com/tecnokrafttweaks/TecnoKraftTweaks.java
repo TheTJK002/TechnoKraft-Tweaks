@@ -6,10 +6,6 @@ import com.tecnokrafttweaks.block.modBlocksAddons.*;
 import com.tecnokrafttweaks.event.TeleportEvent;
 import com.tecnokrafttweaks.fluids.ModFluidTypes;
 import com.tecnokrafttweaks.fluids.ModFluids;
-import com.tecnokrafttweaks.fluids.modFluidsAddons.ModFluidTypesCreate;
-import com.tecnokrafttweaks.fluids.modFluidsAddons.ModFluidTypesThermal;
-import com.tecnokrafttweaks.fluids.modFluidsAddons.ModFluidsCreate;
-import com.tecnokrafttweaks.fluids.modFluidsAddons.ModFluidsThermal;
 import com.tecnokrafttweaks.item.ModItems;
 import com.tecnokrafttweaks.item.modItemsAddons.*;
 import com.tecnokrafttweaks.world.feature.ModConfiguredFeatures;
@@ -43,23 +39,18 @@ public class TecnoKraftTweaks {
         //AE2
         if (ModList.get().isLoaded("ae2")) {
             ModItemsAE2.register(modEventBus);
-            ModBlocksAE2.register(modEventBus);
         }
 
         //Create
         if (ModList.get().isLoaded("create")) {
             ModItemsCreate.register(modEventBus);
             ModBlocksCreate.register(modEventBus);
-            ModFluidsCreate.register(modEventBus);
-            ModFluidTypesCreate.register(modEventBus);
         }
 
         //Thermal
         if (ModList.get().isLoaded("thermal")) {
             ModItemsThermal.register(modEventBus);
             ModBlocksThermal.register(modEventBus);
-            ModFluidsThermal.register(modEventBus);
-            ModFluidTypesThermal.register(modEventBus);
         }
 
         //Create & AE2

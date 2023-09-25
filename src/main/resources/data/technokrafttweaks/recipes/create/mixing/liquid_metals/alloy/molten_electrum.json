@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "technokrafttweaks:molten_gold",
+      "amount": 144
+    },
+    {
+      "fluid": "technokrafttweaks:molten_silver",
+      "amount": 144
+    }
+  ],
+  "results": [
+    {
+      "fluid": "technokrafttweaks:molten_electrum",
+      "amount": 288
+    }
+  ]
+}

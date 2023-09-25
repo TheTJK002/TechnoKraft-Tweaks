@@ -3,10 +3,11 @@
   "ingredient": {
     "item": "thermal:coal_coke"
   },
-  "loops": 2,
+  "loops": 1,
   "results": [
     {
-      "item": "technokrafttweaks:coke_chunk"
+      "item": "technokrafttweaks:coke_chunk",
+      "count": 2
     }
   ],
   "sequence": [

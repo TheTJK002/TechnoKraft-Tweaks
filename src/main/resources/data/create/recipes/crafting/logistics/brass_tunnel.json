@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 4,
-  "ingredient": {
-    "item": "technokrafttweaks:brass_machine"
-  },
-  "result": "create:brass_tunnel"
-}

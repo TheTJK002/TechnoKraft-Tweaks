@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "C": {
+      "item": "technokrafttweaks:copper_machine"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    "CW"
+  ],
+  "result": {
+    "item": "thermal:device_water_gen",
+    "count": 1
+  }
+}

@@ -4,7 +4,7 @@
 	"render_type": "cutout",
 	"textures": {
 		"0": "technokrafttweaks:block/copper_machine",
-		"particle": "technokrafttweaks:block/copper_machine"
+		"particle": "create:block/copper_casing"
 	},
 	"elements": [
 		{

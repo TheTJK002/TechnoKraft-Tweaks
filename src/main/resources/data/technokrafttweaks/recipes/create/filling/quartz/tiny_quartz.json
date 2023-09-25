@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:nether_quartz_seed"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "technokrafttweaks:tiny_nether_quartz"
+    }
+  ]
+}
