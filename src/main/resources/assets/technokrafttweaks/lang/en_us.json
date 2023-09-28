@@ -2,11 +2,13 @@
   "_comment_TechnoKraftTweaks": "",
   "itemGroup.tecnokrafttweaks": "TecnoKraft Tweaks",
   "item.technokrafttweaks.icon": "Icon",
-
   "block.technokrafttweaks.andesite_cobblestone": "Andesite Cobblestone",
   "block.technokrafttweaks.diorite_cobblestone": "Diorite Cobblestone",
   "block.technokrafttweaks.granite_cobblestone": "Granite Cobblestone",
-
+  "block.technokrafttweaks.dark_glass": "Dark Glass",
+  "block.technokrafttweaks.cursed_earth": "Cursed Earth",
+  "block.technokrafttweaks.blessed_earth": "Blessed Earth",
+  "block.technokrafttweaks.growth_accelerator": "Growth Accelerator",
 
   "_comment_AE2": "",
   "item.technokrafttweaks.nether_quartz_seed": "Quartz Seed",
@@ -88,6 +90,12 @@
   "item.technokrafttweaks.molten_nickel_bucket": "Molten Nickel Bucket",
   "item.technokrafttweaks.molten_silver_bucket": "Molten Silver Bucket",
   "item.technokrafttweaks.molten_electrum_bucket": "Molten Electrum Bucket",
+  "item.technokrafttweaks.molten_invar_bucket": "Molten Invar Bucket",
+  "item.technokrafttweaks.molten_bronze_bucket": "Molten Bronze Bucket",
+  "item.technokrafttweaks.molten_lumium_bucket": "Molten Lumium Bucket",
+  "item.technokrafttweaks.molten_enderium_bucket": "Molten Enderium Bucket",
+  "item.technokrafttweaks.molten_signalum_bucket": "Molten Signalum Bucket",
+  "item.technokrafttweaks.molten_constantan_bucket": "Molten Constantan Bucket",
 
   "fluid_type.technokrafttweaks.fine_sand": "Fine Sand",
   "fluid_type.technokrafttweaks.molten_copper": "Molten Copper",
@@ -102,5 +110,11 @@
   "fluid_type.technokrafttweaks.molten_lead": "Molten Lead",
   "fluid_type.technokrafttweaks.molten_nickel": "Molten Nickel",
   "fluid_type.technokrafttweaks.molten_silver": "Molten Silver",
-  "fluid_type.technokrafttweaks.molten_electrum": "Molten Electrum"
+  "fluid_type.technokrafttweaks.molten_bronze": "Molten Bronze",
+  "fluid_type.technokrafttweaks.molten_invar": "Molten Invar",
+  "fluid_type.technokrafttweaks.molten_electrum": "Molten Electrum",
+  "fluid_type.technokrafttweaks.molten_constantan": "Molten Constantan",
+  "fluid_type.technokrafttweaks.molten_enderium": "Molten Enderium",
+  "fluid_type.technokrafttweaks.molten_lumium": "Molten Lumium",
+  "fluid_type.technokrafttweaks.molten_signalum": "Molten Signalum"
 }

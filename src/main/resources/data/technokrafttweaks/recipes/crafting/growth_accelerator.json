@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "B": {
+      "item": "minecraft:bone_block"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    "IBI",
+    "BWB",
+    "IBI"
+  ],
+  "result": {
+    "item": "technokrafttweaks:growth_accelerator"
+  }
+}

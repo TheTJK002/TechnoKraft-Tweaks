@@ -1,9 +1,8 @@
 package com.tecnokrafttweaks.block;
 
 import com.tecnokrafttweaks.TecnoKraftTweaks;
-import com.tecnokrafttweaks.block.custom.BlockEnderInhibitorOff;
-import com.tecnokrafttweaks.block.custom.BlockEnderInhibitorOn;
-import com.tecnokrafttweaks.fluids.ModFluids;
+import com.tecnokrafttweaks.block.custom.*;
+import com.tecnokrafttweaks.fluid.ModFluids;
 import com.tecnokrafttweaks.item.ModCreativeTabs;
 import com.tecnokrafttweaks.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -12,8 +11,10 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.LiquidBlock;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -24,6 +25,7 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, TecnoKraftTweaks.MODID);
 
+    //Main
     public static final RegistryObject<Block> ANDESITE_COBBLESTONE = registerBlock("andesite_cobblestone",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
@@ -36,16 +38,25 @@ public class ModBlocks {
     public static final RegistryObject<Block> ENDER_CASING = registerBlock("ender_casing",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
-    public static final RegistryObject<Block> ENDER_INHIBITOR_ON = registerBlock("ender_inhibitor_on",
-            () -> new BlockEnderInhibitorOn(BlockBehaviour.Properties.of(Material.METAL)
+    public static final RegistryObject<Block> GROWTH_ACCELERATOR = registerBlock("growth_accelerator",
+            () -> new GrowthAcceleratorBlock(BlockBehaviour.Properties.of(Material.METAL).noOcclusion().randomTicks()
                     .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> CURSED_EARTH = registerBlock("cursed_earth",
+            () -> new CursedEarthBlock(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> BLESSED_EARTH = registerBlock("blessed_earth",
+            () -> new BlessedEarthBlock(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> ENDER_INHIBITOR_OFF = registerBlock("ender_inhibitor_off",
             () -> new BlockEnderInhibitorOff(BlockBehaviour.Properties.of(Material.METAL)
                     .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> ENDER_INHIBITOR_ON = registerBlock("ender_inhibitor_on",
+            () -> new BlockEnderInhibitorOn(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
 
+    //Create
+    //Thermal
+    //BOP
 
-
-
+    //Liquids
 
     //Minecraft
     //Fine Sand

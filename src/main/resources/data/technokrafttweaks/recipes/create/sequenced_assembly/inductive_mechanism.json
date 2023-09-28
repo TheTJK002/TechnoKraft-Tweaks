@@ -1,0 +1,65 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:precision_mechanism"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "technokrafttweaks:inductive_mechanism"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "thermal:invar_plate"
+        },
+        {
+          "item": "technokrafttweaks:refined_radiance_induction_coil"
+        }
+      ],
+      "results": [
+        {
+          "item": "thermal:invar_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "thermal:invar_plate"
+        },
+        {
+          "item": "technokrafttweaks:refined_radiance_induction_coil"
+        }
+      ],
+      "results": [
+        {
+          "item": "thermal:invar_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "thermal:invar_plate"
+        },
+        {
+          "item": "technokrafttweaks:chromatic_resonator"
+        }
+      ],
+      "results": [
+        {
+          "item": "thermal:invar_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "thermal:invar_plate"
+  }
+}

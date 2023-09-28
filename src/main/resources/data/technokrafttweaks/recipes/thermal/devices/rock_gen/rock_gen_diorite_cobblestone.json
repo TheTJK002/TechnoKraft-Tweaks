@@ -1,8 +1,0 @@
-{
-  "type": "thermal:rock_gen",
-  "adjacent": "architects_palette:chiseled_packed_ice",
-  "below": "minecraft:bedrock",
-  "result": {
-    "item": "technokrafttweaks:diorite_cobblestone"
-  }
-}

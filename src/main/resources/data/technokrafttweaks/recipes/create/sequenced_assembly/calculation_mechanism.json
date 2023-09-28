@@ -1,0 +1,65 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "technokrafttweaks:inductive_mechanism"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "technokrafttweaks:calculation_mechanism"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "technokrafttweaks:inductive_mechanism"
+        },
+        {
+          "item": "ae2:printed_silicon"
+        }
+      ],
+      "results": [
+        {
+          "item": "technokrafttweaks:inductive_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "technokrafttweaks:inductive_mechanism"
+        },
+        {
+          "item": "ae2:printed_silicon"
+        }
+      ],
+      "results": [
+        {
+          "item": "technokrafttweaks:inductive_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "technokrafttweaks:inductive_mechanism"
+        },
+        {
+          "item": "technokrafttweaks:flash_drive"
+        }
+      ],
+      "results": [
+        {
+          "item": "technokrafttweaks:inductive_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "technokrafttweaks:inductive_mechanism"
+  }
+}

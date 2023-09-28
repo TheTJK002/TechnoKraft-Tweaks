@@ -4,12 +4,14 @@ import com.mojang.logging.LogUtils;
 import com.tecnokrafttweaks.block.ModBlocks;
 import com.tecnokrafttweaks.block.modBlocksAddons.*;
 import com.tecnokrafttweaks.event.TeleportEvent;
-import com.tecnokrafttweaks.fluids.ModFluidTypes;
-import com.tecnokrafttweaks.fluids.ModFluids;
+import com.tecnokrafttweaks.fluid.ModFluidTypes;
+import com.tecnokrafttweaks.fluid.ModFluids;
 import com.tecnokrafttweaks.item.ModItems;
 import com.tecnokrafttweaks.item.modItemsAddons.*;
 import com.tecnokrafttweaks.world.feature.ModConfiguredFeatures;
 import com.tecnokrafttweaks.world.feature.ModPlacedFeatures;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -50,7 +52,6 @@ public class TecnoKraftTweaks {
         //Thermal
         if (ModList.get().isLoaded("thermal")) {
             ModItemsThermal.register(modEventBus);
-            ModBlocksThermal.register(modEventBus);
         }
 
         //Create & AE2
@@ -92,7 +93,6 @@ public class TecnoKraftTweaks {
     @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event) {
-        }
+        public static void onClientSetup(FMLClientSetupEvent event) {}
     }
 }

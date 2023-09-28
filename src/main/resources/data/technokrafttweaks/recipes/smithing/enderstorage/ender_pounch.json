@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing",
+	"addition": {
+		"item": "sophisticatedbackpacks:iron_backpack"
+	},
+	"base": {
+		"item": "technokrafttweaks:enderium_machine"
+	},
+	"result": {
+		"item": "enderstorage:ender_pouch"
+	}
+}

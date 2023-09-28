@@ -2,16 +2,12 @@
   "type": "create:splashing",
   "ingredients": [
     {
-      "item": "minecraft:sand"
+      "item": "minecraft:sandstone"
     }
   ],
   "results": [
     {
       "item": "technokrafttweaks:sand_ball"
-    },
-    {
-      "item": "minecraft:clay_ball",
-      "chance" : 0.25
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "technokrafttweaks:molten_lead",
+      "amount": 144
+    },
+    {
+      "item": "thermal:chiller_ingot_cast"
+    }
+  ],
+  "result": [
+    {
+      "item": "thermal:lead_ingot",
+      "count": 1
+    }
+  ],
+  "energy": 400
+}

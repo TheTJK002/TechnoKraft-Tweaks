@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "R": {
+      "item": "create:rose_quartz_block"
+    }
+  },
+  "pattern": [
+    "R"
+  ],
+  "result": {
+    "item": "create:rose_quartz",
+    "count": 4
+  }
+}

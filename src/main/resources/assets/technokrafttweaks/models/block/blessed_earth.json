@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "technokrafttweaks:block/blessed_earth_top",
+    "bottom": "minecraft:block/dirt",
+    "side": "technokrafttweaks:block/blessed_earth_side"
+  }
+}

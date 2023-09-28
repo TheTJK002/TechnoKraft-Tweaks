@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": {
+    "tag": "forge:storage_blocks/raw_nickel"
+  },
+  "result": {
+    "item": "thermal:nickel_nugget",
+    "count": 27
+  }
+}

@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:smithing",
 	"addition": {
-		"item": "minecraft:chest"
+		"item": "ironchest:obsidian_chest"
 	},
 	"base": {
 		"item": "technokrafttweaks:enderium_machine"

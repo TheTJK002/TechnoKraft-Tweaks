@@ -1,7 +1,8 @@
 package com.tecnokrafttweaks.item;
 
 import com.tecnokrafttweaks.TecnoKraftTweaks;
-import com.tecnokrafttweaks.fluids.ModFluids;
+import com.tecnokrafttweaks.fluid.ModFluids;
+import com.tecnokrafttweaks.item.custom.PortableCraftingTableItem;
 import com.tecnokrafttweaks.item.custom.ToolItems;
 import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
@@ -29,6 +30,8 @@ public class ModItems {
             () -> new ToolItems(new Item.Properties().stacksTo(1).durability(250).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> FLASH_DRIVE = ITEMS.register("flash_drive",
             () -> new ToolItems(new Item.Properties().stacksTo(1).durability(250).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> PORTABLE_CRAFTING_TABLE = ITEMS.register("portable_crafting_table",
+            () -> new PortableCraftingTableItem(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
 
 
 

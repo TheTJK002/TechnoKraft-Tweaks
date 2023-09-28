@@ -1,0 +1,97 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "pipez:basic_upgrade"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "pipez:improved_upgrade"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pipez:basic_upgrade"
+        },
+        {
+          "item": "create:golden_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "pipez:basic_upgrade"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pipez:basic_upgrade"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "pipez:basic_upgrade"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pipez:basic_upgrade"
+        },
+        {
+          "item": "create:golden_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "pipez:basic_upgrade"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pipez:basic_upgrade"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "pipez:basic_upgrade"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pipez:basic_upgrade"
+        },
+        {
+          "item": "create:brass_tunnel"
+        }
+      ],
+      "results": [
+        {
+          "item": "pipez:basic_upgrade"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "pipez:basic_upgrade"
+  }
+}

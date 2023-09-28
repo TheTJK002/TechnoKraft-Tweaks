@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '0.5.8'
+version = '0.7.2'
 group = 'com.tjk.technokrafttweaks' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'technokrafttweaks'
 
@@ -190,12 +190,23 @@ dependencies {
     //Spiky Spikes
     runtimeOnly fg.deobf("curse.maven:examplemod-666944:4426414")
     runtimeOnly fg.deobf("curse.maven:puzzleslib-495476:4600775")
-    //Cursed Earth
-    runtimeOnly fg.deobf("curse.maven:cursedearth-336919:4394649")
     //Storage Drawers
     runtimeOnly fg.deobf("curse.maven:storagedrawers-223852:3884263")
     //Pipez
     runtimeOnly fg.deobf("curse.maven:pipez-443900:4713644")
+    //Iron Chest
+    runtimeOnly fg.deobf("curse.maven:iron-chests-228756:3966365")
+    //Sophisticated Backpacks
+    runtimeOnly fg.deobf("curse.maven:sophisticated-core-618298:4736641")
+    runtimeOnly fg.deobf("curse.maven:sophisticated-backpacks-422301:4736644")
+    //Metal Barrels
+    runtimeOnly fg.deobf("curse.maven:metal-barrels-324985:4056303")
+    //Farmer Delight
+    runtimeOnly fg.deobf("curse.maven:farmers-delight-398521:4679318")
+    //Apple Skin
+    runtimeOnly fg.deobf("curse.maven:appleskin-248787:3872808")
+    //Time In A Bottle
+    runtimeOnly fg.deobf("curse.maven:time-in-a-bottle-standalone-445025:3879896")
 }
 
 jar {
