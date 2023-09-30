@@ -1,0 +1,17 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:sand_chunk"
+    },
+    {
+      "item": "thermal:ice_charge"
+    }
+  ],
+  "result": [
+    {
+      "item": "technokrafttweaks:purified_sand"
+    }
+  ],
+  "energy": 1600
+}

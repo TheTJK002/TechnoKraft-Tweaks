@@ -1,5 +1,6 @@
 package com.tecnokrafttweaks.block.custom;
 
+import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
@@ -29,7 +30,7 @@ public class GrowthAcceleratorBlock extends Block {
 
     private static int getTickRate() {
         double variance = (Math.random() * (1.1 - 0.9)) + 0.9;
-        return (int) (1 * variance) * 2;
+        return (int) (1 * variance) * 20;
     }
 
     @Override
@@ -79,6 +80,6 @@ public class GrowthAcceleratorBlock extends Block {
 
     @Override
     public void appendHoverText(ItemStack stack, @Nullable BlockGetter blockGetter, List<Component> components, TooltipFlag flag) {
-        Component.literal("9x3x9");
+        components.add(Component.literal("Range: 9x3x9").withStyle(ChatFormatting.GOLD));
     }
 }

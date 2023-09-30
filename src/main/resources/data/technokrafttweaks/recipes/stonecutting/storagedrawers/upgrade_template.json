@@ -1,8 +1,8 @@
 {
-    "type": "minecraft:stonecutting",
-    "count": 4,
-    "ingredient": {
-        "tag": "storagedrawers:trims"
-    },
-    "result": "storagedrawers:upgrade_template"
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "tag": "storagedrawers:trims"
+  },
+  "result": "storagedrawers:upgrade_template"
 }

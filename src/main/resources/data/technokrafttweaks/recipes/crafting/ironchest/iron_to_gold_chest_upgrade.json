@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "create:iron_sheet"
+    },
+    "I": {
+      "item": "create:golden_sheet"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CIC",
+    "CCC"
+  ],
+  "result": {
+    "item": "ironchest:iron_to_gold_chest_upgrade"
+  }
+}

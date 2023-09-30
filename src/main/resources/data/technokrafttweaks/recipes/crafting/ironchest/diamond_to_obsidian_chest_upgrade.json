@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "create:sturdy_sheet"
+    },
+    "I": {
+      "item": "minecraft:diamond"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "COC",
+    "OIO",
+    "COC"
+  ],
+  "result": {
+    "item": "ironchest:diamond_to_obsidian_chest_upgrade"
+  }
+}

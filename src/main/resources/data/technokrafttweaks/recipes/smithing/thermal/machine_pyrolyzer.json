@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:coal"
+  },
+  "base": {
+    "item": "thermal:machine_frame"
+  },
+  "result": {
+    "item": "thermal:machine_pyrolyzer"
+  }
+}

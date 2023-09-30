@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "create:iron_sheet"
+    },
+    "I": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CIC",
+    "CCC"
+  ],
+  "result": {
+    "item": "ironchest:iron_chest"
+  }
+}

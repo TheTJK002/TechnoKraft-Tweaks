@@ -1,8 +1,8 @@
 {
-    "type": "minecraft:stonecutting",
-    "count": 1,
-    "ingredient": {
-        "item": "storagedrawers:crimson_trim"
-    },
-    "result": "storagedrawers:crimson_full_drawers_4"
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "storagedrawers:crimson_trim"
+  },
+  "result": "storagedrawers:crimson_full_drawers_4"
 }

@@ -1,8 +1,8 @@
 {
-    "type": "minecraft:stonecutting",
-    "count": 1,
-    "ingredient": {
-        "item": "storagedrawers:spruce_trim"
-    },
-    "result": "storagedrawers:spruce_full_drawers_4"
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "storagedrawers:spruce_trim"
+  },
+  "result": "storagedrawers:spruce_full_drawers_4"
 }

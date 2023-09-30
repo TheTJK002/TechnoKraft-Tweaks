@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "ironchest:gold_chest"
+    },
+    "I": {
+      "item": "minecraft:diamond"
+    },
+    "G": {
+      "tag": "thermal:glass/hardened"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "ICI",
+    "GGG"
+  ],
+  "result": {
+    "item": "ironchest:diamond_chest"
+  }
+}

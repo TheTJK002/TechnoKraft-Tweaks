@@ -2,6 +2,13 @@
   "_comment_TechnoKraftTweaks": "",
   "itemGroup.tecnokrafttweaks": "TecnoKraft Tweaks",
   "item.technokrafttweaks.icon": "Icon",
+  "item.technokrafttweaks.portable_crafting_table": "Portable Crafting Table",
+  "item.technokrafttweaks.portable_furnace": "Portable Furnace",
+  "item.technokrafttweaks.portable_blast_furnace": "Portable Blast Furnace",
+  "item.technokrafttweaks.portable_smoker": "Portable Smoker",
+  "item.technokrafttweaks.portable_smithing_table": "Portable Smithing Table",
+  "item.technokrafttweaks.portable_stonecutter": "Portable Stonecutter",
+
   "block.technokrafttweaks.andesite_cobblestone": "Andesite Cobblestone",
   "block.technokrafttweaks.diorite_cobblestone": "Diorite Cobblestone",
   "block.technokrafttweaks.granite_cobblestone": "Granite Cobblestone",

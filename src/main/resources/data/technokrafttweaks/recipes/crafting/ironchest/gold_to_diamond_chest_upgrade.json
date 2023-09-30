@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "create:golden_sheet"
+    },
+    "I": {
+      "item": "minecraft:diamond"
+    },
+    "G": {
+      "tag": "thermal:glass/hardened"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "CIC",
+    "GGG"
+  ],
+  "result": {
+    "item": "ironchest:gold_to_diamond_chest_upgrade"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "tag": "thermal:glass/hardened"
+    },
+    "I": {
+      "item": "minecraft:diamond"
+    },
+    "G": {
+      "tag": "forge:glass"
+    }
+  },
+  "pattern": [
+    "CGC",
+    "GIG",
+    "CGC"
+  ],
+  "result": {
+    "item": "ironchest:diamond_to_crystal_chest_upgrade"
+  }
+}

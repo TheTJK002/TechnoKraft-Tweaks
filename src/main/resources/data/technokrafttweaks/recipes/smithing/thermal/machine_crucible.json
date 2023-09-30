@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "create:blaze_burner"
+  },
+  "base": {
+    "item": "thermal:machine_frame"
+  },
+  "result": {
+    "item": "thermal:machine_crucible"
+  }
+}

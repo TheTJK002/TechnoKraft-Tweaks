@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": {
+      "item": "ironchest:diamond_chest"
+    },
+    "G": {
+      "item": "create:sturdy_sheet"
+    },
+    "I": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "GIG",
+    "ICI",
+    "GIG"
+  ],
+  "result": {
+    "item": "ironchest:obsidian_chest"
+  }
+}

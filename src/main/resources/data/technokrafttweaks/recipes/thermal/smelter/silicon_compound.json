@@ -1,0 +1,23 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:coke_chunk"
+    },
+    {
+      "item": "technokrafttweaks:purified_sand"
+    },
+    {
+      "item": "technokrafttweaks:fine_sand_bucket"
+    }
+  ],
+  "result": [
+    {
+      "item": "technokrafttweaks:silicon_compound"
+    },
+    {
+      "item": "minecraft:bucket"
+    }
+  ],
+  "energy": 1600
+}
