@@ -1,0 +1,17 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/enderium"
+    },
+    {
+      "item": "technokrafttweaks:inductive_mechanism"
+    }
+  ],
+  "result": [
+    {
+      "item": "technokrafttweaks:abstruse_mechanism"
+    }
+  ],
+  "energy": 1600
+}

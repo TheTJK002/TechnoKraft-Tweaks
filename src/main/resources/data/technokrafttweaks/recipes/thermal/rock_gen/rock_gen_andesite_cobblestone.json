@@ -1,0 +1,8 @@
+{
+  "type": "thermal:rock_gen",
+  "adjacent": "minecraft:packed_ice",
+  "below": "minecraft:bedrock",
+  "result": {
+    "item": "technokrafttweaks:andesite_cobblestone"
+  }
+}

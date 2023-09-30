@@ -1,0 +1,18 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "technokrafttweaks:molten_copper",
+      "amount": 144
+    },
+    {
+      "item": "ae2:calculation_processor_press"
+    }
+  ],
+  "result": [
+    {
+      "item": "ae2:printed_calculation_processor"
+    }
+  ],
+  "energy": 1600
+}
