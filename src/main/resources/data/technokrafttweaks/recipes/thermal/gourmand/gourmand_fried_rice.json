@@ -1,0 +1,7 @@
+{
+  "type": "thermal:gourmand_fuel",
+  "ingredient": {
+    "item": "farmersdelight:fried_rice"
+  },
+  "energy": 22400
+}

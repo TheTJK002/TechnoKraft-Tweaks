@@ -1,0 +1,7 @@
+{
+  "type": "thermal:gourmand_fuel",
+  "ingredient": {
+    "item": "farmersdelight:mixed_salad"
+  },
+  "energy": 9600
+}

@@ -1,0 +1,7 @@
+{
+  "type": "thermal:gourmand_fuel",
+  "ingredient": {
+    "item": "farmersdelight:baked_cod_stew"
+  },
+  "energy": 22400
+}

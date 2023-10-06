@@ -38,6 +38,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> ENDER_CASING = registerBlock("ender_casing",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> REINFORCED_OBSIDIAN = registerBlock("reinforced_obsidian",
+            () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
+                    .requiresCorrectToolForDrops().strength(3.2f).explosionResistance(-1)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> GROWTH_ACCELERATOR = registerBlock("growth_accelerator",
             () -> new GrowthAcceleratorBlock(BlockBehaviour.Properties.of(Material.METAL).noOcclusion().randomTicks()
                     .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
@@ -50,6 +53,15 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> ENDER_INHIBITOR_ON = registerBlock("ender_inhibitor_on",
             () -> new BlockEnderInhibitorOn(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> FERTILIZED_DIRT = registerBlock("fertilized_dirt",
+            () -> new WIPBlocks(BlockBehaviour.Properties.of(Material.DIRT).sound(SoundType.GRAVEL)
+                    .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> FERTILIZED_SAND = registerBlock("fertilized_sand",
+            () -> new WIPBlocks(BlockBehaviour.Properties.of(Material.SAND).sound(SoundType.SAND)
+                    .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> FERTILIZED_FARMLAND = registerBlock("fertilized_farmland",
+            () -> new WIPBlocks(BlockBehaviour.Properties.of(Material.DIRT).sound(SoundType.GRAVEL)
                     .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
 
     //Create

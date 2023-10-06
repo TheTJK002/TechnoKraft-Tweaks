@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "create:brass_ingot"
+    },
+    "S": {
+      "tag": "forge:stripped_wood"
+    }
+  },
+  "pattern": [
+    "BS"
+  ],
+  "result": {
+    "item": "create:brass_casing"
+  }
+}

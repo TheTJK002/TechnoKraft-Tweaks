@@ -1,0 +1,7 @@
+{
+  "type": "thermal:gourmand_fuel",
+  "ingredient": {
+    "item": "farmersdelight:bacon_and_eggs"
+  },
+  "energy": 16000
+}

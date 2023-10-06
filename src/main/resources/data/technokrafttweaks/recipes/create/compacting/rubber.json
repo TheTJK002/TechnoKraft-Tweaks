@@ -2,7 +2,7 @@
   "type": "create:compacting",
   "ingredients": [
     {
-      "fluid": "thermal:resin",
+      "fluid": "thermal:latex",
       "amount": 250
     }
   ],

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:fishing_rod"
+  },
+  "base": {
+    "item": "technokrafttweaks:andesite_machine"
+  },
+  "result": {
+    "item": "thermal:device_fisher"
+  }
+}

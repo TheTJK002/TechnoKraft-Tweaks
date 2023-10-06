@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "S": {
+      "tag": "forge:stripped_wood"
+    }
+  },
+  "pattern": [
+    "AS"
+  ],
+  "result": {
+    "item": "create:andesite_casing"
+  }
+}

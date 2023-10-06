@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "technokrafttweaks:cursed_earth",
+    "technokrafttweaks:blessed_earth",
+    "technokrafttweaks:fertilized_dirt",
+    "technokrafttweaks:fertilized_sand",
+    "technokrafttweaks:fertilized_farmland"
+  ]
+}

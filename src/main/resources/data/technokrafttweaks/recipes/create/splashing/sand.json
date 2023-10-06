@@ -25,6 +25,10 @@
     {
       "chance": 0.2,
       "item": "thermal:cinnabar"
+    },
+    {
+      "chance": 0.12,
+      "item": "minecraft:clay_ball"
     }
   ]
 }

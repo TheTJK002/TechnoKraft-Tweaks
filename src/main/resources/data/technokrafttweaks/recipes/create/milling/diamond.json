@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "thermal:diamond_dust"
+    }
+  ]
+}

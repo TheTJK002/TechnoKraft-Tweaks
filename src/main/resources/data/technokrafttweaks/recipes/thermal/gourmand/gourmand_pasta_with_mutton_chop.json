@@ -1,0 +1,7 @@
+{
+  "type": "thermal:gourmand_fuel",
+  "ingredient": {
+    "item": "farmersdelight:pasta_with_mutton_chop"
+  },
+  "energy": 9600
+}

@@ -1,7 +1,7 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "minecraft:oak_slab"
+    "item": "create:cogwheel"
   },
   "loops": 1,
   "results": [

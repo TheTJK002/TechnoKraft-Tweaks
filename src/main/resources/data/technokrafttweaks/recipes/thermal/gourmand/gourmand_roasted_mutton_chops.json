@@ -1,0 +1,7 @@
+{
+  "type": "thermal:gourmand_fuel",
+  "ingredient": {
+    "item": "farmersdelight:roasted_mutton_chops"
+  },
+  "energy": 11200
+}

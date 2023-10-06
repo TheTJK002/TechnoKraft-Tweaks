@@ -1,0 +1,50 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:precision_mechanism"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "technokrafttweaks:infernal_mechanism"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:precision_mechanism"
+        },
+        {
+          "item": "minecraft:soul_sand"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:precision_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create:precision_mechanism"
+        },
+        {
+          "fluid": "minecraft:lava",
+          "amount": 750
+        }
+      ],
+      "results": [
+        {
+          "item": "create:precision_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "create:precision_mechanism"
+  }
+}
