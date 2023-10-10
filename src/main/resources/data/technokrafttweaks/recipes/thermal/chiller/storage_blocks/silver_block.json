@@ -1,0 +1,19 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "technokrafttweaks:molten_silver",
+      "amount": 1296
+    },
+    {
+      "item": "technokrafttweaks:block_cast"
+    }
+  ],
+  "result": [
+    {
+      "item": "thermal:silver_block",
+      "count": 1
+    }
+  ],
+  "energy": 400
+}

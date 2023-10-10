@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "thermal:lumium_plate"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:lumium_coin",
+      "count": 3
+    }
+  ]
+}

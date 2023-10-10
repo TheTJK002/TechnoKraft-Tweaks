@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/melodium"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermalendergy:melodium_plate",
+      "count" : 9
+    }
+  ]
+}

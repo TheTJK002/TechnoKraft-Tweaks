@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "thermal:lead_plate"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:lead_coin",
+      "count": 3
+    }
+  ]
+}

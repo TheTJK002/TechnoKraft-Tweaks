@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "thermal:tin_plate"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:tin_coin",
+      "count": 3
+    }
+  ]
+}

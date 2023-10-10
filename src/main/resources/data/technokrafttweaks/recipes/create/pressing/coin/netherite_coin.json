@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "thermal:netherite_plate"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:netherite_coin",
+      "count": 3
+    }
+  ]
+}

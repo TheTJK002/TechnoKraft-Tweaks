@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "minecraft:gravel"
+  },
+  "result": [
+    {
+      "item": "minecraft:sand",
+      "chance": 1.0
+    }
+  ]
+}

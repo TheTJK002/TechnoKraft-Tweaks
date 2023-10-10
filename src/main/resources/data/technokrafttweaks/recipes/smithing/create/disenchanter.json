@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "tag": "create:sandpaper"
+  },
+  "base": {
+    "item": "technokrafttweaks:copper_machine"
+  },
+  "result": {
+    "item": "create_enchantment_industry:disenchanter"
+  }
+}

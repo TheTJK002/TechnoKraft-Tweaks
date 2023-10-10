@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "technokrafttweaks:calculation_mechanism"
+    },
+    "b": {
+      "item": "ae2:certus_quartz_crystal"
+    },
+    "c": {
+      "item": "ae2:logic_processor"
+    }
+  },
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "result": {
+    "item": "ae2:cell_component_1k"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/lumium"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:lumium_plate",
+      "count" : 9
+    }
+  ]
+}

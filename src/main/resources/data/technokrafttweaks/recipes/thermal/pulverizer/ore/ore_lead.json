@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:ores/lead"
+  },
+  "result": [
+    {
+      "item": "thermal:lead_dust",
+      "chance": 2.0
+    }
+  ]
+}

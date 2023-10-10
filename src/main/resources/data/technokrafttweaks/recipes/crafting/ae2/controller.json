@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "technokrafttweaks:calculation_mechanism"
+    },
+    "b": {
+      "item": "technokrafttweaks:fluix_casing"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "item": "ae2:controller"
+  }
+}

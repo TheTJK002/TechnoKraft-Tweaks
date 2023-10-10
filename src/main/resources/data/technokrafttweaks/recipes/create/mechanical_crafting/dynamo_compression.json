@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "C": {
+      "item": "thermal:machine_frame"
+    },
+    "W": {
+      "item": "thermal:rf_coil"
+    }
+  },
+  "pattern": [
+    "CW"
+  ],
+  "result": {
+    "item": "thermal:dynamo_compression",
+    "count": 1
+  }
+}

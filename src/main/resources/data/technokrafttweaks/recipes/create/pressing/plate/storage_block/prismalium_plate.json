@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/prismalium"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermalendergy:prismalium_plate",
+      "count" : 9
+    }
+  ]
+}

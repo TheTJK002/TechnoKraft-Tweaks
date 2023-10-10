@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "thermalendergy:stellarium_plate"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermalendergy:stellarium_coin",
+      "count": 3
+    }
+  ]
+}

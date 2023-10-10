@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "thermal:enderium_plate"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:enderium_coin",
+      "count": 3
+    }
+  ]
+}

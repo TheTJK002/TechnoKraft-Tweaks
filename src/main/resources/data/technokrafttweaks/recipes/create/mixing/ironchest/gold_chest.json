@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": ""
+    },
+    {
+      "fluid": "technokrafttweaks:molten_gold",
+      "amount": 1152
+    }
+  ],
+  "results": [
+    {
+      "item": "ironchest:gold_chest"
+    }
+  ]
+}

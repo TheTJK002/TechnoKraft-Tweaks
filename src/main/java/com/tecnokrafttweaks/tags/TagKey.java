@@ -11,7 +11,6 @@ public class TagKey {
     private static net.minecraft.tags.TagKey<EntityType<?>> create(ResourceLocation resource) {
         return net.minecraft.tags.TagKey.create(Registry.ENTITY_TYPE_REGISTRY, resource);
     }
-    public static final net.minecraft.tags.TagKey<EntityType<?>> blacklisted_entities = create(new ResourceLocation(TecnoKraftTweaks.MODID, "blacklisted"));
-    public static final net.minecraft.tags.TagKey<Block> spreadable = BlockTags.create(new ResourceLocation(TecnoKraftTweaks.MODID, "spreadable"));
 
+    public static final net.minecraft.tags.TagKey<EntityType<?>> blacklisted_entities = create(new ResourceLocation(TecnoKraftTweaks.MODID, "blacklisted"));
 }

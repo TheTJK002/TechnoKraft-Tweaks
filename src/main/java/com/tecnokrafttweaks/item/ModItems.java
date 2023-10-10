@@ -18,19 +18,19 @@ public class ModItems {
     public static final RegistryObject<Item> ICON = ITEMS.register("icon",
             () -> new Item(new Item.Properties().stacksTo(0).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> SAND_BALL = ITEMS.register("sand_ball",
-            () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+            () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> SAND_CHUNK = ITEMS.register("sand_chunk",
-            () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+            () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> PURIFIED_SAND = ITEMS.register("purified_sand",
-            () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+            () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> SAW = ITEMS.register("saw",
-            () -> new ToolItems(new Item.Properties().stacksTo(1).durability(250).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+            () -> new ToolItems(new Item.Properties().stacksTo(1).durability(512).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> SCREWDRIVER = ITEMS.register("screwdriver",
-            () -> new ToolItems(new Item.Properties().stacksTo(1).durability(250).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+            () -> new ToolItems(new Item.Properties().stacksTo(1).durability(512).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> CHROMATIC_RESONATOR = ITEMS.register("chromatic_resonator",
-            () -> new ToolItems(new Item.Properties().stacksTo(1).durability(250).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+            () -> new ToolItems(new Item.Properties().stacksTo(1).durability(512).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> FLASH_DRIVE = ITEMS.register("flash_drive",
-            () -> new ToolItems(new Item.Properties().stacksTo(1).durability(250).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+            () -> new ToolItems(new Item.Properties().stacksTo(1).durability(512).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> PORTABLE_CRAFTING_TABLE = ITEMS.register("portable_crafting_table",
             () -> new WIPItems(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> PORTABLE_FURNACE = ITEMS.register("portable_furnace",

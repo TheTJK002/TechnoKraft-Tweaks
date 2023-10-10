@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/prismalium"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermalendergy:prismalium_plate"
+    }
+  ]
+}

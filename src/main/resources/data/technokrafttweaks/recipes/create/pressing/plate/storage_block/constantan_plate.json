@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/constantan"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:constantan_plate",
+      "count" : 9
+    }
+  ]
+}

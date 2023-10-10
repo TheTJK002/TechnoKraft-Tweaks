@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "technokrafttweaks:calculation_mechanism"
+    },
+    "b": {
+      "item": "ae2:quartz_glass"
+    },
+    "c": {
+      "item": "ae2:certus_quartz_crystal"
+    },
+    "d": {
+      "tag": "forge:plates/lead"
+    }
+  },
+  "pattern": [
+    "bab",
+    "aca",
+    "ddd"
+  ],
+  "result": {
+    "item": "ae2:blank_pattern",
+    "count": 2
+  }
+}

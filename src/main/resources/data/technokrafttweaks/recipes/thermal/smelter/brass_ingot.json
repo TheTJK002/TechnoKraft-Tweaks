@@ -1,0 +1,18 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "create:zinc_ingot"
+    }
+  ],
+  "result": [
+    {
+      "item": "create:brass",
+      "count": 2
+    }
+  ],
+  "energy": 1600
+}

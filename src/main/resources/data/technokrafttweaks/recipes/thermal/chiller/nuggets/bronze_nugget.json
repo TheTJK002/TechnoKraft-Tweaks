@@ -1,0 +1,19 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "technokrafttweaks:molten_bronze",
+      "amount": 16
+    },
+    {
+      "item": "technokrafttweaks:nugget_cast"
+    }
+  ],
+  "result": [
+    {
+      "item": "thermal:bronze_nugget",
+      "count": 1
+    }
+  ],
+  "energy": 400
+}

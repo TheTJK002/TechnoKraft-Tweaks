@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "C": {
+      "item": "ae2:controller"
+    },
+    "W": {
+      "item": "minecraft:chest"
+    }
+  },
+  "pattern": [
+    "CW"
+  ],
+  "result": {
+    "item": "ae2:chest",
+    "count": 1
+  }
+}

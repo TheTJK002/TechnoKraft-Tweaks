@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "thermal:nickel_plate"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:nickel_coin",
+      "count": 3
+    }
+  ]
+}

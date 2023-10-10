@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "thermalendergy:prismalium_plate"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermalendergy:prismalium_coin",
+      "count": 3
+    }
+  ]
+}

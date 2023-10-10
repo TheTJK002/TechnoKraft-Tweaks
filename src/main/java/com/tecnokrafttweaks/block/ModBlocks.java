@@ -54,23 +54,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> ENDER_INHIBITOR_ON = registerBlock("ender_inhibitor_on",
             () -> new BlockEnderInhibitorOn(BlockBehaviour.Properties.of(Material.METAL)
                     .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
-    public static final RegistryObject<Block> FERTILIZED_DIRT = registerBlock("fertilized_dirt",
-            () -> new WIPBlocks(BlockBehaviour.Properties.of(Material.DIRT).sound(SoundType.GRAVEL)
-                    .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
-    public static final RegistryObject<Block> FERTILIZED_SAND = registerBlock("fertilized_sand",
-            () -> new WIPBlocks(BlockBehaviour.Properties.of(Material.SAND).sound(SoundType.SAND)
-                    .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
-    public static final RegistryObject<Block> FERTILIZED_FARMLAND = registerBlock("fertilized_farmland",
-            () -> new WIPBlocks(BlockBehaviour.Properties.of(Material.DIRT).sound(SoundType.GRAVEL)
-                    .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
-
-    //Create
-    //Thermal
-    //BOP
 
     //Liquids
-
-    //Minecraft
     //Fine Sand
     public static final RegistryObject<LiquidBlock> FINE_SAND_BLOCK = registerFluidBlock("fine_sand_block",
             () -> new LiquidBlock(ModFluids.SOURCE_FINE_SAND, BlockBehaviour.Properties.copy(Blocks.WATER)));
@@ -93,7 +78,6 @@ public class ModBlocks {
     public static final RegistryObject<LiquidBlock> MOLTEN_NETHERITE_BLOCK = registerFluidBlock("molten_netherite_block",
             () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_NETHERITE, BlockBehaviour.Properties.copy(Blocks.LAVA)));
 
-    //Create
     //Molten Zinc
     public static final RegistryObject<LiquidBlock> MOLTEN_ZINC_BLOCK = registerFluidBlock("molten_zinc_block",
             () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_ZINC, BlockBehaviour.Properties.copy(Blocks.LAVA)));
@@ -101,7 +85,6 @@ public class ModBlocks {
     public static final RegistryObject<LiquidBlock> MOLTEN_BRASS_BLOCK = registerFluidBlock("molten_brass_block",
             () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_BRASS, BlockBehaviour.Properties.copy(Blocks.LAVA)));
 
-    //Thermal
     //Molten Tin
     public static final RegistryObject<LiquidBlock> MOLTEN_TIN_BLOCK = registerFluidBlock("molten_tin_block",
             () -> new LiquidBlock(ModFluids.SOURCE_MOLTEN_TIN, BlockBehaviour.Properties.copy(Blocks.LAVA)));

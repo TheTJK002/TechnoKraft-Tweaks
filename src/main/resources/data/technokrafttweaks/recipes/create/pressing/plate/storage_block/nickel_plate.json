@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/nickel"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:nickel_plate",
+      "count": 9
+    }
+  ]
+}

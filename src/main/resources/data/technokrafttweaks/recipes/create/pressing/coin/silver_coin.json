@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "thermal:silver_plate"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:silver_coin",
+      "count": 3
+    }
+  ]
+}

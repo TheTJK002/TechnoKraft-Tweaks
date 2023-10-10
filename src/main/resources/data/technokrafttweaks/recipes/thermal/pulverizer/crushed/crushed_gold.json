@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "create:crushed_raw_gold"
+  },
+  "result": [
+    {
+      "item": "thermal:gold_dust",
+      "chance": 3.0
+    }
+  ]
+}

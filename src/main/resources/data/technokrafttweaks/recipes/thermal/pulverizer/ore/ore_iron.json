@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:ores/iron"
+  },
+  "result": [
+    {
+      "item": "thermal:iron_dust",
+      "chance": 2.0
+    }
+  ]
+}

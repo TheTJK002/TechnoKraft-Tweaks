@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "thermalendergy:prismalium_ingot"
+    },
+    "b": {
+      "item": "thermal:enderium_gear"
+    }
+  },
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "result": {
+    "item": "thermalendergy:prismalium_gear"
+  }
+}

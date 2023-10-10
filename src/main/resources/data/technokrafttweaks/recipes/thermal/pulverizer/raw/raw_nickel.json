@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:raw_materials/nickel"
+  },
+  "result": [
+    {
+      "item": "thermal:nickel_dust",
+      "chance": 1.0
+    }
+  ]
+}

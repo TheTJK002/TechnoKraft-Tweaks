@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/silver"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:silver_plate",
+      "count" : 9
+    }
+  ]
+}

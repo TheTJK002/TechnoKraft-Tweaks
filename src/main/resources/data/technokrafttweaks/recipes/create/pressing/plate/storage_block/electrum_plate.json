@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/electrum"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:electrum_plate",
+      "count" : 9
+    }
+  ]
+}

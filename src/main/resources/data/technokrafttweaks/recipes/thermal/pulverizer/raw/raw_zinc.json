@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:raw_materials/zinc"
+  },
+  "result": [
+    {
+      "item": "technokrafttweaks:zinc_dust",
+      "chance": 1.0
+    }
+  ]
+}

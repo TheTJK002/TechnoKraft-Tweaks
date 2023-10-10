@@ -14,7 +14,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "minecraft:oak_slab"
+          "item": "create:cogwheel"
         },
         {
           "item": "create:andesite_alloy"
@@ -22,7 +22,7 @@
       ],
       "results": [
         {
-          "item": "minecraft:oak_slab"
+          "item": "create:cogwheel"
         }
       ]
     },
@@ -30,7 +30,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "minecraft:oak_slab"
+          "item": "create:cogwheel"
         },
         {
           "item": "create:andesite_alloy"
@@ -38,7 +38,7 @@
       ],
       "results": [
         {
-          "item": "minecraft:oak_slab"
+          "item": "create:cogwheel"
         }
       ]
     },
@@ -46,7 +46,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "minecraft:oak_slab"
+          "item": "create:cogwheel"
         },
         {
           "item": "technokrafttweaks:saw"
@@ -54,12 +54,12 @@
       ],
       "results": [
         {
-          "item": "minecraft:oak_slab"
+          "item": "create:cogwheel"
         }
       ]
     }
   ],
   "transitionalItem": {
-    "item": "minecraft:oak_slab"
+    "item": "create:cogwheel"
   }
 }

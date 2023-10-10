@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "thermal:cinnabar"
+  },
+  "result": [
+    {
+      "item": "minecraft:redstone",
+      "chance": 6.0
+    }
+  ]
+}

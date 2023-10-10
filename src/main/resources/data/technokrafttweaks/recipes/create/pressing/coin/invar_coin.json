@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "thermal:invar_plate"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:invar_coin",
+      "count": 3
+    }
+  ]
+}

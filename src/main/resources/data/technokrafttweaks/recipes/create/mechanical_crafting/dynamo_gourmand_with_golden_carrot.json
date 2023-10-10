@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "C": {
+      "item": "thermal:dynamo_stirling"
+    },
+    "W": {
+      "item": "minecraft:golden_carrot"
+    }
+  },
+  "pattern": [
+    "CW"
+  ],
+  "result": {
+    "item": "thermal:dynamo_gourmand",
+    "count": 1
+  }
+}

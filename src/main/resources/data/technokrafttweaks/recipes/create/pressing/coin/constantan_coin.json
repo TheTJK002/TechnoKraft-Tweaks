@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "thermal:constantan_plate"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:constantan_coin",
+      "count": 3
+    }
+  ]
+}

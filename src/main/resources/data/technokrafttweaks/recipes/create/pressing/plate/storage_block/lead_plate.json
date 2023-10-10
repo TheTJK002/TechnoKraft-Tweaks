@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/lead"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:lead_plate",
+      "count" : 9
+    }
+  ]
+}

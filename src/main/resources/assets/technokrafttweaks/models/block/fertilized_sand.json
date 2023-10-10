@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "top": "technokrafttweaks:block/fertilized_sand",
-    "bottom": "minecraft:block/sand",
-    "side": "minecraft:block/sand"
-  }
-}

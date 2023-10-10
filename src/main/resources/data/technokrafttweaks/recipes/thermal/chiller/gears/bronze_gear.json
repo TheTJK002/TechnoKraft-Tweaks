@@ -1,0 +1,19 @@
+{
+  "type": "thermal:chiller",
+  "ingredients": [
+    {
+      "fluid": "technokrafttweaks:molten_bronze",
+      "amount": 576
+    },
+    {
+      "item": "technokrafttweaks:gear_cast"
+    }
+  ],
+  "result": [
+    {
+      "item": "thermal:bronze_gear",
+      "count": 1
+    }
+  ],
+  "energy": 400
+}

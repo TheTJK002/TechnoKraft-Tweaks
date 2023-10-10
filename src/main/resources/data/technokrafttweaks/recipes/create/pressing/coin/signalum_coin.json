@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "thermal:signalum_plate"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:signalum_coin",
+      "count": 3
+    }
+  ]
+}

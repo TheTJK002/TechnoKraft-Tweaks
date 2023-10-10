@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:raw_materials/gold"
+  },
+  "result": [
+    {
+      "item": "thermal:gold_dust",
+      "chance": 1.0
+    }
+  ]
+}
