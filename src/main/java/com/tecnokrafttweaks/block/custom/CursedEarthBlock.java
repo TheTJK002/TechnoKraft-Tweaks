@@ -47,7 +47,7 @@ public class CursedEarthBlock extends GrassBlock {
             Entity en = findMonsterToSpawn(world, pos.above(), random);
             if (en != null) {
                 en.setPos(pos.getX() + .5, pos.getY() + 1, pos.getZ() + .5);
-                if (!world.noCollision(en) || !world.isUnobstructed(en)) return;
+                if (!world.isUnobstructed(en)) return;
                 world.addFreshEntity(en);
             }
         }

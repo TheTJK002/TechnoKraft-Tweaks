@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:saw"
+    },
+    {
+      "item": "biomesoplenty:dead_wood"
+    }
+  ],
+  "result": {
+    "item": "biomesoplenty:stripped_dead_wood"
+  }
+}

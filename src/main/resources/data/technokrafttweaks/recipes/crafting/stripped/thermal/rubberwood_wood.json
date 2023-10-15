@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:saw"
+    },
+    {
+      "item": "thermal:rubberwood_wood"
+    }
+  ],
+  "result": {
+    "item": "thermal:stripped_rubberwood_wood"
+  }
+}

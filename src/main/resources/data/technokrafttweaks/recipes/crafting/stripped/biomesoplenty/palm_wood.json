@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:saw"
+    },
+    {
+      "item": "biomesoplenty:palm_wood"
+    }
+  ],
+  "result": {
+    "item": "biomesoplenty:stripped_palm_wood"
+  }
+}

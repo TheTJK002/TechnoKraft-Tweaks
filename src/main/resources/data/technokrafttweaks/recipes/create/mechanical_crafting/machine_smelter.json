@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "C": {
+      "item": "thermal:machine_frame"
+    },
+    "W": {
+      "item": "create:mechanical_mixer"
+    }
+  },
+  "pattern": [
+    "CW"
+  ],
+  "result": {
+    "item": "thermal:machine_smelter",
+    "count": 1
+  }
+}

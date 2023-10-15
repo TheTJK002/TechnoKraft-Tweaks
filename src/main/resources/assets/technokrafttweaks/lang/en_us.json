@@ -2,12 +2,6 @@
   "_comment_TechnoKraftTweaks": "",
   "itemGroup.tecnokrafttweaks": "TecnoKraft Tweaks",
   "item.technokrafttweaks.icon": "Icon",
-  "item.technokrafttweaks.portable_crafting_table": "Portable Crafting Table",
-  "item.technokrafttweaks.portable_furnace": "Portable Furnace",
-  "item.technokrafttweaks.portable_blast_furnace": "Portable Blast Furnace",
-  "item.technokrafttweaks.portable_smoker": "Portable Smoker",
-  "item.technokrafttweaks.portable_smithing_table": "Portable Smithing Table",
-  "item.technokrafttweaks.portable_stonecutter": "Portable Stonecutter",
 
   "block.technokrafttweaks.andesite_cobblestone": "Andesite Cobblestone",
   "block.technokrafttweaks.diorite_cobblestone": "Diorite Cobblestone",
@@ -17,6 +11,15 @@
   "block.technokrafttweaks.blessed_earth": "Blessed Earth",
   "block.technokrafttweaks.growth_accelerator": "Growth Accelerator",
   "block.technokrafttweaks.reinforced_obsidian": "Reinforced Obsidian",
+  "block.technokrafttweaks.mob_killer": "Mob Killer",
+  "block.technokrafttweaks.mob_killer_1": "Mob Killer",
+  "block.technokrafttweaks.mob_killer_2": "Mob Killer",
+  "block.technokrafttweaks.mob_killer_3": "Mob Killer",
+  "block.technokrafttweaks.conveyor_belt": "Conveyor Belt",
+  "block.technokrafttweaks.conveyor_belt_damage": "Conveyor Belt Damage",
+
+  "block.technokrafttweaks.simple_solar_panel": "Simple Solar Panel",
+  "block.technokrafttweaks.simple_lunar_panel": "Simple Lunar Panel",
 
   "_comment_AE2": "",
   "item.technokrafttweaks.nether_quartz_seed": "Quartz Seed",

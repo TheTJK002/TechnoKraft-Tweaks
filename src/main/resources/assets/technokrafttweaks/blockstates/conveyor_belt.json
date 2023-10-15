@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "technokrafttweaks:block/conveyor_belt"
+    },
+    "facing=east": {
+      "model": "technokrafttweaks:block/conveyor_belt",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "technokrafttweaks:block/conveyor_belt",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "technokrafttweaks:block/conveyor_belt",
+      "y": 270
+    }
+  }
+}
+

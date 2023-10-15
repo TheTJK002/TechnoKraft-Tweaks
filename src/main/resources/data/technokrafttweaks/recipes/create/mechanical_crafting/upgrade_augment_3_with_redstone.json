@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "C": {
+      "item": "technokrafttweaks:enderium_machine"
+    },
+    "W": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "CW"
+  ],
+  "result": {
+    "item": "thermal:upgrade_augment_3",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "C": {
+      "item": "ae2:controller"
+    },
+    "W": {
+      "item": "ae2:logic_processor"
+    }
+  },
+  "pattern": [
+    "CW"
+  ],
+  "result": {
+    "item": "ae2:formation_core",
+    "count": 4
+  }
+}

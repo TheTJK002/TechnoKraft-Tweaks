@@ -54,6 +54,30 @@ public class ModBlocks {
     public static final RegistryObject<Block> ENDER_INHIBITOR_ON = registerBlock("ender_inhibitor_on",
             () -> new BlockEnderInhibitorOn(BlockBehaviour.Properties.of(Material.METAL)
                     .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> MOB_KILLER = registerBlock("mob_killer",
+            () -> new WIPBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).randomTicks().noCollission()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> MOB_KILLER_1 = registerBlock("mob_killer_1",
+            () -> new WIPBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> MOB_KILLER_2 = registerBlock("mob_killer_2",
+            () -> new WIPBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> MOB_KILLER_3 = registerBlock("mob_killer_3",
+            () -> new WIPBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> SIMPLE_SOLAR_PANEL = registerBlock("simple_solar_panel",
+            () -> new WIPBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> SIMPLE_LUNAR_PANEL = registerBlock("simple_lunar_panel",
+            () -> new WIPBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> CONVEYOR_BELT = registerBlock("conveyor_belt",
+            () -> new ConveyorBeltBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().isValidSpawn((state, level, pos, entityType) -> true)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> CONVEYOR_BELT_DAMAGE = registerBlock("conveyor_belt_damage",
+            () -> new ConveyorBeltDamgeBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().isValidSpawn((state, level, pos, entityType) -> true)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
 
     //Liquids
     //Fine Sand

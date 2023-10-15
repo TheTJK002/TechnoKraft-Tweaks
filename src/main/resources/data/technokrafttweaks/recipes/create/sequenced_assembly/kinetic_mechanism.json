@@ -43,15 +43,13 @@
       ]
     },
     {
-      "type": "create:deploying",
+      "type": "create:cutting",
       "ingredients": [
         {
           "item": "create:cogwheel"
-        },
-        {
-          "item": "technokrafttweaks:saw"
         }
       ],
+      "processingTime": 50,
       "results": [
         {
           "item": "create:cogwheel"

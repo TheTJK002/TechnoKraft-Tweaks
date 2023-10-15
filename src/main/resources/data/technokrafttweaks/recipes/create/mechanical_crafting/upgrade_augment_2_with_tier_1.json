@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "C": {
+      "item": "technokrafttweaks:zinc_machine"
+    },
+    "W": {
+      "item": "thermal:upgrade_augment_1"
+    }
+  },
+  "pattern": [
+    "CW"
+  ],
+  "result": {
+    "item": "thermal:upgrade_augment_2",
+    "count": 1
+  }
+}

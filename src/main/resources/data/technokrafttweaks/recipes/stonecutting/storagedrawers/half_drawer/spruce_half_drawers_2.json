@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "storagedrawers:spruce_trim"
+  },
+  "result": "storagedrawers:spruce_half_drawers_2"
+}

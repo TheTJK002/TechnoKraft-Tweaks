@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:saw"
+    },
+    {
+      "item": "architects_palette:twisted_wood"
+    }
+  ],
+  "result": {
+    "item": "architects_palette:stripped_twisted_wood"
+  }
+}

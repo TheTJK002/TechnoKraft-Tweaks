@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "C": {
+      "item": "technokrafttweaks:zinc_machine"
+    },
+    "W": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "CW"
+  ],
+  "result": {
+    "item": "storagedrawers:controller_slave",
+    "count": 1
+  }
+}

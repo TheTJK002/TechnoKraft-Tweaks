@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "C": {
+      "item": "technokrafttweaks:andesite_machine"
+    },
+    "W": {
+      "item": "create:brass_hand"
+    }
+  },
+  "pattern": [
+    "CW"
+  ],
+  "result": {
+    "item": "create:deployer",
+    "count": 1
+  }
+}

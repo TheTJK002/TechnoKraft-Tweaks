@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "C": {
+      "item": "technokrafttweaks:copper_machine"
+    },
+    "W": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "pattern": [
+    "CW"
+  ],
+  "result": {
+    "item": "create:item_drain",
+    "count": 1
+  }
+}

@@ -2,7 +2,6 @@ package com.tecnokrafttweaks.item;
 
 import com.tecnokrafttweaks.TecnoKraftTweaks;
 import com.tecnokrafttweaks.fluid.ModFluids;
-import com.tecnokrafttweaks.item.custom.PortableCraftingTableItem;
 import com.tecnokrafttweaks.item.custom.ToolItems;
 import com.tecnokrafttweaks.item.custom.WIPItems;
 import net.minecraft.world.item.BucketItem;
@@ -31,18 +30,6 @@ public class ModItems {
             () -> new ToolItems(new Item.Properties().stacksTo(1).durability(512).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> FLASH_DRIVE = ITEMS.register("flash_drive",
             () -> new ToolItems(new Item.Properties().stacksTo(1).durability(512).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
-    public static final RegistryObject<Item> PORTABLE_CRAFTING_TABLE = ITEMS.register("portable_crafting_table",
-            () -> new WIPItems(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
-    public static final RegistryObject<Item> PORTABLE_FURNACE = ITEMS.register("portable_furnace",
-            () -> new WIPItems(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
-    public static final RegistryObject<Item> PORTABLE_BLAST_FURNACE = ITEMS.register("portable_blast_furnace",
-            () -> new WIPItems(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
-    public static final RegistryObject<Item> PORTABLE_SMOKER = ITEMS.register("portable_smoker",
-            () -> new WIPItems(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
-    public static final RegistryObject<Item> PORTABLE_SMITHING_TABLE = ITEMS.register("portable_smithing_table",
-            () -> new WIPItems(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
-    public static final RegistryObject<Item> PORTABLE_STONECUTTER = ITEMS.register("portable_stonecutter",
-            () -> new WIPItems(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
 
     //Minecraft
     //Fine Sand

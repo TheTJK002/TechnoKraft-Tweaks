@@ -7,10 +7,6 @@
     {
       "item": "minecraft:gravel",
       "chance": 1.0
-    },
-    {
-      "item": "minecraft:flint",
-      "chance": 0.1
     }
   ]
 }

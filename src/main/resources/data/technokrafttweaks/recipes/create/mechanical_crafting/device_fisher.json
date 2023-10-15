@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "C": {
+      "item": "technokrafttweaks:andesite_machine"
+    },
+    "W": {
+      "item": "minecraft:fishing_rod"
+    }
+  },
+  "pattern": [
+    "CW"
+  ],
+  "result": {
+    "item": "thermal:device_fisher",
+    "count": 1
+  }
+}

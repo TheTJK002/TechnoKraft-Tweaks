@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "C": {
+      "item": "thermal:dynamo_compression"
+    },
+    "W": {
+      "item": "minecraft:book"
+    }
+  },
+  "pattern": [
+    "CW"
+  ],
+  "result": {
+    "item": "thermal:dynamo_disenchantment",
+    "count": 1
+  }
+}

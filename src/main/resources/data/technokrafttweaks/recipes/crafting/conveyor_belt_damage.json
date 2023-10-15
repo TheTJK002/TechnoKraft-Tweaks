@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "tag": "forge:tools/swords"
+    },
+    "B": {
+      "item": "technokrafttweaks:conveyor_belt"
+    }
+  },
+  "pattern": [
+    "AB"
+  ],
+  "result": {
+    "item": "technokrafttweaks:conveyor_belt_damage",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:saw"
+    },
+    {
+      "item": "biomesoplenty:fir_log"
+    }
+  ],
+  "result": {
+    "item": "biomesoplenty:stripped_fir_log"
+  }
+}

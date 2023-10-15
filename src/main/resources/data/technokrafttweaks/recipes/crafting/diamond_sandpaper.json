@@ -6,10 +6,13 @@
     },
     "D": {
       "tag": "forge:dusts/diamond"
+    },
+    "C": {
+      "item": "minecraft:paper"
     }
   },
   "pattern": [
-    "DS"
+    "DSC"
   ],
   "result": {
     "item": "technokrafttweaks:diamond_sand_paper"

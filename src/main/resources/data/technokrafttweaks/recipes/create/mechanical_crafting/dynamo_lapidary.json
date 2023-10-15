@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "C": {
+      "item": "thermal:dynamo_numismatic"
+    },
+    "W": {
+      "item": "thermal:lapis_gear"
+    }
+  },
+  "pattern": [
+    "CW"
+  ],
+  "result": {
+    "item": "thermal:dynamo_lapidary",
+    "count": 1
+  }
+}

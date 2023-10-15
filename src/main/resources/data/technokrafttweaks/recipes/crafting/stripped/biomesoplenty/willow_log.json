@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:saw"
+    },
+    {
+      "item": "biomesoplenty:willow_log"
+    }
+  ],
+  "result": {
+    "item": "biomesoplenty:stripped_willow_log"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "C": {
+      "item": "technokrafttweaks:zinc_machine"
+    },
+    "W": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "pattern": [
+    "CW"
+  ],
+  "result": {
+    "item": "thermal:device_nullifier",
+    "count": 1
+  }
+}

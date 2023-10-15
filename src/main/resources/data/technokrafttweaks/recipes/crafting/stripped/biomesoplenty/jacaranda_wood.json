@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:saw"
+    },
+    {
+      "item": "biomesoplenty:jacaranda_wood"
+    }
+  ],
+  "result": {
+    "item": "biomesoplenty:stripped_jacaranda_wood"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "thermal:gourmand_fuel",
+  "ingredient": {
+    "item": "farmersdelight:stuffed_pumpkin"
+  },
+  "energy": 22400
+}
