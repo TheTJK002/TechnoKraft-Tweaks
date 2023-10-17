@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:fir_planks"
+    }
+  ],
+  "results": [
+    {
+      "item": "biomesoplenty:fir_button",
+      "count": 4
+    }
+  ]
+}

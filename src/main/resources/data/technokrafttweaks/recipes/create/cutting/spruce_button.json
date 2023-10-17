@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:spruce_planks"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:spruce_button",
+      "count": 4
+    }
+  ]
+}

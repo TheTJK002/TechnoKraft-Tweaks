@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:willow_planks"
+    }
+  ],
+  "results": [
+    {
+      "item": "biomesoplenty:willow_button",
+      "count": 4
+    }
+  ]
+}

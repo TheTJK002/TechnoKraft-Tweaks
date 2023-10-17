@@ -190,6 +190,9 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:farmers-delight-398521:4679318")
     //Apple Skin
     runtimeOnly fg.deobf("curse.maven:appleskin-248787:3872808")
+    //Ender Storage
+    implementation fg.deobf("curse.maven:CodeChickenLib-242818:4382729")
+    implementation fg.deobf("curse.maven:enderstorage-245174:3951059")
 }
 
 jar {

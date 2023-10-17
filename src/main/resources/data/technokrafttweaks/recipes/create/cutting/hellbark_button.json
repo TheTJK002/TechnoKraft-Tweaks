@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:hellbark_planks"
+    }
+  ],
+  "results": [
+    {
+      "item": "biomesoplenty:hellbark_button",
+      "count": 4
+    }
+  ]
+}

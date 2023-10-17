@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:umbran_planks"
+    }
+  ],
+  "results": [
+    {
+      "item": "biomesoplenty:umbran_button",
+      "count": 4
+    }
+  ]
+}

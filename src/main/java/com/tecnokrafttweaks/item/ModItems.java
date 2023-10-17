@@ -117,8 +117,6 @@ public class ModItems {
             () -> new BucketItem(ModFluids.SOURCE_MOLTEN_ENDERIUM, new Item.Properties()
                     .stacksTo(1).craftRemainder(Items.BUCKET).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
 
-
-
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

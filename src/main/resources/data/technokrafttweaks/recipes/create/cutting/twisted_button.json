@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "architects_palette:twisted_planks"
+    }
+  ],
+  "results": [
+    {
+      "item": "architects_palette:twisted_button",
+      "count": 4
+    }
+  ]
+}

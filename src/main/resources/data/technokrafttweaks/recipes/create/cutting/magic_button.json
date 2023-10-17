@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:magic_planks"
+    }
+  ],
+  "results": [
+    {
+      "item": "biomesoplenty:magic_button",
+      "count": 4
+    }
+  ]
+}

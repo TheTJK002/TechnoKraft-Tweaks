@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:redwood_planks"
+    }
+  ],
+  "results": [
+    {
+      "item": "biomesoplenty:redwood_button",
+      "count": 4
+    }
+  ]
+}

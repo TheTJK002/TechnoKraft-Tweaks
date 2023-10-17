@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:warped_planks"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:warped_button",
+      "count": 4
+    }
+  ]
+}
