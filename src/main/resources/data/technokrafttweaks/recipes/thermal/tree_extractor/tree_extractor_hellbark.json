@@ -4,6 +4,6 @@
   "leaves": "biomesoplenty:hellbark_leaves",
   "result": {
     "fluid": "minecraft:lava",
-    "amount": 25
+    "amount": 50
   }
 }
