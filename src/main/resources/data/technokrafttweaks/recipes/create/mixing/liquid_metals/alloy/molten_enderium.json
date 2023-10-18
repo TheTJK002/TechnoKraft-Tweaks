@@ -6,16 +6,12 @@
       "amount": 500
     },
     {
+
+      "fluid": "technokrafttweaks:molten_lead",
+      "amount": 432
+    },
+    {
       "tag": "forge:gems/diamond"
-    },
-    {
-      "tag": "forge:ingots/lead"
-    },
-    {
-      "tag": "forge:ingots/lead"
-    },
-    {
-      "tag": "forge:ingots/lead"
     }
   ],
   "results": [
