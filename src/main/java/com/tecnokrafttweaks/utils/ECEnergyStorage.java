@@ -1,6 +1,5 @@
 package com.tecnokrafttweaks.utils;
 
-import com.tecnokrafttweaks.block.custom.SolarPanelBlock;
 import net.minecraftforge.energy.EnergyStorage;
 
 public abstract class ECEnergyStorage extends EnergyStorage {

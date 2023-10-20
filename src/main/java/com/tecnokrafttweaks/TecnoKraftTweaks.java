@@ -2,6 +2,7 @@ package com.tecnokrafttweaks;
 
 import com.mojang.logging.LogUtils;
 import com.tecnokrafttweaks.block.ModBlocks;
+import com.tecnokrafttweaks.block.entity.ModBlockEntities;
 import com.tecnokrafttweaks.block.modBlocksAddons.*;
 import com.tecnokrafttweaks.utils.TeleportEvent;
 import com.tecnokrafttweaks.fluid.ModFluidTypes;
@@ -33,6 +34,7 @@ public class TecnoKraftTweaks {
         //TecnoKraft Tweaks
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
         ModFluids.register(modEventBus);
         ModFluidTypes.register(modEventBus);
 

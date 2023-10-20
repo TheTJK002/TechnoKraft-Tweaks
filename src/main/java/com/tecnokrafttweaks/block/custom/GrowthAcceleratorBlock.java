@@ -30,7 +30,7 @@ public class GrowthAcceleratorBlock extends Block {
 
     private static int getTickRate() {
         double variance = (Math.random() * (1.1 - 0.9)) + 0.9;
-        return (int) (1 * variance) * 15;
+        return (int) (1 * variance) * 25;
     }
 
     @Override

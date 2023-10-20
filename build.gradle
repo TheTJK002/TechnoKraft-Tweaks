@@ -182,17 +182,8 @@ dependencies {
     //Biomes O' Plenty
     runtimeOnly fg.deobf("curse.maven:TerraBlender-563928:4618490")
     implementation fg.deobf("curse.maven:BiomesOPlenty-220318:4473556")
-    //Storage Drawers
-    runtimeOnly fg.deobf("curse.maven:storagedrawers-223852:3884263")
-    //Metal Barrels
-    runtimeOnly fg.deobf("curse.maven:metal-barrels-324985:4056303")
-    //Farmer Delight
-    runtimeOnly fg.deobf("curse.maven:farmers-delight-398521:4679318")
-    //Apple Skin
-    runtimeOnly fg.deobf("curse.maven:appleskin-248787:3872808")
-    //Ender Storage
-    implementation fg.deobf("curse.maven:CodeChickenLib-242818:4382729")
-    implementation fg.deobf("curse.maven:enderstorage-245174:3951059")
+    //Jade
+    runtimeOnly fg.deobf("curse.maven:jade-324717:4800904")
 }
 
 jar {
