@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create:polished_rose_quartz"
+    },
+    {
+      "fluid": "thermal:glowstone",
+      "amount": 500
+    }
+  ],
+  "results": [
+    {
+      "item": "technokrafttweaks:refined_radiance"
+    }
+  ]
+}

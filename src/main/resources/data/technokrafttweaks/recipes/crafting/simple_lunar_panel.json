@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "technokrafttweaks:simple_lunar_cell"
+    },
+    "B": {
+      "item": "minecraft:redstone"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "thermal:rf_coil"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "CBC",
+    "CDC"
+  ],
+  "result": {
+    "item": "technokrafttweaks:simple_lunar_panel"
+  }
+}

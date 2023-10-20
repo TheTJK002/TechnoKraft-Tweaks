@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "minecraft:zombie_head"
+  },
+  "base": {
+    "item": "technokrafttweaks:brass_machine"
+  },
+  "result": {
+    "item": "technokrafttweaks:mob_killer"
+  }
+}

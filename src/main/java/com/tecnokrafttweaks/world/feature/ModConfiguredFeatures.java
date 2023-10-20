@@ -3,7 +3,7 @@ package com.tecnokrafttweaks.world.feature;
 import biomesoplenty.api.block.BOPBlocks;
 import com.simibubi.create.AllBlocks;
 import com.tecnokrafttweaks.TecnoKraftTweaks;
-import com.tecnokrafttweaks.block.modBlocksAddons.ModBlocksCreateBOP;
+import com.tecnokrafttweaks.block.ModBlocks;
 import net.minecraft.core.Registry;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -29,7 +29,7 @@ public class ModConfiguredFeatures {
             () -> new ConfiguredFeature<>(Feature.GEODE,
                     new GeodeConfiguration(new GeodeBlockSettings(BlockStateProvider.simple(Blocks.AIR),
                             BlockStateProvider.simple(AllBlocks.ROSE_QUARTZ_BLOCK.get()),
-                            BlockStateProvider.simple(ModBlocksCreateBOP.BUDDING_ROSE_QUARTZ.get()),
+                            BlockStateProvider.simple(ModBlocks.BUDDING_ROSE_QUARTZ.get()),
                             BlockStateProvider.simple(Blocks.CALCITE),
                             BlockStateProvider.simple(Blocks.SMOOTH_BASALT),
                             List.of(BOPBlocks.SMALL_ROSE_QUARTZ_BUD.get().defaultBlockState(),

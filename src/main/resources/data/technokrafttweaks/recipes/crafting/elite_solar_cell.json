@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "technokrafttweaks:advanced_solar_cell"
+    },
+    "B": {
+      "tag": "forge:nuggets/signalum"
+    }
+  },
+  "pattern": [
+    " B ",
+    "BAB",
+    " B "
+  ],
+  "result": {
+    "item": "technokrafttweaks:elite_solar_cell"
+  }
+}

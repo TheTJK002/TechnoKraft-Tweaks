@@ -2,6 +2,7 @@ package com.tecnokrafttweaks.item;
 
 import com.tecnokrafttweaks.TecnoKraftTweaks;
 import com.tecnokrafttweaks.fluid.ModFluids;
+import com.tecnokrafttweaks.item.custom.GlowItems;
 import com.tecnokrafttweaks.item.custom.ToolItems;
 import com.tecnokrafttweaks.item.custom.WIPItems;
 import net.minecraft.world.item.BucketItem;
@@ -14,8 +15,11 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, TecnoKraftTweaks.MODID);
+
     public static final RegistryObject<Item> ICON = ITEMS.register("icon",
             () -> new Item(new Item.Properties().stacksTo(0).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+
+    //TechnoKraft Tweaks Items
     public static final RegistryObject<Item> SAND_BALL = ITEMS.register("sand_ball",
             () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> SAND_CHUNK = ITEMS.register("sand_chunk",
@@ -30,6 +34,54 @@ public class ModItems {
             () -> new ToolItems(new Item.Properties().stacksTo(1).durability(512).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> FLASH_DRIVE = ITEMS.register("flash_drive",
             () -> new ToolItems(new Item.Properties().stacksTo(1).durability(512).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    //TechnoKraft Tweaks Mechanism
+    public static final RegistryObject<Item> KINETIC_MECHANISM = ITEMS.register("kinetic_mechanism", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> SEALED_MECHANISM = ITEMS.register("sealed_mechanism", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> INFERNAL_MECHANISM = ITEMS.register("infernal_mechanism", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> INDUCTIVE_MECHANISM = ITEMS.register("inductive_mechanism", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> ABSTRUSE_MECHANISM = ITEMS.register("abstruse_mechanism", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> CALCULATION_MECHANISM = ITEMS.register("calculation_mechanism", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    //TechnoKraft Tweaks Circuit
+    public static final RegistryObject<Item> PRINTED_CIRCUIT = ITEMS.register("printed_circuit", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> BASIC_CIRCUIT = ITEMS.register("basic_circuit", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> ADVANCED_CIRCUIT = ITEMS.register("advanced_circuit", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> ELITE_CIRCUIT = ITEMS.register("elite_circuit", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> ULTIMATE_CIRCUIT = ITEMS.register("ultimate_circuit", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    //TechnoKraft Tweaks Cell
+    //Solar Cell
+    public static final RegistryObject<Item> SIMPLE_SOLAR_CELL = ITEMS.register("simple_solar_cell", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> BASIC_SOLAR_CELL = ITEMS.register("basic_solar_cell", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> ADVANCED_SOLAR_CELL = ITEMS.register("advanced_solar_cell", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> ELITE_SOLAR_CELL = ITEMS.register("elite_solar_cell", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> ULTIMATE_SOLAR_CELL = ITEMS.register("ultimate_solar_cell", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    //Lunar Cell
+    public static final RegistryObject<Item> SIMPLE_LUNAR_CELL = ITEMS.register("simple_lunar_cell", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> BASIC_LUNAR_CELL = ITEMS.register("basic_lunar_cell", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> ADVANCED_LUNAR_CELL = ITEMS.register("advanced_lunar_cell", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> ELITE_LUNAR_CELL = ITEMS.register("elite_lunar_cell", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> ULTIMATE_LUNAR_CELL = ITEMS.register("ultimate_lunar_cell", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+
+    //AE2
+    public static final RegistryObject<Item> NETHER_QUARTZ_SEED = ITEMS.register("nether_quartz_seed", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> CERTUS_QUARTZ_SEED = ITEMS.register("certus_quartz_seed", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> TINY_NETHER_QUARTZ = ITEMS.register("tiny_nether_quartz", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> TINY_CERTUS_QUARTZ = ITEMS.register("tiny_certus_quartz", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> SMALL_NETHER_QUARTZ = ITEMS.register("small_nether_quartz", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> SMALL_CERTUS_QUARTZ = ITEMS.register("small_certus_quartz", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    //Create
+    public static final RegistryObject<Item> ZINC_DUST = ITEMS.register("zinc_dust", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> ZINC_SHEET = ITEMS.register("zinc_sheet", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> REFINED_RADIANCE = ITEMS.register("refined_radiance", () -> new GlowItems(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> REFINED_RADIANCE_SHEET = ITEMS.register("refined_radiance_sheet", () -> new GlowItems(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> REFINED_RADIANCE_INDUCTION_COIL = ITEMS.register("refined_radiance_induction_coil", () -> new GlowItems(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> REFINED_DARKNESS = ITEMS.register("refined_darkness", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> DIAMOND_SAND_PAPER = ITEMS.register("diamond_sand_paper", () -> new ToolItems(new Item.Properties().stacksTo(1).durability(1561).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    //Thermal
+    public static final RegistryObject<Item> COKE_CHUNK = ITEMS.register("coke_chunk", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> GEAR_CAST = ITEMS.register("gear_cast", () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> NUGGET_CAST = ITEMS.register("nugget_cast", () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> BLOCK_CAST = ITEMS.register("block_cast", () -> new Item(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
+    public static final RegistryObject<Item> SILICON_COMPOUND = ITEMS.register("silicon_compound", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
 
     //Minecraft
     //Fine Sand

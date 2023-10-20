@@ -3,12 +3,10 @@ package com.tecnokrafttweaks;
 import com.mojang.logging.LogUtils;
 import com.tecnokrafttweaks.block.ModBlocks;
 import com.tecnokrafttweaks.block.entity.ModBlockEntities;
-import com.tecnokrafttweaks.block.modBlocksAddons.*;
 import com.tecnokrafttweaks.utils.TeleportEvent;
 import com.tecnokrafttweaks.fluid.ModFluidTypes;
 import com.tecnokrafttweaks.fluid.ModFluids;
 import com.tecnokrafttweaks.item.ModItems;
-import com.tecnokrafttweaks.item.modItemsAddons.*;
 import com.tecnokrafttweaks.world.feature.ModConfiguredFeatures;
 import com.tecnokrafttweaks.world.feature.ModPlacedFeatures;
 import net.minecraftforge.api.distmarker.Dist;
@@ -38,49 +36,16 @@ public class TecnoKraftTweaks {
         ModFluids.register(modEventBus);
         ModFluidTypes.register(modEventBus);
 
-        //AE2
-        if (ModList.get().isLoaded("ae2")) {
-            ModItemsAE2.register(modEventBus);
-        }
-
-        //Create
-        if (ModList.get().isLoaded("create")) {
-            ModItemsCreate.register(modEventBus);
-            ModBlocksCreate.register(modEventBus);
-        }
-
-        //Thermal
-        if (ModList.get().isLoaded("thermal")) {
-            ModItemsThermal.register(modEventBus);
-        }
-
-        //Create & AE2
-        if (ModList.get().isLoaded("create") && ModList.get().isLoaded("ae2")) {
-            ModItemsCreateAE2.register(modEventBus);
-        }
-
         //Create & Biomes O' Plenty
         if (ModList.get().isLoaded("create") && ModList.get().isLoaded("biomesoplenty")) {
-            ModBlocksCreateBOP.register(modEventBus);
             ModConfiguredFeatures.register(modEventBus);
             ModPlacedFeatures.register(modEventBus);
         }
 
-        //Create & Thermal
-        if (ModList.get().isLoaded("create") && ModList.get().isLoaded("thermal")) {
-            ModBlocksCreateThermal.register(modEventBus);
-        }
-
-        //Thermal & AE2
-        if (ModList.get().isLoaded("thermal") && ModList.get().isLoaded("ae2")) {
-            ModItemsThermalAE2.register(modEventBus);
-        }
-
-        //Event
-        MinecraftForge.EVENT_BUS.register(new TeleportEvent());
-
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
+        //Event
+        MinecraftForge.EVENT_BUS.register(new TeleportEvent());
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

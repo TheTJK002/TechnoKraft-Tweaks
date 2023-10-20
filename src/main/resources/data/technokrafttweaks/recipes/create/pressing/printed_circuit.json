@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "forge:silicon"
+    }
+  ],
+  "results": [
+    {
+      "item": "technokrafttweaks:printed_circuit"
+    }
+  ]
+}

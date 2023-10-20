@@ -10,6 +10,20 @@
     "technokrafttweaks:growth_accelerator",
     "technokrafttweaks:reinforced_obsidian",
     "technokrafttweaks:conveyor_belt",
-    "technokrafttweaks:conveyor_belt_damage"
+    "technokrafttweaks:conveyor_belt_damage",
+    "technokrafttweaks:mob_killer",
+    "technokrafttweaks:mob_killer_1",
+    "technokrafttweaks:mob_killer_2",
+    "technokrafttweaks:mob_killer_3",
+    "technokrafttweaks:simple_solar_panel",
+    "technokrafttweaks:basic_solar_panel",
+    "technokrafttweaks:advanced_solar_panel",
+    "technokrafttweaks:elite_solar_panel",
+    "technokrafttweaks:ultimate_solar_panel",
+    "technokrafttweaks:simple_lunar_panel",
+    "technokrafttweaks:basic_lunar_panel",
+    "technokrafttweaks:advanced_lunar_panel",
+    "technokrafttweaks:elite_lunar_panel",
+    "technokrafttweaks:ultimate_lunar_panel"
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "technokrafttweaks:advanced_lunar_cell"
+    },
+    "B": {
+      "item": "technokrafttweaks:basic_lunar_panel"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "technokrafttweaks:advanced_circuit"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "CBC",
+    "CDC"
+  ],
+  "result": {
+    "item": "technokrafttweaks:advanced_lunar_panel"
+  }
+}

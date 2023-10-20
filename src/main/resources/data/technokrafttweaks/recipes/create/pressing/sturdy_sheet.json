@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:refined_darkness"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:sturdy_sheet"
+    }
+  ]
+}

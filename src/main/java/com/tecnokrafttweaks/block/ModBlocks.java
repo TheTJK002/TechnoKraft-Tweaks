@@ -14,7 +14,6 @@ import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -25,22 +24,60 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, TecnoKraftTweaks.MODID);
 
-    //Main
+    //TechnoKraft Tweaks Cobblestone
     public static final RegistryObject<Block> ANDESITE_COBBLESTONE = registerBlock("andesite_cobblestone",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> GRANITE_COBBLESTONE = registerBlock("granite_cobblestone",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> DIORITE_COBBLESTONE = registerBlock("diorite_cobblestone",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).
                     requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
-    public static final RegistryObject<Block> GRANITE_COBBLESTONE = registerBlock("granite_cobblestone",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> SCORIA_COBBLESTONE = registerBlock("scoria_cobblestone",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> LIMESTONE_COBBLESTONE = registerBlock("limestone_cobblestone",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    //TechnoKraft Tweaks Casing
     public static final RegistryObject<Block> ENDER_CASING = registerBlock("ender_casing",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> ZINC_CASING = registerBlock("zinc_casing",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> INVAR_CASING = registerBlock("invar_casing",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> FLUIX_CASING = registerBlock("fluix_casing",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    //TechnoKraft Tweaks Machine
+    public static final RegistryObject<Block> ANDESITE_MACHINE = registerBlock("andesite_machine",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f).noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> COPPER_MACHINE = registerBlock("copper_machine",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f).noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> ZINC_MACHINE = registerBlock("zinc_machine",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f).noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> BRASS_MACHINE = registerBlock("brass_machine",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f).noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> ENDERIUM_MACHINE = registerBlock("enderium_machine",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f).noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+
+    //TechnoKraft Tweaks Other Blocks
     public static final RegistryObject<Block> REINFORCED_OBSIDIAN = registerBlock("reinforced_obsidian",
             () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
                     .requiresCorrectToolForDrops().strength(3.2f).explosionResistance(-1)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    //TechnoKraft Tweaks Custom Blocks
+    public static final RegistryObject<Block> BUDDING_ROSE_QUARTZ = registerBlock("budding_rose_quartz",
+            () -> new BuddingRoseQuartzBlock(BlockBehaviour.Properties.of(Material.AMETHYST).randomTicks()
+                    .strength(1.5f).sound(SoundType.AMETHYST).requiresCorrectToolForDrops()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> GROWTH_ACCELERATOR = registerBlock("growth_accelerator",
             () -> new GrowthAcceleratorBlock(BlockBehaviour.Properties.of(Material.METAL).noOcclusion().randomTicks()
                     .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
@@ -67,11 +104,35 @@ public class ModBlocks {
             () -> new MobKillerBlock(BlockBehaviour.Properties.of(Material.METAL)
                     .requiresCorrectToolForDrops().strength(0.6f),4), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> SIMPLE_SOLAR_PANEL = registerBlock("simple_solar_panel",
-            () -> new SolarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
-                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion(), 16), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+            () -> new SimpleSolarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> BASIC_SOLAR_PANEL = registerBlock("basic_solar_panel",
+            () -> new BasicSolarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> ADVANCED_SOLAR_PANEL = registerBlock("advanced_solar_panel",
+            () -> new AdvancedSolarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> ELITE_SOLAR_PANEL = registerBlock("elite_solar_panel",
+            () -> new EliteSolarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> ULTIMATE_SOLAR_PANEL = registerBlock("ultimate_solar_panel",
+            () -> new UltimateSolarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> SIMPLE_LUNAR_PANEL = registerBlock("simple_lunar_panel",
-            () -> new WIPBlock(BlockBehaviour.Properties.of(Material.METAL)
-                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+            () -> new SimpleLunarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> BASIC_LUNAR_PANEL = registerBlock("basic_lunar_panel",
+            () -> new BasicLunarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> ADVANCED_LUNAR_PANEL = registerBlock("advanced_lunar_panel",
+            () -> new AdvancedLunarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> ELITE_LUNAR_PANEL = registerBlock("elite_lunar_panel",
+            () -> new EliteLunarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> ULTIMATE_LUNAR_PANEL = registerBlock("ultimate_lunar_panel",
+            () -> new UltimateLunarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> CONVEYOR_BELT = registerBlock("conveyor_belt",
             () -> new ConveyorBeltBlock(BlockBehaviour.Properties.of(Material.METAL)
                     .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().isValidSpawn((state, level, pos, entityType) -> true)), ModCreativeTabs.TECHNOKRAFTTWEAKS);

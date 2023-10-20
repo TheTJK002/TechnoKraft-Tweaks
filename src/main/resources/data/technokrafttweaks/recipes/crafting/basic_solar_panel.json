@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "technokrafttweaks:basic_solar_cell"
+    },
+    "B": {
+      "item": "technokrafttweaks:simple_solar_panel"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "technokrafttweaks:basic_circuit"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "CBC",
+    "CDC"
+  ],
+  "result": {
+    "item": "technokrafttweaks:basic_solar_panel"
+  }
+}

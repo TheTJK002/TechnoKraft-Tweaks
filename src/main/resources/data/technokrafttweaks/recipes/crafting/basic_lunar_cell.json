@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "technokrafttweaks:simple_lunar_cell"
+    },
+    "B": {
+      "tag": "forge:nuggets/invar"
+    }
+  },
+  "pattern": [
+    " B ",
+    "BAB",
+    " B "
+  ],
+  "result": {
+    "item": "technokrafttweaks:basic_lunar_cell"
+  }
+}

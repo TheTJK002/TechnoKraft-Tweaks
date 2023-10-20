@@ -1,0 +1,49 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "technokrafttweaks:printed_circuit"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "technokrafttweaks:elite_circuit"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "technokrafttweaks:printed_circuit"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "technokrafttweaks:printed_circuit"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "technokrafttweaks:printed_circuit"
+        },
+        {
+          "item": "minecraft:diamond"
+        }
+      ],
+      "results": [
+        {
+          "item": "technokrafttweaks:printed_circuit"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "technokrafttweaks:printed_circuit"
+  }
+}

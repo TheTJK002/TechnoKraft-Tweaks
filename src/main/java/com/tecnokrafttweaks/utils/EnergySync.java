@@ -1,6 +1,6 @@
 package com.tecnokrafttweaks.utils;
 
-import com.tecnokrafttweaks.block.entity.SolarPanelBlockEntity;
+import com.tecnokrafttweaks.block.entity.*;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.FriendlyByteBuf;
@@ -30,9 +30,23 @@ public class EnergySync {
     public boolean handle(Supplier<NetworkEvent.Context> supplier){
         NetworkEvent.Context context = supplier.get();
         context.enqueueWork(() -> {
-            if (Minecraft.getInstance().level.getBlockEntity(pos) instanceof SolarPanelBlockEntity blockEntity){
+            //Solar Panel
+            if (Minecraft.getInstance().level.getBlockEntity(pos) instanceof SimpleSolarPanelBlockEntity blockEntity){
                 blockEntity.setEnergyLevel(energy);
             }
+            if (Minecraft.getInstance().level.getBlockEntity(pos) instanceof BasicSolarPanelBlockEntity blockEntity){
+                blockEntity.setEnergyLevel(energy);
+            }
+            if (Minecraft.getInstance().level.getBlockEntity(pos) instanceof AdvancedSolarPanelBlockEntity blockEntity){
+                blockEntity.setEnergyLevel(energy);
+            }
+            if (Minecraft.getInstance().level.getBlockEntity(pos) instanceof EliteSolarPanelBlockEntity blockEntity){
+                blockEntity.setEnergyLevel(energy);
+            }
+            if (Minecraft.getInstance().level.getBlockEntity(pos) instanceof UltimateSolarPanelBlockEntity blockEntity){
+                blockEntity.setEnergyLevel(energy);
+            }
+            //Lunar Panel
         });
         return true;
     }

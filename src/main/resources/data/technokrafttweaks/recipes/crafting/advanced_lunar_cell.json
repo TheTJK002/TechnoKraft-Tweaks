@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "technokrafttweaks:basic_lunar_cell"
+    },
+    "B": {
+      "tag": "forge:nuggets/electrum"
+    }
+  },
+  "pattern": [
+    " B ",
+    "BAB",
+    " B "
+  ],
+  "result": {
+    "item": "technokrafttweaks:advanced_lunar_cell"
+  }
+}

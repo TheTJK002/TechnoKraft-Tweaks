@@ -19,7 +19,33 @@
   "block.technokrafttweaks.conveyor_belt_damage": "Conveyor Belt Damage",
 
   "block.technokrafttweaks.simple_solar_panel": "Simple Solar Panel",
+  "block.technokrafttweaks.basic_solar_panel": "Basic Solar Panel",
+  "block.technokrafttweaks.advanced_solar_panel": "Advanced Solar Panel",
+  "block.technokrafttweaks.elite_solar_panel": "Elite Solar Panel",
+  "block.technokrafttweaks.ultimate_solar_panel": "Ultimate Solar Panel",
   "block.technokrafttweaks.simple_lunar_panel": "Simple Lunar Panel",
+  "block.technokrafttweaks.basic_lunar_panel": "Basic Lunar Panel",
+  "block.technokrafttweaks.advanced_lunar_panel": "Advanced Lunar Panel",
+  "block.technokrafttweaks.elite_lunar_panel": "Elite Lunar Panel",
+  "block.technokrafttweaks.ultimate_lunar_panel": "Ultimate Lunar Panel",
+
+  "item.technokrafttweaks.printed_circuit": "Printed Circuit",
+  "item.technokrafttweaks.basic_circuit": "Basic Circuit",
+  "item.technokrafttweaks.advanced_circuit": "Advanced Circuit",
+  "item.technokrafttweaks.elite_circuit": "Elite Circuit",
+  "item.technokrafttweaks.ultimate_circuit": "Ultimate Circuit",
+
+  "item.technokrafttweaks.simple_solar_cell": "Simple Solar Cell",
+  "item.technokrafttweaks.basic_solar_cell": "Basic Solar Cell",
+  "item.technokrafttweaks.advanced_solar_cell": "Advanced Solar Cell",
+  "item.technokrafttweaks.elite_solar_cell": "Elite Solar Cell",
+  "item.technokrafttweaks.ultimate_solar_cell": "Ultimate Solar Cell",
+
+  "item.technokrafttweaks.simple_lunar_cell": "Simple Lunar Cell",
+  "item.technokrafttweaks.basic_lunar_cell": "Basic Lunar Cell",
+  "item.technokrafttweaks.advanced_lunar_cell": "Advanced Lunar Cell",
+  "item.technokrafttweaks.elite_lunar_cell": "Elite Lunar Cell",
+  "item.technokrafttweaks.ultimate_lunar_cell": "Ultimate Lunar Cell",
 
   "_comment_AE2": "",
   "item.technokrafttweaks.nether_quartz_seed": "Quartz Seed",
@@ -39,6 +65,7 @@
   "item.technokrafttweaks.refined_radiance": "Refined Radiance",
   "item.technokrafttweaks.refined_radiance_sheet": "Refined Radiance Sheet",
   "item.technokrafttweaks.refined_radiance_induction_coil": "Refined Radiance Induction Coil",
+  "item.technokrafttweaks.refined_darkness": "Refined Darkness",
   "item.technokrafttweaks.kinetic_mechanism": "Kinetic Mechanism",
   "item.technokrafttweaks.infernal_mechanism": "Infernal Mechanism",
 
