@@ -66,13 +66,13 @@ public class SolarPanelBlockEntity extends BlockEntity {
 
     @Override
     protected void saveAdditional(CompoundTag nbt) {
-        nbt.putInt("solar_panel.energy", energyHandler.getEnergyStored());
+        nbt.putInt("solar.energy", energyHandler.getEnergyStored());
         super.saveAdditional(nbt);
     }
 
     @Override
     public void load(CompoundTag nbt) {
-        energyHandler.setEnergy(nbt.getInt("solar_panel.energy"));
+        energyHandler.setEnergy(nbt.getInt("solar.energy"));
         super.load(nbt);
     }
 }

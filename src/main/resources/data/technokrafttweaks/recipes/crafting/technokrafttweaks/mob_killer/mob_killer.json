@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_sword"
+    },
+    "B": {
+      "tag": "forge:gears/iron"
+    },
+    "C": {
+      "item": "thermal:rf_coil"
+    },
+    "D": {
+      "item": "minecraft:book"
+    },
+    "E": {
+      "item": "technokrafttweaks:brass_machine"
+    }
+  },
+  "pattern": [
+    " A ",
+    "DED",
+    "BCB"
+  ],
+  "result": {
+    "item": "technokrafttweaks:mob_killer"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:nether_star"
+    },
+    "B": {
+      "tag": "forge:gears/melodium"
+    },
+    "C": {
+      "item": "thermal:rf_coil"
+    },
+    "D": {
+      "item": "minecraft:book"
+    },
+    "E": {
+      "item": "technokrafttweaks:brass_machine"
+    }
+  },
+  "pattern": [
+    " A ",
+    "DED",
+    "BCB"
+  ],
+  "result": {
+    "item": "technokrafttweaks:mob_killer_3"
+  }
+}
