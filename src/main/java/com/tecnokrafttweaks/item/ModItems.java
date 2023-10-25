@@ -4,7 +4,6 @@ import com.tecnokrafttweaks.TecnoKraftTweaks;
 import com.tecnokrafttweaks.fluid.ModFluids;
 import com.tecnokrafttweaks.item.custom.GlowItems;
 import com.tecnokrafttweaks.item.custom.ToolItems;
-import com.tecnokrafttweaks.item.custom.WIPItems;
 import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
@@ -60,7 +59,6 @@ public class ModItems {
     public static final RegistryObject<Item> ADVANCED_LUNAR_CELL = ITEMS.register("advanced_lunar_cell", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> ELITE_LUNAR_CELL = ITEMS.register("elite_lunar_cell", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> ULTIMATE_LUNAR_CELL = ITEMS.register("ultimate_lunar_cell", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
-
     //AE2
     public static final RegistryObject<Item> NETHER_QUARTZ_SEED = ITEMS.register("nether_quartz_seed", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> CERTUS_QUARTZ_SEED = ITEMS.register("certus_quartz_seed", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));

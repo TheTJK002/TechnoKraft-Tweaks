@@ -1,8 +1,7 @@
 package com.tecnokrafttweaks.block.custom;
 
-import com.tecnokrafttweaks.block.entity.BasicLunarPanelBlockEntity;
-import com.tecnokrafttweaks.block.entity.BasicSolarPanelBlockEntity;
 import com.tecnokrafttweaks.block.entity.ModBlockEntities;
+import com.tecnokrafttweaks.block.entity.customEntity.SolarPanelBlockEntity;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -23,20 +22,16 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class BasicLunarPanelBlock extends BaseEntityBlock {
+public class SolarPanelBlock extends BaseEntityBlock {
+    int energy;
     public static final VoxelShape SHAPE = Block.box(0, 0, 0, 16, 4, 16);
-
-    public BasicLunarPanelBlock(Properties properties) {
+    public SolarPanelBlock(Properties properties, int energy) {
         super(properties);
+        this.energy = energy;
     }
 
     @Override
-    public void appendHoverText(ItemStack stack, @Nullable BlockGetter blockGetter, List<Component> components, TooltipFlag flag) {
-        components.add(Component.literal("Generates: 64FE/t").withStyle(ChatFormatting.GREEN));
-    }
-
-    @Override
-    public RenderShape getRenderShape(BlockState p_49232_) {
+    public RenderShape getRenderShape(BlockState state) {
         return RenderShape.MODEL;
     }
 
@@ -45,16 +40,23 @@ public class BasicLunarPanelBlock extends BaseEntityBlock {
         return SHAPE;
     }
 
-    @Nullable
     @Override
-    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-        return new BasicLunarPanelBlockEntity(pos, state);
+    public void appendHoverText(ItemStack stack, @Nullable BlockGetter blockGetter, List<Component> components, TooltipFlag flag) {
+        components.add(Component.literal("Generates: " + energy + "FE/t").withStyle(ChatFormatting.GREEN));
     }
 
     @Nullable
     @Override
-    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level pLevel, BlockState pState, BlockEntityType<T> pType) {
-        return createTickerHelper(pType, ModBlockEntities.BASIC_LUNAR_PANEL_BLOCK_ENTITY.get(),
-                BasicLunarPanelBlockEntity::tick);
+    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
+        return new SolarPanelBlockEntity(pos, state);
     }
+
+    @Nullable
+    @Override
+    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level pLevel, BlockState pState, BlockEntityType<T> pBlockEntityType) {
+        return createTickerHelper(pBlockEntityType, ModBlockEntities.SOLAR_PANEL_BLOCK_ENTITY.get(),
+                (world, blockPos, blockState, blockEntity) ->
+                        SolarPanelBlockEntity.tick(world, blockPos, blockState, (SolarPanelBlockEntity) blockEntity, energy));
+    }
+
 }

@@ -1,0 +1,97 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "pipez:improved_upgrade"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "pipez:advanced_upgrade"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pipez:improved_upgrade"
+        },
+        {
+          "item": "minecraft:diamond"
+        }
+      ],
+      "results": [
+        {
+          "item": "pipez:improved_upgrade"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pipez:improved_upgrade"
+        },
+        {
+          "item": "minecraft:redstone_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "pipez:improved_upgrade"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pipez:improved_upgrade"
+        },
+        {
+          "item": "minecraft:diamond"
+        }
+      ],
+      "results": [
+        {
+          "item": "pipez:improved_upgrade"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pipez:improved_upgrade"
+        },
+        {
+          "item": "minecraft:redstone_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "pipez:improved_upgrade"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pipez:improved_upgrade"
+        },
+        {
+          "item": "create:attribute_filter"
+        }
+      ],
+      "results": [
+        {
+          "item": "pipez:improved_upgrade"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "pipez:improved_upgrade"
+  }
+}

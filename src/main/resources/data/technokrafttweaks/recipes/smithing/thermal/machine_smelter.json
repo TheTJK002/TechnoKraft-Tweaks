@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing",
   "addition": {
-    "item": "create:mechanical_mixer"
+    "item": "minecraft:blast_furnace"
   },
   "base": {
     "item": "thermal:machine_frame"

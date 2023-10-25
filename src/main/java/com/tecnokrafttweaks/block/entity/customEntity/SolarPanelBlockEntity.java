@@ -1,5 +1,6 @@
-package com.tecnokrafttweaks.block.entity;
+package com.tecnokrafttweaks.block.entity.customEntity;
 
+import com.tecnokrafttweaks.block.entity.ModBlockEntities;
 import com.tecnokrafttweaks.utils.ECEnergyStorage;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -14,44 +15,38 @@ import net.minecraftforge.energy.IEnergyStorage;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-public class BasicSolarPanelBlockEntity extends BlockEntity {
+public class SolarPanelBlockEntity extends BlockEntity {
 
-    private final ECEnergyStorage energyHandler = new ECEnergyStorage(16000) {
+    private final ECEnergyStorage energyHandler = new ECEnergyStorage(512000) {
         @Override
-        public void onEnergyChanged() {
-            setChanged();
-        }
-
+        public void onEnergyChanged() { setChanged(); }
     };
     private LazyOptional<IEnergyStorage> lazyEnergyHandler = LazyOptional.empty();
-    public BasicSolarPanelBlockEntity(BlockPos pos, BlockState state) {
-        super(ModBlockEntities.BASIC_SOLAR_PANEL_BLOCK_ENTITY.get(), pos, state);
+
+    public SolarPanelBlockEntity(BlockPos pos, BlockState state) {
+        super(ModBlockEntities.SOLAR_PANEL_BLOCK_ENTITY.get(), pos, state);
     }
 
-    public static void tick(Level level, BlockPos pos, BlockState state, BasicSolarPanelBlockEntity entity) {
+    public static void tick(Level level, BlockPos pos, BlockState state, SolarPanelBlockEntity entity, int energy) {
         if (level.isClientSide()) {
             return;
         }
         if(entity.level.canSeeSky(pos)) {
             if(level.isDay() && !level.isRaining() && !level.isThundering()) {
                 if(!entity.isFullEnergy(entity)) {
-                    entity.energyHandler.receiveEnergy(64, false);
+                    entity.energyHandler.receiveEnergy(energy, false);
                 }
             }
         }
         setChanged(level, pos, state);
     }
-    public boolean isFullEnergy(BasicSolarPanelBlockEntity entity) {
+    public boolean isFullEnergy(SolarPanelBlockEntity entity) {
         return entity.energyHandler.getEnergyStored() == entity.energyHandler.getMaxEnergyStored();
-    }
-
-    public void setEnergyLevel(int energy) {
-        this.energyHandler.setEnergy(energy);
     }
 
     @Override
     public @NotNull <T> LazyOptional<T> getCapability(@NotNull Capability<T> cap, @Nullable Direction side) {
-        if(cap == ForgeCapabilities.ENERGY) {
+        if (cap == ForgeCapabilities.ENERGY) {
             return lazyEnergyHandler.cast();
         }
         return super.getCapability(cap, side);
@@ -65,8 +60,8 @@ public class BasicSolarPanelBlockEntity extends BlockEntity {
 
     @Override
     public void invalidateCaps() {
-        lazyEnergyHandler.invalidate();
         super.invalidateCaps();
+        lazyEnergyHandler.invalidate();
     }
 
     @Override

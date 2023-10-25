@@ -11,7 +11,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 
-public class BlockEnderInhibitorOff extends BlockEnderInhibitorOn{
+public class BlockEnderInhibitorOff extends BlockEnderInhibitorOn {
     public BlockEnderInhibitorOff(Properties p_49795_) {
         super(p_49795_);
         registerDefaultState(this.getStateDefinition().any());

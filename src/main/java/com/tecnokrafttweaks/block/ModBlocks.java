@@ -93,52 +93,55 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> MOB_KILLER = registerBlock("mob_killer",
             () -> new MobKillerBlock(BlockBehaviour.Properties.of(Material.METAL)
-                    .requiresCorrectToolForDrops().strength(0.6f).randomTicks(), 1), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+                    .requiresCorrectToolForDrops().strength(0.6f), 1, 80), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> MOB_KILLER_1 = registerBlock("mob_killer_1",
             () -> new MobKillerBlock(BlockBehaviour.Properties.of(Material.METAL)
-                    .requiresCorrectToolForDrops().strength(0.6f), 2), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+                    .requiresCorrectToolForDrops().strength(0.6f), 2, 160), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> MOB_KILLER_2 = registerBlock("mob_killer_2",
             () -> new MobKillerBlock(BlockBehaviour.Properties.of(Material.METAL)
-                    .requiresCorrectToolForDrops().strength(0.6f),3), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+                    .requiresCorrectToolForDrops().strength(0.6f), 3, 240), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> MOB_KILLER_3 = registerBlock("mob_killer_3",
             () -> new MobKillerBlock(BlockBehaviour.Properties.of(Material.METAL)
-                    .requiresCorrectToolForDrops().strength(0.6f),4), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+                    .requiresCorrectToolForDrops().strength(0.6f), 4, 320), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> SIMPLE_SOLAR_PANEL = registerBlock("simple_solar_panel",
-            () -> new SimpleSolarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
-                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+            () -> new SolarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion(),16), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> BASIC_SOLAR_PANEL = registerBlock("basic_solar_panel",
-            () -> new BasicSolarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
-                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+            () -> new SolarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion(),64), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> ADVANCED_SOLAR_PANEL = registerBlock("advanced_solar_panel",
-            () -> new AdvancedSolarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
-                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+            () -> new SolarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion(),256), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> ELITE_SOLAR_PANEL = registerBlock("elite_solar_panel",
-            () -> new EliteSolarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
-                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+            () -> new SolarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion(),512), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> ULTIMATE_SOLAR_PANEL = registerBlock("ultimate_solar_panel",
-            () -> new UltimateSolarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
-                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+            () -> new SolarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion(),2048), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> SIMPLE_LUNAR_PANEL = registerBlock("simple_lunar_panel",
-            () -> new SimpleLunarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
-                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+            () -> new LunarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion(),16), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> BASIC_LUNAR_PANEL = registerBlock("basic_lunar_panel",
-            () -> new BasicLunarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
-                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+            () -> new LunarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion(),64), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> ADVANCED_LUNAR_PANEL = registerBlock("advanced_lunar_panel",
-            () -> new AdvancedLunarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
-                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+            () -> new LunarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion(),256), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> ELITE_LUNAR_PANEL = registerBlock("elite_lunar_panel",
-            () -> new EliteLunarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
-                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+            () -> new LunarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion(),512), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> ULTIMATE_LUNAR_PANEL = registerBlock("ultimate_lunar_panel",
-            () -> new UltimateLunarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
-                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+            () -> new LunarPanelBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().noOcclusion(),2048), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> CONVEYOR_BELT = registerBlock("conveyor_belt",
             () -> new ConveyorBeltBlock(BlockBehaviour.Properties.of(Material.METAL)
                     .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().isValidSpawn((state, level, pos, entityType) -> true)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     public static final RegistryObject<Block> CONVEYOR_BELT_DAMAGE = registerBlock("conveyor_belt_damage",
             () -> new ConveyorBeltDamgeBlock(BlockBehaviour.Properties.of(Material.METAL)
                     .requiresCorrectToolForDrops().strength(0.6f).noOcclusion().isValidSpawn((state, level, pos, entityType) -> true)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> LIGHTING_GENERATOR = registerBlock("lighting_generator",
+            () -> new WIPBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .requiresCorrectToolForDrops().strength(0.6f).noOcclusion()), ModCreativeTabs.TECHNOKRAFTTWEAKS);
 
     //Liquids
     //Fine Sand
