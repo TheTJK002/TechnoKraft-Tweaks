@@ -1,0 +1,81 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "pipez:advanced_upgrade"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "pipez:ultimate_upgrade"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pipez:advanced_upgrade"
+        },
+        {
+          "item": "minecraft:netherite_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "pipez:advanced_upgrade"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pipez:advanced_upgrade"
+        },
+        {
+          "item": "minecraft:redstone_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "pipez:advanced_upgrade"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pipez:advanced_upgrade"
+        },
+        {
+          "item": "minecraft:netherite_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "pipez:advanced_upgrade"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pipez:advanced_upgrade"
+        },
+        {
+          "item": "minecraft:redstone_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "pipez:advanced_upgrade"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "pipez:advanced_upgrade"
+  }
+}

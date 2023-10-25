@@ -10,7 +10,7 @@ public abstract class ECEnergyStorage extends EnergyStorage {
     @Override
     public int extractEnergy(int maxExtract, boolean simulate) {
         int outputEnergy = super.extractEnergy(maxExtract, simulate);
-        if(outputEnergy != 0) {
+        if (outputEnergy != 0) {
             onEnergyChanged();
         }
         return outputEnergy;
@@ -19,7 +19,7 @@ public abstract class ECEnergyStorage extends EnergyStorage {
     @Override
     public int receiveEnergy(int maxReceive, boolean simulate) {
         int inputEnergy = super.receiveEnergy(maxReceive, simulate);
-        if(inputEnergy != 0) {
+        if (inputEnergy != 0) {
             onEnergyChanged();
         }
         return inputEnergy;

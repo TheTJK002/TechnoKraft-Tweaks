@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '0.7.7c'
+version = '0.7.8a'
 group = 'com.tjk.technokrafttweaks' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'technokrafttweaks'
 
