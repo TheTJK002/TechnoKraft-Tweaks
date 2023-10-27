@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "minecraft:iron_axe"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_iron",
+      "amount": 432
+    }
+  ],
+  "energy": 4000
+}

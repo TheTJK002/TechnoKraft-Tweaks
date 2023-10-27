@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:crushed_tin_pile"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "thermal:tin_dust",
+      "count": 27
+    }
+  ]
+}

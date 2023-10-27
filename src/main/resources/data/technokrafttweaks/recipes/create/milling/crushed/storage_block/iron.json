@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:crushed_iron_pile"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "thermal:iron_dust",
+      "count": 27
+    }
+  ]
+}

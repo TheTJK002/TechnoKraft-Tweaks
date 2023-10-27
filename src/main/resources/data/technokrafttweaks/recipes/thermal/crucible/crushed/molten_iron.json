@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "create:crushed_raw_iron"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_iron",
+      "amount": 144
+    }
+  ],
+  "energy": 4000
+}

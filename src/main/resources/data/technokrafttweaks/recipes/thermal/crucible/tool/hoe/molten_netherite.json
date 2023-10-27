@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "minecraft:netherite_hoe"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_netherite",
+      "amount": 288
+    }
+  ],
+  "energy": 4000
+}

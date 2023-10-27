@@ -6,16 +6,12 @@
       "amount": 400
     },
     {
-      "tag": "forge:ingots/silver"
+      "fluid": "technokrafttweaks:molten_copper",
+      "amount": 432
     },
     {
-      "tag": "forge:ingots/copper"
-    },
-    {
-      "tag": "forge:ingots/copper"
-    },
-    {
-      "tag": "forge:ingots/copper"
+      "fluid": "technokrafttweaks:molten_silver",
+      "amount": 144
     }
   ],
   "results": [

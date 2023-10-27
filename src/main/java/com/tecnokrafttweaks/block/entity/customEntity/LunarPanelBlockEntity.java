@@ -20,6 +20,11 @@ public class LunarPanelBlockEntity extends BlockEntity {
     private final ECEnergyStorage energyHandler = new ECEnergyStorage(512000) {
         @Override
         public void onEnergyChanged() { setChanged(); }
+
+        @Override
+        public boolean canExtract() {
+            return true;
+        }
     };
     private LazyOptional<IEnergyStorage> lazyEnergyHandler = LazyOptional.empty();
 

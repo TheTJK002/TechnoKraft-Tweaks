@@ -6,7 +6,7 @@
       "item": "thermal:machine_frame"
     },
     "W": {
-      "item": "create:mechanical_mixer"
+      "item": "minecraft:blast_furnace"
     }
   },
   "pattern": [

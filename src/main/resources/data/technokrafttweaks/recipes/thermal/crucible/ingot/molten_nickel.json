@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "tag": "forge:ingots/nickel"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_nickel",
+      "amount": 144
+    }
+  ],
+  "energy": 4000
+}

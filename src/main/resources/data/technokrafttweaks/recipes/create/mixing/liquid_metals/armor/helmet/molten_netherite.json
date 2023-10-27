@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_helmet"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "technokrafttweaks:molten_netherite",
+      "amount": 720
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:crushed_gold_pile"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "thermal:gold_dust",
+      "count": 27
+    }
+  ]
+}

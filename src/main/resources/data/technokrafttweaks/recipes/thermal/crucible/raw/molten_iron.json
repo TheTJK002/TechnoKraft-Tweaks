@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "tag": "forge:raw_materials/iron"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_iron",
+      "amount": 144
+    }
+  ],
+  "energy": 4000
+}

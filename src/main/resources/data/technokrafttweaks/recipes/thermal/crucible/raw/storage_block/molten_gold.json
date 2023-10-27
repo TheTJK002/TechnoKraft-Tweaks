@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "tag": "forge:storage_blocks/raw_gold"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_gold",
+      "amount": 1296
+    }
+  ],
+  "energy": 4000
+}

@@ -68,7 +68,6 @@ public class ModItems {
     public static final RegistryObject<Item> SMALL_CERTUS_QUARTZ = ITEMS.register("small_certus_quartz", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     //Create
     public static final RegistryObject<Item> ZINC_DUST = ITEMS.register("zinc_dust", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
-    public static final RegistryObject<Item> ZINC_SHEET = ITEMS.register("zinc_sheet", () -> new Item(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> REFINED_RADIANCE = ITEMS.register("refined_radiance", () -> new GlowItems(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> REFINED_RADIANCE_SHEET = ITEMS.register("refined_radiance_sheet", () -> new GlowItems(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));
     public static final RegistryObject<Item> REFINED_RADIANCE_INDUCTION_COIL = ITEMS.register("refined_radiance_induction_coil", () -> new GlowItems(new Item.Properties().tab(ModCreativeTabs.TECHNOKRAFTTWEAKS)));

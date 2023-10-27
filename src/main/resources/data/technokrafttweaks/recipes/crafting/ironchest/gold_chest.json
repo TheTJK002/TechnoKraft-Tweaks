@@ -5,7 +5,7 @@
       "item": "create:golden_sheet"
     },
     "I": {
-      "item": "ironchest:iron_chest"
+      "tag": "forge:chests/wooden"
     }
   },
   "pattern": [

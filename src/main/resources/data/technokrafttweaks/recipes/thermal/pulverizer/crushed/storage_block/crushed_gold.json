@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "technokrafttweaks:crushed_gold_pile"
+  },
+  "result": [
+    {
+      "item": "thermal:gold_dust",
+      "chance": 27.0
+    }
+  ]
+}

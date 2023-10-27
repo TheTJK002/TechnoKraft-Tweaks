@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "technokrafttweaks:crushed_tin_pile"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_tin",
+      "amount": 1296
+    }
+  ],
+  "energy": 4000
+}

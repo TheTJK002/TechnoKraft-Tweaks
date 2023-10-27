@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "technokrafttweaks:crushed_zinc_pile"
+  },
+  "result": [
+    {
+      "item": "technokrafttweaks:zinc_dust",
+      "chance": 27.0
+    }
+  ]
+}

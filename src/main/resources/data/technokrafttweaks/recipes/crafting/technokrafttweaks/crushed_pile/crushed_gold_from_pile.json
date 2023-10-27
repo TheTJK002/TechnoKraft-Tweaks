@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "technokrafttweaks:crushed_gold_pile"
+    }
+  },
+  "pattern": [
+    "A"
+  ],
+  "result": {
+    "item": "create:crushed_raw_gold",
+    "count": 9
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "minecraft:iron_boots"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_iron",
+      "amount": 576
+    }
+  ],
+  "energy": 4000
+}

@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "minecraft:golden_pickaxe"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_gold",
+      "amount": 432
+    }
+  ],
+  "energy": 4000
+}

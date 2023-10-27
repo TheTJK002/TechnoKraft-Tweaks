@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "C": {
-      "item": "ironchest:gold_chest"
+      "tag": "forge:chests/wooden"
     },
     "I": {
       "item": "minecraft:diamond"

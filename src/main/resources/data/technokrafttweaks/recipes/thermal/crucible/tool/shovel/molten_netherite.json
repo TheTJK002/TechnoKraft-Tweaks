@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_netherite",
+      "amount": 144
+    }
+  ],
+  "energy": 4000
+}

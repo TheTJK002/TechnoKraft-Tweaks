@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "technokrafttweaks:crushed_tin_pile"
+    }
+  },
+  "pattern": [
+    "A"
+  ],
+  "result": {
+    "item": "create:crushed_raw_tin",
+    "count": 9
+  }
+}

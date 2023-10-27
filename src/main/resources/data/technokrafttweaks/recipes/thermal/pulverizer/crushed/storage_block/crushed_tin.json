@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "technokrafttweaks:crushed_tin_pile"
+  },
+  "result": [
+    {
+      "item": "thermal:tin_dust",
+      "chance": 27.0
+    }
+  ]
+}

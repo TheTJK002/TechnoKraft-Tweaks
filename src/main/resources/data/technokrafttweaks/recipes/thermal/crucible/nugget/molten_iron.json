@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "tag": "forge:nuggets/iron"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_iron",
+      "amount": 16
+    }
+  ],
+  "energy": 4000
+}

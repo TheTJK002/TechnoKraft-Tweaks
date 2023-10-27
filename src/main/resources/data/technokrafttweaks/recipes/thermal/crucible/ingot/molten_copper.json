@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "tag": "forge:ingots/copper"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_copper",
+      "amount": 144
+    }
+  ],
+  "energy": 4000
+}

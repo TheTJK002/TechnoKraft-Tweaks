@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "tag": "forge:ingots/tin"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_tin",
+      "amount": 144
+    }
+  ],
+  "energy": 4000
+}

@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:crushed_gold_pile"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "technokrafttweaks:molten_gold",
+      "amount": 1296
+    }
+  ]
+}

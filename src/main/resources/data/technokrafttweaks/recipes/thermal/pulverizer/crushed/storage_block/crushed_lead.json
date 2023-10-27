@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "technokrafttweaks:crushed_lead_pile"
+  },
+  "result": [
+    {
+      "item": "thermal:lead_dust",
+      "chance": 27.0
+    }
+  ]
+}

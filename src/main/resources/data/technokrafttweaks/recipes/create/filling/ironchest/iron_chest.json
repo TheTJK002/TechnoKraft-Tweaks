@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "fluid": "technokrafttweaks:molten_iron",
+      "amount": 1152
+    }
+  ],
+  "results": [
+    {
+      "item": "ironchest:iron_chest"
+    }
+  ]
+}

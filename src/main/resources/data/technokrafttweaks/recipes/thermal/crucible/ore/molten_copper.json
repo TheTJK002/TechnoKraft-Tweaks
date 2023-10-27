@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "tag": "forge:ores/copper"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_copper",
+      "amount": 288
+    }
+  ],
+  "energy": 4000
+}

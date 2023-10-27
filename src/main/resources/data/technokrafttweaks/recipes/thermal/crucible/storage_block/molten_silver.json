@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "tag": "forge:storage_blocks/silver"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_silver",
+      "amount": 1296
+    }
+  ],
+  "energy": 4000
+}

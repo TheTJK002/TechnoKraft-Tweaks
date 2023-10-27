@@ -53,6 +53,56 @@ public class ModBlocks {
     public static final RegistryObject<Block> FLUIX_CASING = registerBlock("fluix_casing",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
                     .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    //TechnoKraft Tweaks Crushed Pile
+    public static final RegistryObject<Block> CRUSHED_COPPER_PILE = registerBlock("crushed_copper_pile",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> CRUSHED_IRON_PILE = registerBlock("crushed_iron_pile",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> CRUSHED_GOLD_PILE = registerBlock("crushed_gold_pile",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> CRUSHED_TIN_PILE = registerBlock("crushed_tin_pile",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> CRUSHED_LEAD_PILE = registerBlock("crushed_lead_pile",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> CRUSHED_SILVER_PILE = registerBlock("crushed_silver_pile",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> CRUSHED_NICKEL_PILE = registerBlock("crushed_nickel_pile",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> CRUSHED_ZINC_PILE = registerBlock("crushed_zinc_pile",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    //TechnoKraft Tweaks Dust Block
+    public static final RegistryObject<Block> COPPER_DUST_BLOCK = registerBlock("copper_dust_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> IRON_DUST_BLOCK = registerBlock("iron_dust_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> GOLD_DUST_BLOCK = registerBlock("gold_dust_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> TIN_DUST_BLOCK = registerBlock("tin_dust_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> LEAD_DUST_BLOCK = registerBlock("lead_dust_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> SILVER_DUST_BLOCK = registerBlock("silver_dust_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> NICKEL_DUST_BLOCK = registerBlock("nickel_dust_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
+    public static final RegistryObject<Block> ZINC_DUST_BLOCK = registerBlock("zinc_dust_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()
+                    .strength(0.6f)), ModCreativeTabs.TECHNOKRAFTTWEAKS);
     //TechnoKraft Tweaks Machine
     public static final RegistryObject<Block> ANDESITE_MACHINE = registerBlock("andesite_machine",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops()

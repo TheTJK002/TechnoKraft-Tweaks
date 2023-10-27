@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_leggings"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "technokrafttweaks:moltennetherite",
+      "amount": 1008
+    }
+  ]
+}

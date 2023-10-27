@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "technokrafttweaks:crushed_nickel_pile"
+  },
+  "result": [
+    {
+      "item": "thermal:nickel_dust",
+      "chance": 27.0
+    }
+  ]
+}

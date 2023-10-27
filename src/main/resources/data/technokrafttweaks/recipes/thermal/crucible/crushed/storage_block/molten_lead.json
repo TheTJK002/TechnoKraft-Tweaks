@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "technokrafttweaks:crushed_lead_pile"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_lead",
+      "amount": 1296
+    }
+  ],
+  "energy": 4000
+}

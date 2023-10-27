@@ -73,22 +73,6 @@
           "item": "pipez:basic_upgrade"
         }
       ]
-    },
-    {
-      "type": "create:deploying",
-      "ingredients": [
-        {
-          "item": "pipez:basic_upgrade"
-        },
-        {
-          "item": "create:brass_tunnel"
-        }
-      ],
-      "results": [
-        {
-          "item": "pipez:basic_upgrade"
-        }
-      ]
     }
   ],
   "transitionalItem": {

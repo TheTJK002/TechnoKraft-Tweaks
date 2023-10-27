@@ -27,6 +27,10 @@ public class LightingGeneratorlBlockEntity extends BlockEntity {
             setChanged();
         }
 
+        @Override
+        public boolean canExtract() {
+            return true;
+        }
     };
     private LazyOptional<IEnergyStorage> lazyEnergyHandler = LazyOptional.empty();
 

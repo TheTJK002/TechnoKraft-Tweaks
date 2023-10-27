@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "tag": "forge:ores/nickel"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_nickel",
+      "amount": 288
+    }
+  ],
+  "energy": 4000
+}

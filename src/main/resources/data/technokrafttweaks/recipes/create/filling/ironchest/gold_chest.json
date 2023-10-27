@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "fluid": "technokrafttweaks:molten_gold",
+      "amount": 1152
+    }
+  ],
+  "results": [
+    {
+      "item": "ironchest:gold_chest"
+    }
+  ]
+}

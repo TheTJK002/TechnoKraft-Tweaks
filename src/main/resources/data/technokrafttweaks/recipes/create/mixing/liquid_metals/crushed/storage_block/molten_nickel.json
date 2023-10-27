@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:crushed_nickel_pile"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "technokrafttweaks:molten_nickel",
+      "amount": 1296
+    }
+  ]
+}

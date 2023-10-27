@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "minecraft:golden_chestplate"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_gold",
+      "amount": 1152
+    }
+  ],
+  "energy": 4000
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "technokrafttweaks:block/gold_dust_block"
+  }
+}

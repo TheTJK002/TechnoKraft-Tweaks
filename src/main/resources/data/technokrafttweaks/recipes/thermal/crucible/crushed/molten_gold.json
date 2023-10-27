@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "create:crushed_raw_gold"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_gold",
+      "amount": 144
+    }
+  ],
+  "energy": 4000
+}

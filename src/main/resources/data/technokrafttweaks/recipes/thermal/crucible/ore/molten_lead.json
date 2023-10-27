@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "tag": "forge:ores/lead"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_lead",
+      "amount": 288
+    }
+  ],
+  "energy": 4000
+}

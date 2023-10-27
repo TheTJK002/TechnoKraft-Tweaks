@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "technokrafttweaks:crushed_gold_pile"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_gold",
+      "amount": 1296
+    }
+  ],
+  "energy": 4000
+}

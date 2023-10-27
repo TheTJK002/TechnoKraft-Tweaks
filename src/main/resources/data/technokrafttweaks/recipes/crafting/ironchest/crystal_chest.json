@@ -5,7 +5,7 @@
       "tag": "forge:glass"
     },
     "I": {
-      "item": "ironchest:diamond_chest"
+      "tag": "forge:chests/wooden"
     },
     "G": {
       "tag": "thermal:glass/hardened"

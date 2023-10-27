@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "tag": "forge:nuggets/silver"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_silver",
+      "amount": 16
+    }
+  ],
+  "energy": 4000
+}

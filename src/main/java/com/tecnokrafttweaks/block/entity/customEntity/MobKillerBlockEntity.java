@@ -31,6 +31,10 @@ public class MobKillerBlockEntity extends BlockEntity {
             setChanged();
         }
 
+        @Override
+        public boolean canExtract() {
+            return true;
+        }
     };
     private LazyOptional<IEnergyStorage> lazyEnergyHandler = LazyOptional.empty();
 

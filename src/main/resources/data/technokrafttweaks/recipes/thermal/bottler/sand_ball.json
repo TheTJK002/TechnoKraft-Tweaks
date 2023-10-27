@@ -2,7 +2,7 @@
   "type": "thermal:bottler",
   "ingredients": [
     {
-      "item": "minecraft:sand"
+      "item": "minecraft:sandstone"
     },
     {
       "fluid": "minecraft:water",

@@ -11,7 +11,8 @@
       "amount": 432
     },
     {
-      "tag": "forge:gems/diamond"
+      "fluid": "technokrafttweaks:molten_diamond",
+      "amount": 144
     }
   ],
   "results": [

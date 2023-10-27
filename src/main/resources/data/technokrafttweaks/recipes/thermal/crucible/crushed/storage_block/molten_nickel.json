@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "technokrafttweaks:crushed_nickel_pile"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_nickel",
+      "amount": 1296
+    }
+  ],
+  "energy": 4000
+}

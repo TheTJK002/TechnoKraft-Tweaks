@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "technokrafttweaks:crushed_silver_pile"
+  },
+  "result": [
+    {
+      "item": "thermal:silver_dust",
+      "chance": 27.0
+    }
+  ]
+}

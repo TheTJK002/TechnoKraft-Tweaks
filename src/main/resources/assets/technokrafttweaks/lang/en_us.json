@@ -61,7 +61,6 @@
   "item.technokrafttweaks.saw": "Saw",
   "item.technokrafttweaks.screwdriver": "Screwdriver",
   "item.technokrafttweaks.zinc_dust": "Zinc Dust",
-  "item.technokrafttweaks.zinc_sheet": "Zinc Sheet",
   "item.technokrafttweaks.diamond_sand_paper": "Diamond Sand Paper",
   "item.technokrafttweaks.refined_radiance": "Refined Radiance",
   "item.technokrafttweaks.refined_radiance_sheet": "Refined Radiance Sheet",
@@ -155,5 +154,23 @@
   "fluid_type.technokrafttweaks.molten_constantan": "Molten Constantan",
   "fluid_type.technokrafttweaks.molten_enderium": "Molten Enderium",
   "fluid_type.technokrafttweaks.molten_lumium": "Molten Lumium",
-  "fluid_type.technokrafttweaks.molten_signalum": "Molten Signalum"
+  "fluid_type.technokrafttweaks.molten_signalum": "Molten Signalum",
+
+  "block.technokrafttweaks.crushed_copper_pile": "Crushed Copper Pile",
+  "block.technokrafttweaks.crushed_iron_pile": "Crushed Iron Pile",
+  "block.technokrafttweaks.crushed_gold_pile": "Crushed Gold Pile",
+  "block.technokrafttweaks.crushed_tin_pile": "Crushed Tin Pile",
+  "block.technokrafttweaks.crushed_lead_pile": "Crushed Lead Pile",
+  "block.technokrafttweaks.crushed_silver_pile": "Crushed Silver Pile",
+  "block.technokrafttweaks.crushed_nickel_pile": "Crushed Nickel Pile",
+  "block.technokrafttweaks.crushed_zinc_pile": "Crushed Zinc Pile",
+
+  "block.technokrafttweaks.copper_dust_block": "Copper Dust Block",
+  "block.technokrafttweaks.iron_dust_block": "Iron Dust Block",
+  "block.technokrafttweaks.gold_dust_block": "Gold Dust Block",
+  "block.technokrafttweaks.tin_dust_block": "Tin Dust Block",
+  "block.technokrafttweaks.silver_dust_block": "Silver Dust Block",
+  "block.technokrafttweaks.lead_dust_block": "Lead Dust Block",
+  "block.technokrafttweaks.nickel_dust_block": "Nickel Dust Block",
+  "block.technokrafttweaks.zinc_dust_block": "Zinc Dust Block"
 }

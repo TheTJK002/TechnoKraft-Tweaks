@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "minecraft:diamond_chestplate"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_diamond",
+      "amount": 1152
+    }
+  ],
+  "energy": 4000
+}

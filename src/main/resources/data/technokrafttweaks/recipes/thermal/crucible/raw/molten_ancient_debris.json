@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "minecraft:netherite_scraps"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_ancient_debris",
+      "amount": 144
+    }
+  ],
+  "energy": 4000
+}

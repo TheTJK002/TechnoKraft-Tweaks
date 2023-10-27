@@ -1,0 +1,18 @@
+{
+  "type": "thermal:bottler",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:nether_quartz_seed"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 750
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "energy": 400
+}

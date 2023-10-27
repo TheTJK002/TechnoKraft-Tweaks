@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "tag": "forge:storage_blocks/tin"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_tin",
+      "amount": 1296
+    }
+  ],
+  "energy": 4000
+}

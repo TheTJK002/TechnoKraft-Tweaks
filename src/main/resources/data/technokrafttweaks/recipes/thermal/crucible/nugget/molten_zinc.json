@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "tag": "forge:nuggets/zinc"
+  },
+  "result": [
+    {
+      "fluid": "technokrafttweaks:molten_zinc",
+      "amount": 16
+    }
+  ],
+  "energy": 4000
+}

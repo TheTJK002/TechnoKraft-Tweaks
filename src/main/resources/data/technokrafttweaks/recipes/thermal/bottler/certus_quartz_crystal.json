@@ -1,0 +1,18 @@
+{
+  "type": "thermal:bottler",
+  "ingredients": [
+    {
+      "item": "technokrafttweaks:certus_quartz_seed"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 750
+    }
+  ],
+  "result": [
+    {
+      "item": "ae2:certus_quartz_crystal"
+    }
+  ],
+  "energy": 400
+}
