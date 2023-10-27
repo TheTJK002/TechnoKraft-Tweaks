@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "technokrafttweaks:crushed_nickel_pile"
+  },
+  "result": {
+    "item": "thermal:nickel_nugget",
+    "count": 27
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "technokrafttweaks:crushed_copper_pile"
+  },
+  "result": {
+    "item": "create:copper_nugget",
+    "count": 27
+  }
+}

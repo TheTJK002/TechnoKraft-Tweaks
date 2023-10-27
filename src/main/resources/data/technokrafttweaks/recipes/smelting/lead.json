@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "technokrafttweaks:crushed_lead_pile"
+  },
+  "result": {
+    "item": "thermal:lead_nugget",
+    "count": 27
+  }
+}
