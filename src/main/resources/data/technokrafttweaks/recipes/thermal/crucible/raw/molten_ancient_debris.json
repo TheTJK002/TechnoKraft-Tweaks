@@ -1,7 +1,7 @@
 {
   "type": "thermal:crucible",
   "ingredient": {
-    "item": "minecraft:netherite_scraps"
+    "item": "minecraft:netherite_scrap"
   },
   "result": [
     {

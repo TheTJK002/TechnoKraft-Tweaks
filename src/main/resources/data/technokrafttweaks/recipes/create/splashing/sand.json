@@ -27,6 +27,10 @@
       "item": "thermal:cinnabar"
     },
     {
+      "chance": 0.15,
+      "item": "ae2:certus_quartz_dust"
+    },
+    {
       "chance": 0.12,
       "item": "minecraft:clay_ball"
     }
