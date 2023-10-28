@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "minecraft:redstone_block"
+  },
+  "result": [
+    {
+      "fluid": "thermal:redstone",
+      "amount": 900
+    }
+  ],
+  "energy": 4000
+}

@@ -1,0 +1,16 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "minecraft:obsidian"
+  },
+  "result": [
+    {
+      "item": "create:powdered_obsidian",
+      "chance": 1.0
+    },
+    {
+      "item": "minecraft:obsidian",
+      "chance": 0.75
+    }
+  ]
+}

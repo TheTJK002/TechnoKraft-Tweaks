@@ -2,7 +2,7 @@
   "type": "thermal:bottler",
   "ingredients": [
     {
-      "item": "create:polished_rose_quartz"
+      "item": "create:powdered_obsidian"
     },
     {
       "fluid": "minecraft:lava",
@@ -11,7 +11,7 @@
   ],
   "result": [
     {
-      "item": "create:powdered_obsidian"
+      "item": "technokrafttweaks:refined_darkness"
     }
   ],
   "energy": 400

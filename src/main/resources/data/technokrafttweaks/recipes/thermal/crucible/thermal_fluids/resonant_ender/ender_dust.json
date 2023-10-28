@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "ae2:ender_dust"
+  },
+  "result": [
+    {
+      "fluid": "thermal:ender",
+      "amount": 250
+    }
+  ],
+  "energy": 4000
+}

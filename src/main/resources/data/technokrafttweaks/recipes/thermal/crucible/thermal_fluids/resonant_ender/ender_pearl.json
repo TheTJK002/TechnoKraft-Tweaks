@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "item": "minecraft:ender_pearl"
+  },
+  "result": [
+    {
+      "fluid": "thermal:ender",
+      "amount": 250
+    }
+  ],
+  "energy": 4000
+}
