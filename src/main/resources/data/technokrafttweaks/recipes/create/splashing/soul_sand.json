@@ -19,7 +19,7 @@
       "item": "minecraft:glowstone_dust"
     },
     {
-      "chance": 0.05,
+      "chance": 0.03,
       "item": "minecraft:netherite_scrap"
     }
   ]

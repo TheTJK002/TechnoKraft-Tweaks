@@ -36,7 +36,7 @@
     },
     {
       "chance": 0.15,
-      "item": "create:crushed_raw_tin"
+      "item": "create:crushed_raw_copper"
     }
   ]
 }
